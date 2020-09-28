@@ -1,10 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Kaio Felipe Silva`,
-    description: `A simple guy that write some codes.`,
+    position: `Software Engineer`,
+    description: `Um cara simples que escreve alguns códigos.`,
     author: `Kaio Felipe Silva`,
   },
   plugins: [
+    `gatsby-plugin-styled-components`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
