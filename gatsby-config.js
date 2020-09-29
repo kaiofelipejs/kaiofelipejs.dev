@@ -1,7 +1,9 @@
+const path = require("path")
+
 module.exports = {
   siteMetadata: {
     position: `Software Engineer`,
-    description: `Um cara simples que escreve alguns códigos.`,
+    description: `Um cara simples que escreve códigos, textos e gosta de café.`,
     author: `Kaio Felipe Silva`,
   },
   plugins: [
