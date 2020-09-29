@@ -1,0 +1,38 @@
+import styled from "styled-components"
+
+export const SocialLinksWrapper = styled.nav`
+  margin: 0.5rem auto;
+  width: 100%;
+`
+
+export const SocialLinksList = styled.ul`
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+`
+
+export const SocialLinksItem = styled.li`
+  padding: 0 0.5rem;
+`
+
+export const SocialLinksLink = styled.a.attrs({
+  target: "_blank",
+  rel: "noopener noreferrer",
+})`
+  text-decoration: none;
+  cursor: pointer;
+  color: #000;
+`
+
+export const IconWrapper = styled.div`
+  fill: currentColor;
+  width: 25px;
+  height: 25px;
+
+  &:hover {
+    opacity: 0.6;
+  }
+`
