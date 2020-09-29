@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const SocialLinksWrapper = styled.nav`
-  margin: 0.5rem auto;
+  margin: 1rem auto;
   width: 100%;
 `
 
