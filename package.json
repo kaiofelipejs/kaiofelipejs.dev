@@ -23,6 +23,7 @@
     "styled-icons": "^10.21.0"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.0.4",
     "babel-jest": "^26.3.0",
     "babel-preset-gatsby": "^0.5.11",
@@ -43,7 +44,7 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "jest",
+    "test": "jest --collectCoverage=true",
     "test:watch": "jest --watch"
   },
   "repository": {
