@@ -4,7 +4,7 @@ import { Modal } from "@react95/core"
 
 export const Root = styled(Modal)`
   top: 0;
-  height: 100vh;
+  height: 95vh;
 `
 
 export const SidebarWrapper = styled.aside`
@@ -12,5 +12,5 @@ export const SidebarWrapper = styled.aside`
   display: flex;
   flex-direction: column;
   text-align: center;
-  width: 18rem;
+  width: 18.5rem;
 `
