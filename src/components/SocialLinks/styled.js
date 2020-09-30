@@ -23,8 +23,11 @@ export const SocialLinksLink = styled.a.attrs({
   rel: "noopener noreferrer",
 })`
   text-decoration: none;
-  cursor: pointer;
   color: #000;
+
+  & * {
+    cursor: pointer;
+  }
 `
 
 export const IconWrapper = styled.div`
