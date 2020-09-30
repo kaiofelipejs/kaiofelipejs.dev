@@ -59,8 +59,8 @@ const MenuBar = ({ setReadingMode, readingMode }) => {
 }
 
 MenuBar.propTypes = {
-  setReadingMode: PropTypes.func.isRequired,
-  readingMode: PropTypes.bool.isRequired,
+  setReadingMode: PropTypes.func,
+  readingMode: PropTypes.bool,
 }
 
 export default MenuBar
