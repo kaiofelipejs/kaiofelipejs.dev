@@ -1,11 +1,39 @@
-import styled from "styled-components"
+import styled, { createGlobalStyle, css } from "styled-components"
+import { Modal, GlobalStyle, Frame } from "@react95/core"
 
 export const LayoutWrapper = styled.section`
   display: flex;
 `
 
-export const LayoutMain = styled.main`
-  min-height: 100vh;
-  padding: 0 3.75rem 0 20rem;
-  width: 100%;
+export const LayoutMain = styled(Modal)`
+  min-height: 80vh;
+  margin: 0 5.75rem 0 20rem;
+  width: fill-available;
+  top: 0;
+`
+
+export const LayoutMainContent = styled(Frame)`
+  height: 70vh;
+  overflow-y: auto;
+`
+
+export const ThemeGlobalStyle = styled(GlobalStyle)``
+
+export const StyleBase = createGlobalStyle`
+  * {
+    letter-spacing: 1px;
+  }
+
+  p {
+    font-size: 1rem;
+    line-height: 1.625rem;
+  }
+
+  ${({ readingMode }) =>
+    readingMode &&
+    css`
+      ${LayoutMainContent} * {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+    `}
 `
