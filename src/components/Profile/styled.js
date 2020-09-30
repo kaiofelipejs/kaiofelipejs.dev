@@ -7,11 +7,15 @@ export const ProfileWrapper = styled.section`
 `
 
 export const ProfileLink = styled(Link)`
+  color: #000;
   text-decoration: none;
   margin-bottom: 0.5rem;
 
   &:hover {
     text-decoration: underline;
+  }
+
+  & * {
     cursor: pointer;
   }
 `
