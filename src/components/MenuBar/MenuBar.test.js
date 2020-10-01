@@ -1,5 +1,5 @@
 import React from "react"
-import { render, screen, fireEvent, waitFor } from "@testing-library/react"
+import { render, screen, fireEvent } from "@testing-library/react"
 import MenuBar from "."
 
 jest.mock("@react95/icons", () => "icons")
@@ -7,21 +7,6 @@ jest.mock("@react95/icons", () => "icons")
 describe(`<MenuBar />`, () => {
   it(`renders MenuBar with all icons`, () => {
     render(<MenuBar />)
-
-    const itemsTitleText = [
-      "Voltar para home",
-      "Pesquisar",
-      "Modo leitura",
-      "Ir para o topo",
-    ]
-
-    itemsTitleText.forEach(text => {
-      expect(screen.getByTitle(text)).toBeInTheDocument()
-    })
-  })
-
-  it(`renders MenuBar with readingMode is true`, () => {
-    render(<MenuBar readingMode={true} />)
 
     const labelIconTexts = [
       "Icone com uma folha ao fundo e uma casa pequena no canto inferior direito.",
@@ -32,6 +17,21 @@ describe(`<MenuBar />`, () => {
 
     labelIconTexts.forEach(text => {
       expect(screen.getByLabelText(text)).toBeInTheDocument()
+    })
+  })
+
+  it(`renders MenuBar with readingMode is true`, () => {
+    render(<MenuBar readingMode={true} />)
+
+    const itemsTitleText = [
+      "Voltar para home",
+      "Pesquisar",
+      "Voltar para o tema",
+      "Ir para o topo",
+    ]
+
+    itemsTitleText.forEach(text => {
+      expect(screen.getByTitle(text)).toBeInTheDocument()
     })
   })
 
