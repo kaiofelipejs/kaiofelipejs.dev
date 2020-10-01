@@ -13,7 +13,7 @@ describe(`<Avatar />`, () => {
             src: `profile-photo`,
             srcSet: `profile-photo`,
             aspectRatio: 1,
-            sizes: `100 200 300`,
+            sizes: `(max-width: 60px) 100vw, 60px`,
           },
         },
       },
