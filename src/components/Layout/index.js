@@ -4,6 +4,7 @@ import {
   ThemeProvider,
   TaskBar,
   GlobalStyle as ThemeGlobalStyle,
+  List,
 } from "@react95/core"
 
 import Sidebar from "components/Sidebar"
@@ -32,7 +33,19 @@ const Layout = ({ children }) => {
           <S.LayoutMain
             closeModal={closeModal}
             icon="windows_explorer"
-            title="Content"
+            title="Conteúdo"
+            menu={[
+              {
+                name: "Modo leitura",
+                list: (
+                  <List>
+                    <List.Item onClick={() => setReadingMode(!readingMode)}>
+                      {readingMode ? "Desativar" : "Ativar"}
+                    </List.Item>
+                  </List>
+                ),
+              },
+            ]}
           >
             <S.LayoutMainContent
               bg="white"

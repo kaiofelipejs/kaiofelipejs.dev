@@ -13,8 +13,9 @@ export const LayoutMain = styled(Modal)`
 `
 
 export const LayoutMainContent = styled(Frame)`
-  height: 70vh;
+  height: 90vh;
   overflow-y: auto;
+  padding: 0;
 
   ${({ readingMode }) =>
     readingMode &&
