@@ -1,12 +1,13 @@
 import React from "react"
 
-import * as S from "./styled"
 import links from "./content"
+import * as S from "./styled"
+
 const MenuLinks = () => (
   <S.MenuLinksWrapper>
     <S.MenuLinksList>
       {links.map((link, i) => (
-        <S.MenuLinksItem key={i}>
+        <S.MenuLinksItem key={i} role="menuitem">
           <S.MenuLinksLink to={link.url} activeClassName="active">
             {link.label}
           </S.MenuLinksLink>
