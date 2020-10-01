@@ -1,5 +1,5 @@
-import styled, { createGlobalStyle, css } from "styled-components"
-import { Modal, GlobalStyle, Frame } from "@react95/core"
+import styled, { css } from "styled-components"
+import { Modal, Frame } from "@react95/core"
 
 export const LayoutWrapper = styled.section`
   display: flex;
@@ -15,25 +15,11 @@ export const LayoutMain = styled(Modal)`
 export const LayoutMainContent = styled(Frame)`
   height: 70vh;
   overflow-y: auto;
-`
-
-export const ThemeGlobalStyle = styled(GlobalStyle)``
-
-export const StyleBase = createGlobalStyle`
-  * {
-    letter-spacing: 1px;
-  }
-
-  p {
-    font-size: 1rem;
-    line-height: 1.625rem;
-  }
 
   ${({ readingMode }) =>
     readingMode &&
     css`
-      ${LayoutMainContent} * {
-        letter-spacing: 0;
+      & * {
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
           Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
           "Segoe UI Symbol";
