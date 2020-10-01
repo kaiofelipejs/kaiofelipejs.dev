@@ -19,7 +19,7 @@ const MenuBar = ({ setReadingMode, readingMode }) => {
           <S.MenuBarItem>
             <Icon
               name="shdocvw_256"
-              alt="Icone com uma folha ao fundo e uma casa pequena no canto inferior direito."
+              aria-label="Icone com uma folha ao fundo e uma casa pequena no canto inferior direito."
             />
             <span>Home</span>
           </S.MenuBarItem>
@@ -27,7 +27,7 @@ const MenuBar = ({ setReadingMode, readingMode }) => {
 
         <S.MenuBarLink to="/search/" title="Pesquisar">
           <S.MenuBarItem>
-            <Icon name="sccview_icon" alt="Icone de uma lupa." />
+            <Icon name="sccview_icon" aria-label="Icone de uma lupa." />
             <span>Buscar</span>
           </S.MenuBarItem>
         </S.MenuBarLink>
@@ -40,7 +40,7 @@ const MenuBar = ({ setReadingMode, readingMode }) => {
         >
           <Icon
             name="winhlp32_4001"
-            alt="Icone de um livro fechado com uma interrogação na capa."
+            aria-label="Icone de um livro fechado com uma interrogação na capa."
           />
 
           <span>{setContentInToggleReadingMode}</span>
@@ -49,7 +49,7 @@ const MenuBar = ({ setReadingMode, readingMode }) => {
         <S.MenuBarItem title="Ir para o topo">
           <Icon
             name="progman_46"
-            alt="Icone de uma seta apontando para cima."
+            aria-label="Icone de uma seta apontando para cima."
           />
           <span>Ir para o topo</span>
         </S.MenuBarItem>
