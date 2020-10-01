@@ -29,7 +29,11 @@ const Layout = ({ children }) => {
         <Sidebar />
 
         {showModal && (
-          <S.LayoutMain closeModal={closeModal} icon="windows_explorer">
+          <S.LayoutMain
+            closeModal={closeModal}
+            icon="windows_explorer"
+            title="Content"
+          >
             <S.LayoutMainContent
               bg="white"
               boxShadow="in"
