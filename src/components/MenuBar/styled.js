@@ -40,5 +40,6 @@ export const MenuBarItem = styled.div`
 
   & span {
     text-align: center;
+    font-size: 1rem;
   }
 `

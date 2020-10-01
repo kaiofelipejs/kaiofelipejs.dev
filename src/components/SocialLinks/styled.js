@@ -9,9 +9,6 @@ export const SocialLinksList = styled.ul`
   align-items: center;
   display: flex;
   justify-content: center;
-  list-style: none;
-  padding: 0;
-  margin: 0;
 `
 
 export const SocialLinksItem = styled.li`
@@ -26,7 +23,7 @@ export const SocialLinksLink = styled.a.attrs({
   color: #000;
 
   & * {
-    cursor: pointer;
+    cursor: inherit;
   }
 `
 

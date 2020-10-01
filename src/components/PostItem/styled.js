@@ -5,13 +5,14 @@ import { Link } from "gatsby"
 export const PostItemLink = styled(Link)`
   display: flex;
   text-decoration: none;
+  color: #000;
 
   &:hover {
     text-decoration: underline;
   }
 
   & * {
-    cursor: pointer;
+    cursor: inherit;
   }
 `
 
@@ -25,7 +26,7 @@ export const PostItemWrapper = styled.section`
 
 export const PostItemTag = styled.div`
   align-items: center;
-  background: ${({ background }) => background};
+  background: ${({ background }) => (background ? background : "#55AAAA")};
   border-radius: 50%;
   color: #fff;
   display: flex;

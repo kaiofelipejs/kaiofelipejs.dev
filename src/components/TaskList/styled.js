@@ -12,4 +12,8 @@ export const ListLink = styled.a.attrs({
   padding-top: 9px;
   text-decoration: none;
   color: inherit;
+
+  & * {
+    cursor: inherit;
+  }
 `

@@ -16,7 +16,7 @@ export const ProfileLink = styled(Link)`
   }
 
   & * {
-    cursor: pointer;
+    cursor: inherit;
   }
 `
 

@@ -8,9 +8,6 @@ export const MenuLinksWrapper = styled.nav`
 export const MenuLinksList = styled.ul`
   font-size: 1rem;
   font-weight: 300;
-  list-style: none;
-  padding: 0;
-  margin: 0;
 `
 
 export const MenuLinksItem = styled.li`

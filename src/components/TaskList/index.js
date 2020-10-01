@@ -5,17 +5,13 @@ import * as S from "./styled"
 
 const TaskList = () => (
   <List>
-    <S.ListItem icon="plugin">
-      <S.ListLink href="https://github.com/React95/React95">
-        React95 Library
-      </S.ListLink>
-    </S.ListItem>
+    <S.ListLink href="https://github.com/React95/React95">
+      <S.ListItem icon="plugin">React95 Library</S.ListItem>
+    </S.ListLink>
     <List.Divider />
-    <S.ListItem icon="computer_3">
-      <S.ListLink href="https://github.com/kaiofelipejs/personal-site">
-        Source Code
-      </S.ListLink>
-    </S.ListItem>
+    <S.ListLink href="https://github.com/kaiofelipejs/personal-site">
+      <S.ListItem icon="computer_3">Source Code</S.ListItem>
+    </S.ListLink>
   </List>
 )
 
