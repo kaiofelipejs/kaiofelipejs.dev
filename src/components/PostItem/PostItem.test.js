@@ -15,7 +15,7 @@ describe(`<PostItem />`, () => {
         background="white"
         category="Misc"
         date="01 de Janeiro de 2020"
-        timeToRead="5"
+        timeToRead={5}
         title={title}
         description={description}
       />
@@ -33,7 +33,7 @@ describe(`<PostItem />`, () => {
         slug="/about/"
         category="Misc"
         date="01 de Janeiro de 2020"
-        timeToRead="5"
+        timeToRead={5}
         title={title}
         description={description}
       />
