@@ -1,9 +1,19 @@
 import styled from "styled-components"
-import { List } from "@react95/core"
+import { Link } from "gatsby"
 
-export const ListItem = styled(List.Item)``
+export const ListLink = styled(Link)`
+  flex-grow: 1;
+  height: 30px;
+  padding-top: 9px;
+  text-decoration: none;
+  color: inherit;
 
-export const ListLink = styled.a.attrs({
+  & * {
+    cursor: inherit;
+  }
+`
+
+export const ListExternalLink = styled.a.attrs({
   target: "_blank",
   rel: "noopener noreferrer",
 })`

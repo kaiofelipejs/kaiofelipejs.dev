@@ -60,7 +60,11 @@ const Layout = ({ children }) => {
 
         <MenuBar setReadingMode={setReadingMode} readingMode={readingMode} />
       </S.LayoutWrapper>
-      <TaskBar list={<TaskList />} />
+      <TaskBar
+        list={
+          <TaskList setReadingMode={setReadingMode} readingMode={readingMode} />
+        }
+      />
     </ThemeProvider>
   )
 }

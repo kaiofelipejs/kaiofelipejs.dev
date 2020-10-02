@@ -1,9 +1,10 @@
 import React from "react"
+import PropTypes from "prop-types"
 import { List } from "@react95/core"
 
 import * as S from "./styled"
 
-const TaskList = () => (
+const TaskList = ({ setReadingMode, readingMode }) => (
   <List>
     <List.Item icon="folder_file">
       <List>
@@ -21,7 +22,9 @@ const TaskList = () => (
     </List.Item>
     <List.Item icon="bookmark">
       <List>
-        <List.Item>Ativar</List.Item>
+        <List.Item onClick={() => setReadingMode(!readingMode)}>
+          {readingMode ? "Desativar" : "Ativar"}
+        </List.Item>
       </List>
       Modo leitura
     </List.Item>
@@ -39,5 +42,10 @@ const TaskList = () => (
     </List.Item>
   </List>
 )
+
+TaskList.propTypes = {
+  setReadingMode: PropTypes.func,
+  readingMode: PropTypes.bool,
+}
 
 export default TaskList
