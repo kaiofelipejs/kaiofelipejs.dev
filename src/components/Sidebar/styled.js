@@ -4,7 +4,7 @@ import { Modal } from "@react95/core"
 
 export const Root = styled(Modal)`
   top: 0;
-  height: 95vh;
+  height: 90vh;
 `
 
 export const SidebarWrapper = styled.aside`

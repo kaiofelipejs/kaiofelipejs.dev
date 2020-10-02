@@ -6,14 +6,13 @@ export const LayoutWrapper = styled.section`
 `
 
 export const LayoutMain = styled(Modal)`
-  min-height: 80vh;
   margin: 0 5.75rem 0 20rem;
   width: fill-available;
   top: 0;
 `
 
 export const LayoutMainContent = styled(Frame)`
-  height: 90vh;
+  height: 80vh;
   overflow-y: auto;
   padding: 0;
 
