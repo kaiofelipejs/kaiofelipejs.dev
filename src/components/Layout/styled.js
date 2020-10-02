@@ -24,5 +24,10 @@ export const LayoutMainContent = styled(Frame)`
           Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
           "Segoe UI Symbol";
       }
+
+      & .token,
+      code {
+        font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+      }
     `}
 `
