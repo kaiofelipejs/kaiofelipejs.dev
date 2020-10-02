@@ -19,15 +19,10 @@ export const LayoutMainContent = styled(Frame)`
   ${({ readingMode }) =>
     readingMode &&
     css`
-      & * {
+      & *:not(.token):not(code) {
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
           Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
           "Segoe UI Symbol";
-      }
-
-      & .token,
-      code {
-        font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
       }
     `}
 `

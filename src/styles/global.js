@@ -151,6 +151,11 @@ const StyleBase = createGlobalStyle`
     font-family: "w95", monospace;
   }
 
+  .token,
+  code {
+    font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+  }
+
   p {
     font-size: 1rem;
     line-height: 1.625rem;
