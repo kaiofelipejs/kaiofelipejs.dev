@@ -11,7 +11,7 @@ describe(`<MenuBar />`, () => {
     const labelIconTexts = [
       "Icone com uma folha ao fundo e uma casa pequena no canto inferior direito.",
       "Icone de uma lupa.",
-      "Icone de um livro fechado com uma interrogação na capa.",
+      "Icone de um livro aberto.",
       "Icone de uma seta apontando para cima.",
     ]
 
@@ -20,19 +20,12 @@ describe(`<MenuBar />`, () => {
     })
   })
 
-  it(`renders MenuBar with readingMode is true`, () => {
+  it(`change style toggle readingMode when is true`, () => {
     render(<MenuBar readingMode={true} />)
 
-    const itemsTitleText = [
-      "Voltar para home",
-      "Pesquisar",
-      "Voltar para o tema",
-      "Ir para o topo",
-    ]
+    const toggleIcon = screen.getByLabelText(/Icone de um livro aberto/i)
 
-    itemsTitleText.forEach(text => {
-      expect(screen.getByTitle(text)).toBeInTheDocument()
-    })
+    expect(toggleIcon).toHaveStyle({ filter: "brightness(1)" })
   })
 
   it(`trigger setReadingMode when toggle is clicked`, async () => {

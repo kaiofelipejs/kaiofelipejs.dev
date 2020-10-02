@@ -8,10 +8,6 @@ import * as S from "./styled"
 const MenuBar = ({ setReadingMode, readingMode }) => {
   const toggleReadingMode = () => setReadingMode(!readingMode)
 
-  const setContentInToggleReadingMode = readingMode
-    ? "Voltar para o tema"
-    : "Modo leitura"
-
   return (
     <S.MenuBarWrapper>
       <S.MenuBarGroup>
@@ -36,14 +32,12 @@ const MenuBar = ({ setReadingMode, readingMode }) => {
       <S.MenuBarGroup>
         <S.MenuBarItem
           onClick={toggleReadingMode}
-          title={setContentInToggleReadingMode}
+          title="Modo leitura"
+          readingMode={readingMode}
         >
-          <Icon
-            name="winhlp32_4001"
-            aria-label="Icone de um livro fechado com uma interrogação na capa."
-          />
+          <Icon name="bookmark" aria-label="Icone de um livro aberto." />
 
-          <span>{setContentInToggleReadingMode}</span>
+          <span>Modo leitura</span>
         </S.MenuBarItem>
 
         <S.MenuBarItem title="Ir para o topo">

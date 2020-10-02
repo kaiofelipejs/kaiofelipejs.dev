@@ -21,6 +21,7 @@ export const MenuBarGroup = styled.div`
 
 export const MenuBarLink = styled(Link)`
   display: block;
+  text-decoration: none;
 `
 
 export const MenuBarItem = styled.div`
@@ -35,11 +36,17 @@ export const MenuBarItem = styled.div`
   width: 3.75rem;
 
   & > * {
-    cursor: pointer;
+    cursor: inherit;
   }
 
   & span {
     text-align: center;
     font-size: 1rem;
+    color: #fff;
+  }
+
+  &[title="Modo leitura"] > i {
+    filter: ${props =>
+      props.readingMode ? "brightness(1)" : "brightness(0.5)"};
   }
 `
