@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import media from "styled-media-query"
 import { Link } from "gatsby"
 
 export const MenuBarWrapper = styled.aside`
@@ -12,6 +13,10 @@ export const MenuBarWrapper = styled.aside`
   position: fixed;
   right: 0;
   width: 3.75rem;
+
+  ${media.lessThan("large")`
+    display: none;
+  `}
 `
 
 export const MenuBarGroup = styled.div`
