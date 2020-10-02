@@ -33,7 +33,7 @@ export const ProfileAuthor = styled.h1`
   line-height: 1.4;
 
   ${media.lessThan("large")`
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin: 0 0 0 10px;
   `}
 `

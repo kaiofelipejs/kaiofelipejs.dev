@@ -13,7 +13,7 @@ export const LayoutMain = styled(Modal)`
   top: 0px;
 
   ${media.lessThan("large")`
-    top: 93px;
+    top: 87px;
     flex-direction: column;
     margin: 0;
   `}
