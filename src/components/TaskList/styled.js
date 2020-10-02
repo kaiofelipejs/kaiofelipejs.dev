@@ -1,5 +1,5 @@
 import styled, { css } from "styled-components"
-import { Link } from "gatsby"
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 import { List } from "@react95/core"
 
 export const ListItem = styled(List.Item)`
@@ -16,7 +16,7 @@ export const ListItem = styled(List.Item)`
   cursor: pointer;
 `
 
-export const ListLink = styled(Link)`
+export const ListLink = styled(AniLink)`
   flex-grow: 1;
   height: 30px;
   padding-top: 9px;

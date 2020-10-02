@@ -11,7 +11,14 @@ const MenuBar = ({ setReadingMode, readingMode }) => {
   return (
     <S.MenuBarWrapper>
       <S.MenuBarGroup>
-        <S.MenuBarLink to="/" title="Voltar para home">
+        <S.MenuBarLink
+          to="/"
+          cover
+          direction="right"
+          bg="white"
+          duration={0.6}
+          title="Voltar para home"
+        >
           <S.MenuBarItem>
             <Icon
               name="shdocvw_256"
@@ -21,7 +28,14 @@ const MenuBar = ({ setReadingMode, readingMode }) => {
           </S.MenuBarItem>
         </S.MenuBarLink>
 
-        <S.MenuBarLink to="/search/" title="Pesquisar">
+        <S.MenuBarLink
+          to="/search/"
+          cover
+          direction="right"
+          bg="white"
+          duration={0.6}
+          title="Pesquisar"
+        >
           <S.MenuBarItem>
             <Icon name="sccview_icon" aria-label="Icone de uma lupa." />
             <span>Buscar</span>

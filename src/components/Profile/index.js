@@ -23,7 +23,7 @@ const Profile = () => {
 
   return (
     <S.ProfileWrapper>
-      <S.ProfileLink to="/">
+      <S.ProfileLink to="/" cover direction="left" bg="white" duration={0.6}>
         <Avatar />
         <S.ProfileAuthor>
           {author}

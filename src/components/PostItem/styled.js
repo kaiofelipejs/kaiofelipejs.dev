@@ -1,9 +1,8 @@
 import styled from "styled-components"
 import media from "styled-media-query"
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 
-import { Link } from "gatsby"
-
-export const PostItemLink = styled(Link)`
+export const PostItemLink = styled(AniLink)`
   display: flex;
   text-decoration: none;
   color: var(--texts);
