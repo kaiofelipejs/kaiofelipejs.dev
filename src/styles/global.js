@@ -160,6 +160,11 @@ const StyleBase = createGlobalStyle`
     font-size: 1rem;
     line-height: 1.625rem;
   }
+
+  body {
+    --borders: #c3c7cb;
+    --texts: #000;
+  }
 `
 
 export default StyleBase

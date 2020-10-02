@@ -7,7 +7,7 @@ export const ProfileWrapper = styled.section`
 `
 
 export const ProfileLink = styled(Link)`
-  color: #000;
+  color: var(--texts);
   text-decoration: none;
   margin-bottom: 0.5rem;
 

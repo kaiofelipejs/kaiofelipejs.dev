@@ -19,26 +19,26 @@ export const SearchWrapper = styled.section`
   }
 
   .ais-SearchBox {
-    padding-top: 6rem;
+    padding-top: 4rem;
   }
 
   .ais-Stats {
-    color: #000;
+    color: var(--texts);
   }
 
   .ais-SearchBox-input {
     background: none;
     border: none;
-    border-bottom: 1px solid #c3c7cb;
-    color: #000;
+    border-bottom: 1px solid var(--borders);
+    color: var(--texts);
     display: flex;
     font-size: 1.6rem;
-    outline-color: #000;
+    outline-color: var(--texts);
     padding: 0.5rem;
     width: 100%;
 
     &::placeholder {
-      color: #000;
+      color: var(--texts);
     }
   }
 

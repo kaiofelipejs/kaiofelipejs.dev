@@ -2,14 +2,14 @@ import styled from "styled-components"
 import { Link } from "gatsby"
 
 export const RecommendedWrapper = styled.section`
-  border-bottom: 1px solid #c3c7cb;
-  border-top: 1px solid #c3c7cb;
+  border-bottom: 1px solid var(--borders);
+  border-top: 1px solid var(--borders);
   display: flex;
 `
 
 export const RecommendedLink = styled(Link)`
   align-items: center;
-  color: #000;
+  color: var(--texts);
   display: flex;
   font-size: 1.2rem;
   padding: 3rem;
@@ -21,7 +21,7 @@ export const RecommendedLink = styled(Link)`
   }
 
   &.previous {
-    border-right: 1px solid #c3c7cb;
+    border-right: 1px solid var(--borders);
   }
 
   &.next {

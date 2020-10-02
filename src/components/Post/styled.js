@@ -149,7 +149,7 @@ export const MainContent = styled.section`
     transition: opacity 0.5s;
 
     svg {
-      color: #000;
+      color: var(--texts);
     }
 
     &:hover {

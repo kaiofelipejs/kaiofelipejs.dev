@@ -5,7 +5,7 @@ import { Link } from "gatsby"
 export const PostItemLink = styled(Link)`
   display: flex;
   text-decoration: none;
-  color: #000;
+  color: var(--texts);
 
   &:hover {
     text-decoration: underline;
@@ -18,7 +18,7 @@ export const PostItemLink = styled(Link)`
 
 export const PostItemWrapper = styled.section`
   align-items: center;
-  border-bottom: 1px solid #c3c7cb;
+  border-bottom: 1px solid var(--borders);
   display: flex;
   padding: 2rem 3rem;
   width: 100%;

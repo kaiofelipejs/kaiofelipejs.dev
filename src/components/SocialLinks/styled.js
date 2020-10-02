@@ -20,7 +20,7 @@ export const SocialLinksLink = styled.a.attrs({
   rel: "noopener noreferrer",
 })`
   text-decoration: none;
-  color: #000;
+  color: var(--texts);
 
   & * {
     cursor: inherit;
