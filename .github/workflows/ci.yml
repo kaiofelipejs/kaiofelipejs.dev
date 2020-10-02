@@ -20,4 +20,4 @@ jobs:
         run: yarn test
 
       - name: Build
-        run: yarn build
+        run: CONTEXT=ci yarn build
