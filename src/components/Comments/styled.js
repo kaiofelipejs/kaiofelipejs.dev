@@ -5,10 +5,6 @@ export const CommentsWrapper = styled.section`
   max-width: 70rem;
   padding: 3rem 6.4rem 3rem;
 
-  /* #dsq-app5475 {
-    display: none;
-  } */
-
   #disqus_thread {
     a {
       color: red !important;
