@@ -15,7 +15,7 @@ const MenuBar = ({ setReadingMode, readingMode }) => {
           to="/"
           cover
           direction="right"
-          bg="white"
+          bg="#55aaaa"
           duration={0.6}
           title="Voltar para home"
         >
@@ -32,7 +32,7 @@ const MenuBar = ({ setReadingMode, readingMode }) => {
           to="/search/"
           cover
           direction="right"
-          bg="white"
+          bg="#55aaaa"
           duration={0.6}
           title="Pesquisar"
         >

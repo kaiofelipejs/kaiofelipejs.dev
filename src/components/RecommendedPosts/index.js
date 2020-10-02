@@ -10,7 +10,7 @@ const RecommendedPosts = ({ next, previous }) => (
         to={previous.fields.slug}
         cover
         direction="left"
-        bg="white"
+        bg="#55aaaa"
         duration={0.6}
       >
         {previous.frontmatter.title}
@@ -22,7 +22,7 @@ const RecommendedPosts = ({ next, previous }) => (
         to={next.fields.slug}
         cover
         direction="right"
-        bg="white"
+        bg="#55aaaa"
         duration={0.6}
       >
         {next.frontmatter.title}

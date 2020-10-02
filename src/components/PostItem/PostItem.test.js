@@ -39,6 +39,9 @@ describe(`<PostItem />`, () => {
       />
     )
 
-    expect(screen.getByText("Misc")).toHaveStyleRule("background", /#55AAAA/)
+    expect(screen.getByText("Misc")).toHaveStyleRule(
+      "background",
+      /var(--mainColor)/
+    )
   })
 })

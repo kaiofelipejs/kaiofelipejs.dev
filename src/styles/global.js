@@ -164,6 +164,7 @@ const StyleBase = createGlobalStyle`
   body {
     --borders: #c3c7cb;
     --texts: #000;
+    --mainColor: #55aaaa;
   }
 `
 

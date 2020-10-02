@@ -1,5 +1,6 @@
 import React, { useState } from "react"
 import PropTypes from "prop-types"
+import { TransitionPortal } from "gatsby-plugin-transition-link"
 import {
   ThemeProvider,
   TaskBar,
@@ -27,7 +28,9 @@ const Layout = ({ children }) => {
       <ThemeGlobalStyle />
       <StyleBase />
       <S.LayoutWrapper>
-        <Sidebar />
+        <TransitionPortal level="top">
+          <Sidebar />
+        </TransitionPortal>
 
         {showModal && (
           <S.LayoutMain
@@ -58,13 +61,20 @@ const Layout = ({ children }) => {
           </S.LayoutMain>
         )}
 
-        <MenuBar setReadingMode={setReadingMode} readingMode={readingMode} />
+        <TransitionPortal level="top">
+          <MenuBar setReadingMode={setReadingMode} readingMode={readingMode} />
+        </TransitionPortal>
       </S.LayoutWrapper>
-      <TaskBar
-        list={
-          <TaskList setReadingMode={setReadingMode} readingMode={readingMode} />
-        }
-      />
+      <TransitionPortal level="top">
+        <TaskBar
+          list={
+            <TaskList
+              setReadingMode={setReadingMode}
+              readingMode={readingMode}
+            />
+          }
+        />
+      </TransitionPortal>
     </ThemeProvider>
   )
 }

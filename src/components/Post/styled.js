@@ -127,7 +127,7 @@ export const MainContent = styled.section`
   }
 
   blockquote {
-    border-left: 0.3rem solid #55aaaa;
+    border-left: 0.3rem solid var(--mainColor);
     padding: 0 1.875rem;
     margin: 3.125rem auto;
   }
