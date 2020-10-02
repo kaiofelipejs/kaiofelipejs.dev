@@ -1,5 +1,20 @@
-import styled from "styled-components"
+import styled, { css } from "styled-components"
 import { Link } from "gatsby"
+import { List } from "@react95/core"
+
+export const ListItem = styled(List.Item)`
+  ${({ smallIcon }) =>
+    smallIcon &&
+    css`
+      i {
+        padding: 4px;
+        background-origin: content-box;
+        flex-shrink: 0;
+      }
+    `}
+
+  cursor: pointer;
+`
 
 export const ListLink = styled(Link)`
   flex-grow: 1;
@@ -10,6 +25,10 @@ export const ListLink = styled(Link)`
 
   & * {
     cursor: inherit;
+  }
+
+  & li {
+    margin-left: 1rem;
   }
 `
 

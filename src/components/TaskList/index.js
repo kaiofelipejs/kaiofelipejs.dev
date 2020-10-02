@@ -6,40 +6,39 @@ import * as S from "./styled"
 
 const TaskList = ({ setReadingMode, readingMode }) => (
   <List>
-    <List.Item icon="folder_file">
-      <List>
-        <S.ListLink to="/">
-          <List.Item icon="shdocvw_256">Home</List.Item>
-        </S.ListLink>
-        <S.ListLink to="/about/">
-          <List.Item icon="ulclient_1002">Sobre mim</List.Item>
-        </S.ListLink>
-        <S.ListLink to="/search/">
-          <List.Item icon="sccview_icon">Busca</List.Item>
-        </S.ListLink>
-      </List>
-      Páginas
-    </List.Item>
-    <List.Item icon="bookmark">
-      <List>
-        <List.Item onClick={() => setReadingMode(!readingMode)}>
-          {readingMode ? "Desativar" : "Ativar"}
-        </List.Item>
-      </List>
-      Modo leitura
-    </List.Item>
+    <S.ListItem icon="windows_explorer">Páginas</S.ListItem>
+
+    <S.ListLink to="/">
+      <S.ListItem icon="shdocvw_256" smallIcon>
+        Home
+      </S.ListItem>
+    </S.ListLink>
+    <S.ListLink to="/about/">
+      <S.ListItem icon="ulclient_1002" smallIcon>
+        Sobre mim
+      </S.ListItem>
+    </S.ListLink>
+    <S.ListLink to="/search/">
+      <S.ListItem icon="sccview_icon" smallIcon>
+        Busca
+      </S.ListItem>
+    </S.ListLink>
+
+    <S.ListItem icon="bookmark" onClick={() => setReadingMode(!readingMode)}>
+      {readingMode ? "Desativar" : "Ativar"} modo leitura
+    </S.ListItem>
+
     <List.Divider />
-    <List.Item icon="settings">
-      <List>
-        <S.ListExternalLink href="https://github.com/kaiofelipejs/kaiofelipejs.dev">
-          <List.Item icon="chatshow_3000">Repositório</List.Item>
-        </S.ListExternalLink>
-        <S.ListExternalLink href="https://github.com/React95/React95">
-          <List.Item icon="brush">React95 lib</List.Item>
-        </S.ListExternalLink>
-      </List>
-      Código fonte
-    </List.Item>
+
+    <S.ListItem icon="settings">
+      <S.ListExternalLink
+        href="https://github.com/kaiofelipejs/kaiofelipejs.dev"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Código fonte
+      </S.ListExternalLink>
+    </S.ListItem>
   </List>
 )
 
