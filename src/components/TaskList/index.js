@@ -31,11 +31,7 @@ const TaskList = ({ setReadingMode, readingMode }) => (
     <List.Divider />
 
     <S.ListItem icon="settings">
-      <S.ListExternalLink
-        href="https://github.com/kaiofelipejs/kaiofelipejs.dev"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
+      <S.ListExternalLink href="https://github.com/kaiofelipejs/kaiofelipejs.dev">
         Código fonte
       </S.ListExternalLink>
     </S.ListItem>
