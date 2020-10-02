@@ -2,12 +2,13 @@ import React from "react"
 
 import Layout from "components/Layout"
 import SEO from "components/seo"
+import Search from "components/Search"
 
-const IndexPage = () => (
+const SearchPage = () => (
   <Layout>
     <SEO title="Search" />
-    <h1>Search</h1>
+    <Search />
   </Layout>
 )
 
-export default IndexPage
+export default SearchPage
