@@ -8,23 +8,26 @@ const postsQuery = `{
         }
         frontmatter {
           category
+          background
           date_timestamp: date
           date(formatString: "DD [de] MMMM [de] YYYY", locale: "pt-br")
           description
           title
         }
         excerpt(pruneLength: 5000)
+        timeToRead
       }
     }
   }
 }`
 
 const flatten = arr =>
-  arr.map(({ node: { frontmatter, ...rest } }) => ({
+  arr.map(({ node: { frontmatter, timeToRead, ...rest } }) => ({
     ...frontmatter,
     date_timestamp: parseInt(
       (new Date(frontmatter.date_timestamp).getTime() / 1000).toFixed(0)
     ),
+    timeToRead,
     ...rest,
   }))
 
