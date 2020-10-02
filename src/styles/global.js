@@ -142,9 +142,9 @@ const StyleBase = createGlobalStyle`
   ${Reset}
 
   @font-face {
-    font-family: 'w95';
-    src: url('/fonts/w95fa.woff2') format('woff2'),
-      url('/fonts/w95fa.woff') format('woff');
+  font-family: "w95";
+  src: url("../fonts/w95fa.woff2") format("woff2"),
+    url("../fonts/w95fa.woff") format("woff");
   }
 
   * {
