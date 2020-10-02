@@ -26,7 +26,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
   return graphql(`
-    query PostList {
+    {
       allMarkdownRemark(sort: { order: DESC, fields: frontmatter___date }) {
         edges {
           node {
@@ -39,6 +39,7 @@ exports.createPages = ({ graphql, actions }) => {
               date(formatString: "DD [de] MMMM [de] YYYY", locale: "pt-br")
               description
               title
+              image
             }
             timeToRead
           }

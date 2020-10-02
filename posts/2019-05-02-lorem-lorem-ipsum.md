@@ -4,6 +4,7 @@ title: Lorem lorem ipsum
 description: And I'm not lorem sure about ipsum.
 category: Misc
 background: ""
+image: "/assets/img/desert.jpg"
 ---
 
 # Lorem ipsum
