@@ -4,9 +4,8 @@ require("dotenv").config()
 const queries = require("./src/utils/algolia_queries")
 
 const pluginConfig = [
-  `gatsby-plugin-transition-link`,
-  `gatsby-plugin-styled-components`,
   `gatsby-plugin-react-helmet`,
+  `gatsby-plugin-transition-link`,
   // needs to be the first to work with gatsby-remark-images
   {
     resolve: `gatsby-source-filesystem`,
@@ -35,6 +34,7 @@ const pluginConfig = [
       path: `${__dirname}/posts`,
     },
   },
+  `gatsby-plugin-styled-components`,
   {
     resolve: `gatsby-transformer-remark`,
     options: {
@@ -71,6 +71,7 @@ const pluginConfig = [
       icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
     },
   },
+  `gatsby-plugin-sitemap`,
   // this (optional) plugin enables Progressive Web App + Offline functionality
   // To learn more, visit: https://gatsby.dev/offline
   // `gatsby-plugin-offline`,

@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useState, useEffect } from "react"
 import PropTypes from "prop-types"
 import { TransitionPortal } from "gatsby-plugin-transition-link"
 import {
@@ -18,9 +18,18 @@ import StyleBase from "../../styles/global"
 const Layout = ({ children }) => {
   const [showModal, setShowModal] = useState(true)
   const [readingMode, setReadingMode] = useState(false)
+  const [hasMounted, setHasMounted] = useState(false)
 
   const closeModal = () => {
     setShowModal(false)
+  }
+
+  useEffect(() => {
+    setHasMounted(true)
+  }, [])
+
+  if (!hasMounted) {
+    return null
   }
 
   return (

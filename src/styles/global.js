@@ -1,4 +1,5 @@
 import { createGlobalStyle, css } from "styled-components"
+import { w95, w952 } from "./fonts"
 
 const Reset = css`
   html,
@@ -142,9 +143,10 @@ const StyleBase = createGlobalStyle`
   ${Reset}
 
   @font-face {
-  font-family: "w95";
-  src: url("../fonts/w95fa.woff2") format("woff2"),
-    url("../fonts/w95fa.woff") format("woff");
+    font-family: "w95";
+    font-style: normal;
+    font-weight: normal;
+    src: local("w95"), local("w952"), url(${w95}) format("woff"), url(${w952}) format("woff2");
   }
 
   * {
