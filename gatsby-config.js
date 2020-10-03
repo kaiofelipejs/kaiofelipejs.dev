@@ -92,7 +92,7 @@ module.exports = {
     position: `Software Engineer`,
     description: `Um cara simples que escreve códigos, textos e gosta de café.`,
     author: `Kaio Felipe Silva`,
-    siteUrl: `https://kaiofelipejs-dev.netlify.app`,
+    siteUrl: `https://kaiofelipejs.dev`,
   },
   plugins: pluginConfig,
 }
