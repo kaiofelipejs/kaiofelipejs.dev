@@ -6,10 +6,6 @@ image: /assets/img/preguica.jpeg
 category: life
 background: "#7AAB13"
 ---
-
-
-
-
 Por vezes já falei para algumas pessoas que me considero “preguiçoso” e a resposta geralmente é “como assim?”, então quero explorar um pouquinho sobre isso nesse texto e mostrar um exemplo do meu dia a dia.
 
 “Ser preguiçoso” é a forma que eu gosto de me referir a algo conhecido no mercado como *Hacker Culture* (ou *Cultura Hacker,* em português*)* que, resumidamente, é encontrar/visualizar formas não convencionais para chegar num objetivo de forma ágil através de experimentos e alavancagens. Gosto de me referir assim porque geralmente causa esse susto nas pessoas, mas se você preferir utilizar Cultura Hacker (que é mais startupeiro), sem problemas.
@@ -88,7 +84,7 @@ Esse é um exemplo de uma forma não convencional de resolver um problema que qu
 
 ## Concluindo
 
-A ideia desse post é provocar, principalmente quem trabalha nesse mundo de Recrutamento, a pensar em soluções diferentes para os problemas do dia a dia. Você pode aplicar isso para outros cenários também, um exemplo ( ̶e̶ ̶u̶m̶ ̶a̶p̶e̶l̶o̶) é parar de exigir currículo se a pessoa já tiver um LinkedIn bem preenchido. Você otimiza o tempo da pessoa e melhora a sua produtividade ao analisar uma página que você já sabe onde cada informação fica.
+A ideia desse post é provocar, principalmente quem trabalha nesse mundo de Recrutamento, a pensar em soluções diferentes para os problemas do dia a dia. Você pode aplicar isso para outros cenários também, um exemplo (e um apelo) é parar de exigir currículo se a pessoa já tiver um LinkedIn bem preenchido. Você otimiza o tempo da pessoa e melhora a sua produtividade ao analisar uma página que você já sabe onde cada informação fica.
 
 Bom, se esse post fez você refletir, em qualquer grau que seja, para fazer coisas diferentes no seu dia a dia, eu já fico bastante contente :)\
 Se tiver algum feedback ou situação para compartilhar, fique a vontade para mandar nos comentários.
