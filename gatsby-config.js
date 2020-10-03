@@ -4,30 +4,8 @@ require("dotenv").config()
 const queries = require("./src/utils/algolia_queries")
 
 const pluginConfig = [
-  `gatsby-plugin-react-helmet`,
-  `gatsby-plugin-transition-link`,
-  // needs to be the first to work with gatsby-remark-images
-  {
-    resolve: `gatsby-source-filesystem`,
-    options: {
-      name: `uploads`,
-      path: `${__dirname}/static/assets/img`,
-    },
-  },
-  {
-    resolve: `gatsby-source-filesystem`,
-    options: {
-      name: `posts`,
-      path: `${__dirname}/posts`,
-    },
-  },
-  {
-    resolve: `gatsby-plugin-root-import`,
-    options: {
-      components: path.join(__dirname, "src/components"),
-    },
-  },
-  `gatsby-plugin-styled-components`,
+  `gatsby-transformer-sharp`,
+  `gatsby-plugin-sharp`,
   {
     resolve: `gatsby-transformer-remark`,
     options: {
@@ -50,8 +28,30 @@ const pluginConfig = [
       ],
     },
   },
-  `gatsby-transformer-sharp`,
-  `gatsby-plugin-sharp`,
+  `gatsby-plugin-react-helmet`,
+  `gatsby-plugin-transition-link`,
+  {
+    resolve: `gatsby-source-filesystem`,
+    options: {
+      name: `uploads`,
+      path: `${__dirname}/static/assets/img`,
+    },
+  },
+  // needs to be the first to work with gatsby-remark-images
+  {
+    resolve: `gatsby-source-filesystem`,
+    options: {
+      name: `posts`,
+      path: `${__dirname}/posts`,
+    },
+  },
+  {
+    resolve: `gatsby-plugin-root-import`,
+    options: {
+      components: path.join(__dirname, "src/components"),
+    },
+  },
+  `gatsby-plugin-styled-components`,
   {
     resolve: `gatsby-plugin-manifest`,
     options: {
@@ -68,6 +68,7 @@ const pluginConfig = [
   // this (optional) plugin enables Progressive Web App + Offline functionality
   // To learn more, visit: https://gatsby.dev/offline
   `gatsby-plugin-offline`,
+  `gatsby-plugin-netlify-cms`,
 ]
 
 if (process.env.CONTEXT === "production") {
