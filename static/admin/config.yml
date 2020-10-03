@@ -2,7 +2,6 @@ backend:
   name: github
   repo: kaiofelipejs/kaiofelipejs.dev
   branch: main
-  site_domain: http://kaiofelipejs-dev.netlify.app
 
 media_folder: static/assets/img
 public_folder: /assets/img
