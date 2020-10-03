@@ -4,9 +4,12 @@ backend:
   branch: main
   site_domain: http://kaiofelipejs-dev.netlify.app
 
+media_folder: static/assets/img
+public_folder: /assets/img
 publish_mode: editorial_workflow
-media_folder: "static/assets/img"
-public_folder: "assets/img"
+slug:
+  encoding: "ascii"
+  clean_accents: true
 
 collections:
   - name: "posts" # Used in routes, e.g., /admin/collections/blog
