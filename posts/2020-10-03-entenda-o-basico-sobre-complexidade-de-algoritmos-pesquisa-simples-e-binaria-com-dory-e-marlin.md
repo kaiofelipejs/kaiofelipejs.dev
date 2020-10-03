@@ -13,7 +13,7 @@ Recentemente na RD, empresa onde trabalho atualmente, apresentei uma talk para o
 
 De antemão, quero deixar claro que *não* sou nenhum expert no assunto que vamos abordar aqui. A ideia é compartilhar o que aprendi (e achei valioso) com outras pessoas e de alguma forma contribuir no dia a dia de alguém.
 
-Já quero deixar aqui um gigantesco agradecimento para o [Felipe Constantino](https://medium.com/u/ed204a87f617?source=post_page-----1d937f25e63a--------------------------------) que ajudou demais no meu entendimento sobre o tema e na construção desse post. Thanks, Consta! 💙
+Já quero deixar aqui um gigantesco agradecimento para o [Felipe Constantino](https://www.linkedin.com/in/felipecdo/) que ajudou demais no meu entendimento sobre o tema e na construção desse post. Thanks, Consta! 💙
 
 A ideia da talk não era simplesmente apresentar que aplicamos algoritmos usando uma ferramenta online, mas entrar nos principais pontos da avaliação de algoritmos que fazemos durante o processo seletivo, que são: **complexidade, performance e legibilidade.** Aqui são esses pontos que importam e não estamos interessados na tecnologia que a pessoa vai usar para resolver o problema.
 
@@ -43,11 +43,11 @@ Isso que a Dory fez até então, foi aplicar a pesquisa simples para encontrar o
 
 Dory viu que **isso não era nada otimizado e seria muito custoso***.* Agora ela vai resolver o mesmo problema, só que aplicando a pesquisa binária. Vamos lá!
 
-![Dory diz "50" e Marlin diz "muito alto"](/assets/img/dory-marlin-try-1.png "Dory diz \\"50\\" e Marlin diz \\"muito alto\\"")
+![Dory diz "50" e Marlin diz "muito alto"](/assets/img/dory-marlin-try-1.png "Dory diz \\\"50\\\" e Marlin diz \\\"muito alto\\\"")
 
 Agora o primeiro número que a Dory chuta é 50. Esse ainda não é o número ideal, mas ela acabou de eliminar **metade** das alternativas possíveis.
 
-![Dory diz "25"e Marlin diz "muito baixo"](/assets/img/dory-marlin-try-2.png "Dory diz \\"25\\"e Marlin diz \\"muito baixo\\"")
+![Dory diz "25"e Marlin diz "muito baixo"](/assets/img/dory-marlin-try-2.png "Dory diz \\\"25\\\"e Marlin diz \\\"muito baixo\\\"")
 
 Como segunda tentativa, Dory chuta o número 25. É um número ainda baixo, mas novamente ela consegue cortar a metade dos números que restaram da primeira tentativa. Ou seja, **com a pesquisa binária ela chuta o número médio e elimina metade dos que restaram.** Próximo é o 37.
 
