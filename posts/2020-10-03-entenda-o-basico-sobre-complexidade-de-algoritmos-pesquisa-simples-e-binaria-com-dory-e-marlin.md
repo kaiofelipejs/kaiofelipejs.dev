@@ -9,8 +9,6 @@ image: /assets/img/dory-marlin.png
 category: dev
 background: "#637a91"
 ---
-
-
 Recentemente na RD, empresa onde trabalho atualmente, apresentei uma talk para o nosso time de gestão de talentos sobre o que avaliamos no processo seletivo de pessoas desenvolvedoras de software. Eu aprendi tanto nesse período de preparo do conteúdo que resolvi escrever esse post sobre um dos temas que achei bastante interessante.
 
 De antemão, quero deixar claro que *não* sou nenhum expert no assunto que vamos abordar aqui. A ideia é compartilhar o que aprendi (e achei valioso) com outras pessoas e de alguma forma contribuir no dia a dia de alguém.
@@ -29,7 +27,7 @@ Vamos supor que você esteja procurando o nome de uma pessoa numa agenda telefô
 
 Agora, imaginando o mesmo caso, só que ao invés de você começar a busca pela primeira página, você começa a partir do meio, porque sabe que os nomes com a letra *K* estarão mais perto dali. Partindo do meio da agenda, você pode saber se passou, acertou ou ainda não chegou no *K,* certo?! Então, se você passou do *K*, basta olhar do meio da agenda para trás e se ainda não chegou nele, olhar para frente. Neste cenário, você estaria aplicando uma **pesquisa binária**.
 
-> ...
+> #### ...
 
 Eu sei que esses exemplos foram rasos e talvez ainda não ficou claro onde o Big O entra nisso tudo e como que a pesquisa simples e binária trabalha. Então agora que entra a Dory e o Marlin para nos ajudar *(eu gosto muito de Procurando Nemo).*
 
@@ -45,11 +43,11 @@ Isso que a Dory fez até então, foi aplicar a pesquisa simples para encontrar o
 
 Dory viu que **isso não era nada otimizado e seria muito custoso***.* Agora ela vai resolver o mesmo problema, só que aplicando a pesquisa binária. Vamos lá!
 
-![Dory diz "50" e Marlin diz "muito alto"](/assets/img/dory-marlin-try-1.png "Dory diz \"50\" e Marlin diz \"muito alto\"")
+![Dory diz "50" e Marlin diz "muito alto"](/assets/img/dory-marlin-try-1.png "Dory diz \\"50\\" e Marlin diz \\"muito alto\\"")
 
 Agora o primeiro número que a Dory chuta é 50. Esse ainda não é o número ideal, mas ela acabou de eliminar **metade** das alternativas possíveis.
 
-![Dory diz "25"e Marlin diz "muito baixo"](/assets/img/dory-marlin-try-2.png "Dory diz \"25\"e Marlin diz \"muito baixo\"")
+![Dory diz "25"e Marlin diz "muito baixo"](/assets/img/dory-marlin-try-2.png "Dory diz \\"25\\"e Marlin diz \\"muito baixo\\"")
 
 Como segunda tentativa, Dory chuta o número 25. É um número ainda baixo, mas novamente ela consegue cortar a metade dos números que restaram da primeira tentativa. Ou seja, **com a pesquisa binária ela chuta o número médio e elimina metade dos que restaram.** Próximo é o 37.
 
@@ -67,8 +65,6 @@ No primeiro cenário do nosso exemplo com a Dory (pesquisa simples) nós seguimo
 Já no segundo cenário (pesquisa binária), temos um crescimento logaritmico, que na notação Big O é expressado assim: **O(log *n*)** *— leia como Ó log de N.*
 
 ![Resumo até aqui](/assets/img/resumo.png "Resumo até aqui")
-
-> ...
 
 O que vimos aqui é uma introdução com exemplo didáticos para compreendermos esses importantes temas da ciência da computação. Caso você queira se aprofundar mais, vou deixar algumas referências que me ajudaram nesse processo de estudo:
 
