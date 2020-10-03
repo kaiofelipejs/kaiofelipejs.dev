@@ -2,7 +2,7 @@
 date: 2015-05-10 05:54:23
 title: I am so clever
 description: That sometimes I don't understand a single word of what I am saying
-category: css
+category: dev
 background: "#24809e"
 image: "/assets/img/desert.jpg"
 ---

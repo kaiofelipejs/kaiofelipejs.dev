@@ -2,9 +2,9 @@
 date: 2019-05-02 05:54:23
 title: Lorem lorem ipsum
 description: And I'm not lorem sure about ipsum.
-category: Misc
+category: dev
 background: ""
-image: "/assets/img/desert.jpg"
+image: "/assets/img/mountains.jpg"
 ---
 
 # Lorem ipsum

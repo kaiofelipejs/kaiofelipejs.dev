@@ -2,7 +2,7 @@
 date: 2015-01-03 05:54:23
 title: Two things are infinite
 description: And I'm not sure about the universe.
-category: Misc
+category: dev
 background: "#7AAB13"
 image: "/assets/img/desert.jpg"
 ---

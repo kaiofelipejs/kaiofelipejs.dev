@@ -2,7 +2,7 @@
 date: 2018-02-02 05:54:23
 title: What makes a man?
 description: Spend his whole life in disguise?
-category: misc
+category: dev
 background: "#47650b"
 image: "/assets/img/desert.jpg"
 ---
