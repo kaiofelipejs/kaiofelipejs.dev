@@ -12,7 +12,6 @@ describe(`<MenuBar />`, () => {
       "Icone com uma folha ao fundo e uma casa pequena no canto inferior direito.",
       "Icone de uma lupa.",
       "Icone de um livro aberto.",
-      "Icone de uma seta apontando para cima.",
     ]
 
     labelIconTexts.forEach(text => {

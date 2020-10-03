@@ -53,14 +53,6 @@ const MenuBar = ({ setReadingMode, readingMode }) => {
 
           <span>Modo leitura</span>
         </S.MenuBarItem>
-
-        <S.MenuBarItem title="Ir para o topo">
-          <Icon
-            name="progman_46"
-            aria-label="Icone de uma seta apontando para cima."
-          />
-          <span>Ir para o topo</span>
-        </S.MenuBarItem>
       </S.MenuBarGroup>
     </S.MenuBarWrapper>
   )
