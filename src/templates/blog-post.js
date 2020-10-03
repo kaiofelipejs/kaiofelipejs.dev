@@ -18,7 +18,7 @@ const BlogPost = ({ data, pageContext }) => {
       <SEO
         title={post.frontmatter.title}
         description={post.frontmatter.description}
-        image={post.frontmatter.image.publicURL}
+        image={post.frontmatter.image.base}
       />
       <S.PostHeader>
         <S.PostDate>
@@ -49,7 +49,7 @@ export const query = graphql`
         title
         date(formatString: "DD [de] MMMM [de] YYYY", locale: "pt-br")
         image {
-          publicURL
+          base
         }
       }
       timeToRead
