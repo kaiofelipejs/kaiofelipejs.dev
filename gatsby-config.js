@@ -15,23 +15,16 @@ const pluginConfig = [
     },
   },
   {
-    resolve: `gatsby-plugin-root-import`,
-    options: {
-      components: path.join(__dirname, "src/components"),
-    },
-  },
-  {
-    resolve: `gatsby-source-filesystem`,
-    options: {
-      name: `images`,
-      path: `${__dirname}/src/images`,
-    },
-  },
-  {
     resolve: `gatsby-source-filesystem`,
     options: {
       name: `posts`,
       path: `${__dirname}/posts`,
+    },
+  },
+  {
+    resolve: `gatsby-plugin-root-import`,
+    options: {
+      components: path.join(__dirname, "src/components"),
     },
   },
   `gatsby-plugin-styled-components`,
@@ -62,19 +55,19 @@ const pluginConfig = [
   {
     resolve: `gatsby-plugin-manifest`,
     options: {
-      name: `gatsby-starter-default`,
-      short_name: `starter`,
+      name: `Kaio Felipe Silva`,
+      short_name: `kaiofelipejs`,
       start_url: `/`,
-      background_color: `#663399`,
-      theme_color: `#663399`,
+      background_color: `#55aaaa`,
+      theme_color: `#55aaaa`,
       display: `minimal-ui`,
-      icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+      icon: `static/assets/img/profile-photo.jpg`, // This path is relative to the root of the site.
     },
   },
   `gatsby-plugin-sitemap`,
   // this (optional) plugin enables Progressive Web App + Offline functionality
   // To learn more, visit: https://gatsby.dev/offline
-  // `gatsby-plugin-offline`,
+  `gatsby-plugin-offline`,
 ]
 
 if (process.env.CONTEXT === "production") {
