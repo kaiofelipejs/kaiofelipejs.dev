@@ -47,8 +47,6 @@ E falando de melhoria continua, um exemplo que eu acho muito bacana é o pit sto
 
 Porém, lá pelos anos 50, esse número estava na casa de mais de 1 minuto para realizar os mesmos procedimentos. Lógico que as práticas, ferramentas e tecnologias não eram as mesmas que as de hoje, e é exatamente essa a grande diferença. Com o tempo, eles **melhoraram continuamente** e conseguiram atingir esse resultado de 1.82 segundos. E sabe o que deixa isso ainda mais evidente?! O recorde anterior de pit stop mais rápido já pertencia a RBR, ou seja, **ela baixou o seu próprio tempo**!!! 🤯
 
-![Will Smith surpreso](/assets/img/will-surprised.gif "Will Smith surpreso")
-
 Mas, não esqueça:
 
 > **Feito é melhor que perfeito.**
