@@ -80,6 +80,7 @@ const Layout = ({ children }) => {
             <TaskList
               setReadingMode={setReadingMode}
               readingMode={readingMode}
+              setShowModal={setShowModal}
             />
           }
         />
