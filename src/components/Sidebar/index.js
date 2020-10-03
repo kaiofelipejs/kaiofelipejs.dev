@@ -6,7 +6,7 @@ import SocialLinks from "components/SocialLinks"
 import MenuLinks from "components/MenuLinks"
 
 const Sidebar = () => (
-  <S.Root icon="info_bubble" title="Menu">
+  <S.Root icon="info_bubble" title="Kaio Felipe Silva">
     <S.SidebarWrapper>
       <Profile />
       <SocialLinks />

@@ -12,7 +12,7 @@ export const RecommendedLink = styled(AniLink)`
   color: var(--texts);
   display: flex;
   font-size: 1.2rem;
-  padding: 3rem;
+  padding: 3rem 1rem;
   text-decoration: none;
   width: 50%;
 

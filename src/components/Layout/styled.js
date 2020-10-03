@@ -13,10 +13,15 @@ export const LayoutMain = styled(Modal)`
   top: 0px;
 
   ${media.lessThan("large")`
-    top: 87px;
     flex-direction: column;
     margin: 0;
   `}
+
+  ${props =>
+    props.isMobile &&
+    css`
+      top: 0;
+    `}
 `
 
 export const LayoutMainContent = styled(Frame)`
@@ -33,8 +38,4 @@ export const LayoutMainContent = styled(Frame)`
           "Segoe UI Symbol";
       }
     `}
-
-  ${media.lessThan("large")`
-    height: 70vh;
-  `}
 `

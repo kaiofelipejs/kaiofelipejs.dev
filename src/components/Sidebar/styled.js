@@ -7,9 +7,10 @@ export const Root = styled(Modal)`
   top: 0;
 
   ${media.lessThan("large")`
-    height: auto;
+    /* height: auto;
     padding-bottom: 0;
-    width: 100vw;
+    width: 100vw; */
+    display: none;
   `}
 `
 

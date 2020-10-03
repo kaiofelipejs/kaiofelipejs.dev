@@ -32,20 +32,27 @@ const Layout = ({ children }) => {
     return null
   }
 
+  const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+    navigator.userAgent
+  )
+
   return (
     <ThemeProvider>
       <ThemeGlobalStyle />
       <StyleBase />
       <S.LayoutWrapper>
-        <TransitionPortal level="top">
-          <Sidebar />
-        </TransitionPortal>
+        {!isMobile && (
+          <TransitionPortal level="top">
+            <Sidebar />
+          </TransitionPortal>
+        )}
 
         {showModal && (
           <S.LayoutMain
+            isMobile={isMobile}
             closeModal={closeModal}
             icon="windows_explorer"
-            title="Conteúdo"
+            title={isMobile ? "Kaio Felipe Silva" : "Conteúdo"}
             menu={[
               {
                 name: "Modo leitura",
