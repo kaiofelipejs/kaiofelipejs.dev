@@ -4,8 +4,24 @@ require("dotenv").config()
 const queries = require("./src/utils/algolia_queries")
 
 const pluginConfig = [
-  `gatsby-transformer-sharp`,
-  `gatsby-plugin-sharp`,
+  `gatsby-plugin-transition-link`,
+  `gatsby-plugin-styled-components`,
+  `gatsby-plugin-react-helmet`,
+  // needs to be the first to work with gatsby-remark-images
+  {
+    resolve: `gatsby-source-filesystem`,
+    options: {
+      name: `uploads`,
+      path: `${__dirname}/static/assets/img`,
+    },
+  },
+  {
+    resolve: `gatsby-source-filesystem`,
+    options: {
+      name: `posts`,
+      path: `${__dirname}/posts`,
+    },
+  },
   {
     resolve: `gatsby-transformer-remark`,
     options: {
@@ -28,30 +44,14 @@ const pluginConfig = [
       ],
     },
   },
-  `gatsby-plugin-react-helmet`,
-  `gatsby-plugin-transition-link`,
-  {
-    resolve: `gatsby-source-filesystem`,
-    options: {
-      name: `uploads`,
-      path: `${__dirname}/static/assets/img`,
-    },
-  },
-  // needs to be the first to work with gatsby-remark-images
-  {
-    resolve: `gatsby-source-filesystem`,
-    options: {
-      name: `posts`,
-      path: `${__dirname}/posts`,
-    },
-  },
   {
     resolve: `gatsby-plugin-root-import`,
     options: {
       components: path.join(__dirname, "src/components"),
     },
   },
-  `gatsby-plugin-styled-components`,
+  `gatsby-transformer-sharp`,
+  `gatsby-plugin-sharp`,
   {
     resolve: `gatsby-plugin-manifest`,
     options: {
