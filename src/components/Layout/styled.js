@@ -38,4 +38,8 @@ export const LayoutMainContent = styled(Frame)`
           "Segoe UI Symbol";
       }
     `}
+
+  ${media.lessThan("large")`
+    height: 75vh;
+  `}
 `
