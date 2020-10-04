@@ -20,21 +20,27 @@ function SEO({ description, lang, meta, title, image }) {
   )
 
   const metaDescription = description || site.siteMetadata.description
-  const defaultTitle = site.siteMetadata?.title
   const url = site.siteMetadata.siteUrl
   const ogImage = `${url}/assets/img/${image || "og-image.png"}`
-
   return (
     <Helmet
       htmlAttributes={{
         lang,
       }}
       title={title}
-      titleTemplate={defaultTitle ? `%s | ${defaultTitle}` : null}
+      titleTemplate={`%s | ${site.siteMetadata.title}`}
       meta={[
+        {
+          name: `aplication-name`,
+          content: "Kaio Felipe Silva Blog",
+        },
         {
           name: `description`,
           content: metaDescription,
+        },
+        {
+          property: `og:image`,
+          content: ogImage,
         },
         {
           property: `og:title`,
@@ -43,10 +49,6 @@ function SEO({ description, lang, meta, title, image }) {
         {
           property: `og:description`,
           content: metaDescription,
-        },
-        {
-          property: `og:image`,
-          content: ogImage,
         },
         {
           property: `og:type`,
@@ -62,7 +64,7 @@ function SEO({ description, lang, meta, title, image }) {
         },
         {
           name: `twitter:creator`,
-          content: site.siteMetadata?.author || ``,
+          content: `@kaiofelipejs`,
         },
         {
           name: `twitter:title`,
