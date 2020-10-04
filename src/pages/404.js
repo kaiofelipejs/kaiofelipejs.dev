@@ -8,16 +8,18 @@ import SEO from "components/seo"
 import { MainContent } from "components/Post/styled"
 
 const NotFoundPage = () => (
-  <Layout>
+  <>
     <SEO title="404: Not found" />
-    <MainContent>
-      <h1>Ops! Nada por aqui...</h1>
+    <Layout>
+      <MainContent>
+        <h1>Ops! Nada por aqui...</h1>
 
-      <Link to="/">
-        <Button css={{ fontSize: "1.5rem" }}>Voltar para a home</Button>
-      </Link>
-    </MainContent>
-  </Layout>
+        <Link to="/">
+          <Button css={{ fontSize: "1.5rem" }}>Voltar para a home</Button>
+        </Link>
+      </MainContent>
+    </Layout>
+  </>
 )
 
 export default NotFoundPage

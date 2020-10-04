@@ -15,37 +15,39 @@ const BlogList = props => {
   const nextPage = `/page/${currentPage + 1}`
 
   return (
-    <Layout>
+    <>
       <SEO title="Home | Kaio Felipe Silva" />
-      {postList.map(
-        ({
-          node: {
-            frontmatter: { background, category, date, title, description },
-            timeToRead,
-            fields: { slug },
-          },
-        }) => (
-          <PostItem
-            key={slug}
-            slug={slug}
-            background={background}
-            category={category}
-            date={date}
-            timeToRead={timeToRead}
-            title={title}
-            description={description}
-          />
-        )
-      )}
-      <Pagination
-        isFirst={isFirst}
-        isLast={isLast}
-        currentPage={currentPage}
-        numPages={numPages}
-        prevPage={prevPage}
-        nextPage={nextPage}
-      />
-    </Layout>
+      <Layout>
+        {postList.map(
+          ({
+            node: {
+              frontmatter: { background, category, date, title, description },
+              timeToRead,
+              fields: { slug },
+            },
+          }) => (
+            <PostItem
+              key={slug}
+              slug={slug}
+              background={background}
+              category={category}
+              date={date}
+              timeToRead={timeToRead}
+              title={title}
+              description={description}
+            />
+          )
+        )}
+        <Pagination
+          isFirst={isFirst}
+          isLast={isLast}
+          currentPage={currentPage}
+          numPages={numPages}
+          prevPage={prevPage}
+          nextPage={nextPage}
+        />
+      </Layout>
+    </>
   )
 }
 

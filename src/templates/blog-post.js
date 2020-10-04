@@ -14,25 +14,27 @@ const BlogPost = ({ data, pageContext }) => {
   const previous = pageContext.previousPost
 
   return (
-    <Layout>
+    <>
       <SEO
         title={post.frontmatter.title}
         description={post.frontmatter.description}
-        image={`https://kaiofelipejs.dev/assets/img/${post.frontmatter.image.relativePath}`}
+        image={post.frontmatter.image.relativePath}
       />
-      <S.PostHeader>
-        <S.PostDate>
-          {post.frontmatter.date} • {post.timeToRead} min de leitura
-        </S.PostDate>
-        <S.PostTitle>{post.frontmatter.title}</S.PostTitle>
-        <S.PostDescription>{post.frontmatter.description}</S.PostDescription>
-      </S.PostHeader>
-      <S.MainContent>
-        <div dangerouslySetInnerHTML={{ __html: post.html }}></div>
-      </S.MainContent>
-      <RecommendedPosts next={next} previous={previous} />
-      <Comments url={post.fields.slug} title={post.frontmatter.title} />
-    </Layout>
+      <Layout>
+        <S.PostHeader>
+          <S.PostDate>
+            {post.frontmatter.date} • {post.timeToRead} min de leitura
+          </S.PostDate>
+          <S.PostTitle>{post.frontmatter.title}</S.PostTitle>
+          <S.PostDescription>{post.frontmatter.description}</S.PostDescription>
+        </S.PostHeader>
+        <S.MainContent>
+          <div dangerouslySetInnerHTML={{ __html: post.html }}></div>
+        </S.MainContent>
+        <RecommendedPosts next={next} previous={previous} />
+        <Comments url={post.fields.slug} title={post.frontmatter.title} />
+      </Layout>
+    </>
   )
 }
 
