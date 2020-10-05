@@ -1,7 +1,7 @@
 ---
 title: Seja “preguiçoso” e faça diferente
 description: "Calma, eu vou explicar esse título… "
-date: 2020-10-03 02:07:59
+date: 2020-06-01 02:07:59
 image: /assets/img/preguica.jpeg
 category: life
 background: "#7AAB13"
@@ -24,19 +24,19 @@ Uma das formas de encontrar pessoas que *tendem* a ter mais fit com a nossas tec
 
 Minha ideia inicial foi criar uma pesquisa booleana com o nome dessas empresas como palavras chaves. E aqui que entra o problema: Como eu posso transformar essa lista em uma pesquisa booleana sem sofrer tanto?Basicamente, eu tinha três opções:
 
-**1. Fazer tudo na mão, copiando e colando.**
+### **1. Fazer tudo na mão, copiando e colando.**
 
 ![Bob esponja encenando um arco iris com as mãos escrito “I wanna die”](/assets/img/spongebob.jpg "Bob esponja encenando um arco iris com as mãos escrito “I wanna die”")
 
 Não preciso explicar muito, né?! O bob esponja resume meu sentimento.
 
-**2. Usar uma ferramenta pronta.**
+### **2. Usar uma ferramenta pronta.**
 
 ![Mulher provando kombucha](/assets/img/kombucha.jpg "Mulher provando kombucha")
 
 Essa é uma opção válida, já que existem várias ferramentas como [Recruit’Em](http://recruitin.net/), [Source Hub](https://source.socialtalent.com/) ou planilhas como essa [aqui](https://drive.google.com/file/d/1m6ovg33-ShU8JIOveVQAfJalfbF5V0e_/view), mas não optei por ela para resolver esse problema específico.
 
-**3. Hackerman (or girl)**
+### **3. Hackerman (or girl)**
 
 Eis a opção que eu escolhi.
 
