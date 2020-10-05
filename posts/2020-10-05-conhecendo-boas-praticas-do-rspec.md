@@ -8,7 +8,10 @@ background: "#B31917"
 ---
 Recentemente numa tech talk interna da squad conversamos sobre algumas boas práticas de escrita de testes automatizados com RSpec. Nesse post gostaria de levar esse conhecimento para outras pessoas também.
 
-Antes gostaria de fazer um disclaimer que é: eu não sou especialista em testes e nem em Ruby/RSpec, apenas alguém que estudou algumas coisas que ajudou no dia a dia e quer compartilhar com outras pessoas. Caso você não concorde com algo aqui, tudo bem! Vou ficar bem contente se você comentar logo abaixo sobre e eu poder aprender com você :)
+Antes gostaria de fazer dois disclaimers: 
+
+* Não sou especialista em testes e nem em Ruby/RSpec, apenas alguém que estudou algumas coisas e quer compartilhar com outras pessoas. Caso você não concorde com algo aqui, tudo bem! Vou ficar bem contente se você comentar logo abaixo sobre e eu poder aprender com você :)
+* Esse conteúdo é um 'compilado' de várias fontes diferentes, vou deixar todas elas (e outras referências) listadas lá no final. 
 
 Disclamer feito, bora lá: 
 
@@ -319,3 +322,10 @@ let(:user) { FactoryBot.build_stubbed :default_user }
 Bom, eras isso! Não é nada muito complexo, mas com certeza pode te ajudar no dia a dia lidando com Ruby e RSpec. 
 
 Caso tenha encontrado algum erro, [esse blog é open source](https://github.com/kaiofelipejs/kaiofelipejs.dev), basta editar o arquivo de texto desse post lá no github e mandar um PR, simples assim! :)
+
+#### Fontes e referências
+
+* [The RSpec Style Guide](https://rspec.rubystyle.guide/)
+* [Better Specs { rspec guidelines with ruby }](http://www.betterspecs.org/br/)
+* [RuboCop RSpec - Docs](https://docs.rubocop.org/rubocop-rspec/cops_rspec.html)
+* [Escrevendo testes melhores com Rspec - Ruby - Por Heitor Miranda - 30º GURU-CE](https://www.youtube.com/watch?reload=9&v=cHAnlE3kwBM)
