@@ -27,7 +27,7 @@ Disclamer feito, bora lá:
 
 ### 1# described_class
 
-Refira-se a classe testada como \`described_class\` e não chamando-a diretamente, assim se alterar o nome da classe, não altera o spec.
+Refira-se a classe testada como `described_class` e não chamando-a diretamente, assim se alterar o nome da classe, não altera o spec.
 
 ```ruby
 # ❌ 
@@ -71,7 +71,7 @@ context 'when logged out' do
 end
 ```
 
-Uma dica extra aqui é, após escrever seus specs rode \`rspec -f d\` e o output deve ter uma leitura fluída, como se fosse uma documentação realmente. Caso não esteja assim, seja legal e reveja a descrição dos seus \`contexts\` e \`its\` :)
+Uma dica extra aqui é, após escrever seus specs rode `rspec -f d` e o output deve ter uma leitura fluída, como se fosse uma documentação realmente. Caso não esteja assim, seja legal e reveja a descrição dos seus `contexts` e `its` :)
 
 ### 3# describe
 
@@ -90,7 +90,7 @@ class User
 end
 ```
 
-Para o método \`admin?\` os specs ficariam: 
+Para o método `admin?` os specs ficariam: 
 
 ```ruby
 # ❌ 
@@ -104,7 +104,7 @@ describe '#admin?' do
 end
 ```
 
-E para o método estático \`authenticate\`:
+E para o método estático `authenticate`:
 
 ```ruby
 # ❌ 
@@ -120,7 +120,7 @@ end
 
 ### 4# let
 
-Use o \`let\` ao invés de usar usar variáveis de instância. O \`let\` faz cache dos resultados e ele é preguiçoso, ou seja, só vai ser declarado se realmente for chamado. Já as variáveis de instância são declaradas sempre, mesmo que não usadas.
+Use o `let` ao invés de usar usar variáveis de instância. O `let` faz cache dos resultados e ele é preguiçoso, ou seja, só vai ser declarado se realmente for chamado. Já as variáveis de instância são declaradas sempre, mesmo que não usadas.
 
 ```ruby
 # ❌ 
@@ -140,7 +140,7 @@ it 'reverses a name' do
 end
 ```
 
-Ainda sobre variáveis \`let\` é interessante compartilha-lás entre grupos de testes para evitar ter que declarar a mesma coisa duas vezes, por exemplo: 
+Ainda sobre variáveis `let` é interessante compartilha-lás entre grupos de testes para evitar ter que declarar a mesma coisa duas vezes, por exemplo: 
 
 ```ruby
 # ❌
@@ -180,13 +180,13 @@ context 'when the user has no points' do
 end
 ```
 
-*Obs: Esse \`create\` é um método do Factory Bot, vamos falar sobre ele já já.* 
+*Obs: Esse `create` é um método do Factory Bot, vamos falar sobre ele já já.* 
 
-Por fim, você também pode usar o bang (\`let!\`) para tirar a preguiça dele, ou seja, a variável será declarada assim que o teste for executado. Esse cenário pode ser útil quando você precisa ter garantia que algo foi escrito no banco antes de executar o assert.
+Por fim, você também pode usar o bang (`let!`) para tirar a preguiça dele, ou seja, a variável será declarada assim que o teste for executado. Esse cenário pode ser útil quando você precisa ter garantia que algo foi escrito no banco antes de executar o assert.
 
 ### 5# subject
 
-Se você tiver vários testes relacionados ao mesmo assunto, use o \`subject\` e não se repita várias vezes.
+Se você tiver vários testes relacionados ao mesmo assunto, use o `subject` e não se repita várias vezes.
 
 ```ruby
 # ❌
@@ -234,7 +234,7 @@ end
 
 #### 7# shared_examples
 
-Quando você repara que está ficando com muito código duplicado no seu teste, você pode recorrer ao \`shared_examples\`. Se você tiver um arquivo de teste muito grande, particularmente, te sugiro aplicá-lo dentro de um mesmo contexto para você não se perder com vários exemplos compartilhados no arquivo.
+Quando você repara que está ficando com muito código duplicado no seu teste, você pode recorrer ao `shared_examples`. Se você tiver um arquivo de teste muito grande, particularmente, te sugiro aplicá-lo dentro de um mesmo contexto para você não se perder com vários exemplos compartilhados no arquivo.
 
 ```ruby
 describe 'GET .some_route' do
