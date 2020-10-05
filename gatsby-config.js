@@ -56,12 +56,12 @@ const pluginConfig = [
     resolve: `gatsby-plugin-manifest`,
     options: {
       name: `Kaio Felipe Silva`,
-      short_name: `kaiofelipejs`,
+      short_name: `Blog do Kaio`,
       start_url: `/`,
       background_color: `#55aaaa`,
       theme_color: `#55aaaa`,
       display: `minimal-ui`,
-      icon: `static/assets/img/profile-photo.jpg`, // This path is relative to the root of the site.
+      icon: `static/assets/img/icon.png`, // This path is relative to the root of the site.
     },
   },
   `gatsby-plugin-sitemap`,
