@@ -2,7 +2,7 @@
 title: Tenha boas referências, compare-se consigo mesmo e melhore continuamente.
 description: O título é o próprio resumo do post. Quero contar um pouco sobre
   alguns problemas, soluções e minha percepção quanto a evolução e melhoria.
-date: 2020-10-03 01:52:55
+date: 2020-04-22 01:52:55
 image: /assets/img/reference.jpeg
 category: life
 background: "#7AAB13"
