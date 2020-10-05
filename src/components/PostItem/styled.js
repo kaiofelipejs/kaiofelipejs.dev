@@ -37,11 +37,11 @@ export const PostItemTag = styled.div`
   border-radius: 50%;
   color: #fff;
   display: flex;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   font-weight: 700;
   justify-content: center;
-  min-height: 90px;
-  min-width: 90px;
+  min-height: 100px;
+  min-width: 100px;
   text-transform: uppercase;
 
   ${media.lessThan("large")`
