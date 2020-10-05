@@ -232,7 +232,7 @@ context 'when payload is 100' do
 end
 ```
 
-#### 7# shared_examples
+### 6# shared_examples
 
 Quando você repara que está ficando com muito código duplicado no seu teste, você pode recorrer ao `shared_examples`. Se você tiver um arquivo de teste muito grande, particularmente, te sugiro aplicá-lo dentro de um mesmo contexto para você não se perder com vários exemplos compartilhados no arquivo.
 
@@ -274,7 +274,7 @@ end
 
 Se ligou que aqui usei várias coisas que ja comentamos aqui antes? 😉
 
-#### 8# FactoryBot
+### 7# FactoryBot
 
 O Factory Bot cria *fixtures* de teste que são objetos de teste falsos que podem ser reutilizados durante o teste. Imagine que em N lugares dos testes da sua aplicação você precisa ter um objeto do usuário. Ao invés de você declarar ele "na mão" em cada lugar desse, você apenas chama a Factory que faz isso pra você. 
 
@@ -301,7 +301,7 @@ Caso você precise mudar algum valor que está definido lá na Factory, basta pa
 let(:user) { FactoryBot.create :user, city: 'São Paulo', active: false }
 ```
 
-### 9# **build_stubbed**
+### 8# **build_stubbed**
 
 É um método do FactoryBot que não persiste o dado no banco, apenas te dá um objeto do que foi solicitado. Isso traz pequenas melhorias de performance, então, se você tiver uma pipeline de testes muito grande, isso pode te salvar alguns segundos :)
 
@@ -313,7 +313,7 @@ let(:user) { FactoryBoy.create :default_user }
 let(:user) { FactoryBot.build_stubbed :default_user }
 ```
 
-### 10# SimpleCov
+### 9# SimpleCov
 
 É um analisador de coverage para Ruby. Acho ele bem interessante porque te mostra exatamente qual parte do código não está coberto e você pode ir lá e consertar isso. Saiba mais sobre ele [aqui](https://github.com/simplecov-ruby/simplecov).
 
