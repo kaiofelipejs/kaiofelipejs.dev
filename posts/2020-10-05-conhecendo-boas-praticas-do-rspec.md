@@ -326,6 +326,6 @@ Caso tenha encontrado algum erro, [esse blog é open source](https://github.com/
 #### Fontes e referências
 
 * [The RSpec Style Guide](https://rspec.rubystyle.guide/)
-* [Better Specs { rspec guidelines with ruby }](http://www.betterspecs.org/br/)
+* [Better Specs { rspec guidelines with ruby }](http://www.betterspecs.org)
 * [RuboCop RSpec - Docs](https://docs.rubocop.org/rubocop-rspec/cops_rspec.html)
 * [Escrevendo testes melhores com Rspec - Ruby - Por Heitor Miranda - 30º GURU-CE](https://www.youtube.com/watch?reload=9&v=cHAnlE3kwBM)
