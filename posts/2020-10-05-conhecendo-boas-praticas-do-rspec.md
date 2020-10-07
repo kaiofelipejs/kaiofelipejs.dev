@@ -25,7 +25,7 @@ Disclamer feito, bora lá:
 
 > #### *Bora pro código!*
 
-### 1# described_class
+## 1# described_class
 
 Refira-se a classe testada como `described_class` e não chamando-a diretamente, assim se alterar o nome da classe, não altera o spec.
 
@@ -49,7 +49,7 @@ RSpec.describe MyClass do
 end
 ```
 
-### 2# contexts
+## 2# contexts
 
 Organiza e separa seus testes de acordo com o cenário/contexto. Para saber quando usar pense que haverá pelo menos 2 cenários (positivo e negativo). No exemplo abaixo existe o cenário de *logado* e *não logado*.
 
@@ -73,7 +73,7 @@ end
 
 Uma dica extra aqui é, após escrever seus specs rode `rspec -f d` e o output deve ter uma leitura fluída, como se fosse uma documentação realmente. Caso não esteja assim, seja legal e reveja a descrição dos seus `contexts` e `its` :)
 
-### 3# describe
+## 3# describe
 
 Use describes para deixar claro qual método da classe você está testando. Use `.` ou `::` (particularmente, prefiro a primeira opção) para métodos de classe/estáticos e use `#` para métodos de instância. 
 Imagine que tenhamos a classe `User` com dois métodos: `admin?` e `authenticate` sendo que o segundo método é estático.
@@ -118,7 +118,7 @@ describe '.authenticate' do
 end
 ```
 
-### 4# let
+## 4# let
 
 Use o `let` ao invés de usar usar variáveis de instância. O `let` faz cache dos resultados e ele é preguiçoso, ou seja, só vai ser declarado se realmente for chamado. Já as variáveis de instância são declaradas sempre, mesmo que não usadas.
 
@@ -184,7 +184,7 @@ end
 
 Por fim, você também pode usar o bang (`let!`) para tirar a preguiça dele, ou seja, a variável será declarada assim que o teste for executado. Esse cenário pode ser útil quando você precisa ter garantia que algo foi escrito no banco antes de executar o assert.
 
-### 5# subject
+## 5# subject
 
 Se você tiver vários testes relacionados ao mesmo assunto, use o `subject` e não se repita várias vezes.
 
@@ -232,7 +232,7 @@ context 'when payload is 100' do
 end
 ```
 
-### 6# shared_examples
+## 6# shared_examples
 
 Quando você repara que está ficando com muito código duplicado no seu teste, você pode recorrer ao `shared_examples`. Se você tiver um arquivo de teste muito grande, particularmente, te sugiro aplicá-lo dentro de um mesmo contexto para você não se perder com vários exemplos compartilhados no arquivo.
 
@@ -274,9 +274,9 @@ end
 
 Se ligou que aqui usei várias coisas que ja comentamos aqui antes? 😉
 
-### 7# FactoryBot
+## 7# FactoryBot
 
-O Factory Bot cria *fixtures* de teste que são objetos de teste falsos que podem ser reutilizados durante o teste. Imagine que em N lugares dos testes da sua aplicação você precisa ter um objeto do usuário. Ao invés de você declarar ele "na mão" em cada lugar desse, você apenas chama a Factory que faz isso pra você. 
+O FactoryBot cria *fixtures* de teste que são objetos de teste falsos que podem ser reutilizados durante o teste. Imagine que em N lugares dos testes da sua aplicação você precisa ter um objeto do usuário. Ao invés de você declarar ele "na mão" em cada lugar desse, você apenas chama a Factory que faz isso pra você. 
 
 ```ruby
 # ❌
@@ -301,7 +301,7 @@ Caso você precise mudar algum valor que está definido lá na Factory, basta pa
 let(:user) { FactoryBot.create :user, city: 'São Paulo', active: false }
 ```
 
-### 8# **build_stubbed**
+## 8# build_stubbed
 
 É um método do FactoryBot que não persiste o dado no banco, apenas te dá um objeto do que foi solicitado. Isso traz pequenas melhorias de performance, então, se você tiver uma pipeline de testes muito grande, isso pode te salvar alguns segundos :)
 
@@ -313,7 +313,7 @@ let(:user) { FactoryBoy.create :default_user }
 let(:user) { FactoryBot.build_stubbed :default_user }
 ```
 
-### 9# SimpleCov
+## 9# SimpleCov
 
 É um analisador de coverage para Ruby. Acho ele bem interessante porque te mostra exatamente qual parte do código não está coberto e você pode ir lá e consertar isso. Saiba mais sobre ele [aqui](https://github.com/simplecov-ruby/simplecov).
 
