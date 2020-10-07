@@ -53,6 +53,12 @@ const pluginConfig = [
   `gatsby-transformer-sharp`,
   `gatsby-plugin-sharp`,
   {
+    resolve: `gatsby-plugin-gtag`,
+    options: {
+      trackingId: `UA-163967455-2`,
+    },
+  },
+  {
     resolve: `gatsby-plugin-manifest`,
     options: {
       name: `Kaio Felipe Silva`,
