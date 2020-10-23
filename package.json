@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "author": "Kaio Felipe Silva <kaiofelipe.js@gmail.com>",
   "dependencies": {
-    "@react95/core": "^2.10.5",
+    "@react95/core": "^2.11.4",
     "algoliasearch": "^4.5.1",
     "babel-polyfill": "^6.26.0",
     "dotenv": "^8.2.0",
