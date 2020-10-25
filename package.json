@@ -20,7 +20,7 @@
     "gatsby-plugin-sharp": "^2.6.43",
     "gatsby-plugin-sitemap": "^2.4.14",
     "gatsby-plugin-styled-components": "^3.3.14",
-    "gatsby-plugin-transition-link": "^1.20.2",
+    "gatsby-plugin-transition-link": "^1.20.5",
     "gatsby-remark-images": "^3.3.33",
     "gatsby-remark-lazy-load": "^1.0.2",
     "gatsby-remark-prismjs": "^3.5.16",
