@@ -8475,7 +8475,7 @@ gatsby-cli@^2.12.111:
     yargs "^15.4.1"
     yurnalist "^1.1.2"
 
-gatsby-core-utils@^1.3.22, gatsby-core-utils@^1.3.23:
+gatsby-core-utils@^1.3.23:
   version "1.3.23"
   resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-1.3.23.tgz#5d99e86178b2aa3561f58fde4fdffbebecb0dd0c"
   integrity sha512-H6n6dDeRZ22HAJaBUIt5YjB/BSaE8Jq+kayMUv/YzL1RL2yFZ5lqcLwIL1OE2vWk1mQjMUBZCRxLODU0q1i3bQ==
@@ -8600,14 +8600,14 @@ gatsby-plugin-netlify-cms@^4.3.16:
     netlify-identity-widget "^1.9.1"
     webpack "^4.44.2"
 
-gatsby-plugin-offline@^3.2.28:
-  version "3.2.30"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-offline/-/gatsby-plugin-offline-3.2.30.tgz#cb30f22aeb5d77331c8b33e36fc2acb03f520b6b"
-  integrity sha512-2hEsV4w52A1EIcufjClAc7kNsq1URVK1Xt7K2M1+zmKLUAwrx/TpcOVt+3h589px/x/Fmu7nvVCxad50WyMvgg==
+gatsby-plugin-offline@^3.2.37:
+  version "3.2.37"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-offline/-/gatsby-plugin-offline-3.2.37.tgz#2c57f390425264cdc670c7b039cd1ca9857ea264"
+  integrity sha512-GwutE/t5t1SlPv8tQPboxGdwk2ERMFoVLE/LAMgLKnt+SonDk3kLd2+j7qwyA60qdVjyET1gGa2296gyPnLPsw==
   dependencies:
     "@babel/runtime" "^7.11.2"
     cheerio "^1.0.0-rc.3"
-    gatsby-core-utils "^1.3.22"
+    gatsby-core-utils "^1.3.23"
     glob "^7.1.6"
     idb-keyval "^3.2.0"
     lodash "^4.17.20"
