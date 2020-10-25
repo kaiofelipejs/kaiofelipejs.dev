@@ -6,8 +6,9 @@ description: Inclusão é uma constante na Vida de Recruiter. Fomos descobrir o
 date: 2019-07-02 01:09:02
 image: /assets/img/tdc-acess.png
 category: people
-background: "#7D669E"
+background: "#6C5291"
 ---
+
 Contratar pessoas com deficiência provavelmente já foi um tema que surgiu para você nessa Vida de Recruiter. Isso porque a legislação brasileira obriga empresas com mais de 100 funcionários a cumprirem uma cota dessas pessoas em seu quadro de colaboradores.
 
 As dores passam por diversas etapas de recrutamento: atrair PCDs para o processo seletivo, acessibilidade de testes, entrevistas e outras ferramentas de avaliação e até mesmo o contato interno com futuras lideranças e colegas dessas pessoas.
@@ -16,7 +17,7 @@ Aqui na RD damos [atenção especial para inclusão](https://resultadosdigitais.
 
 Nesse post vamos mostrar para você que tem e muito!
 
-*Esse post foi escrito e editado por mim junto com o [Vinicius Schmidt](https://www.linkedin.com/in/vinischmidt/).*
+_Esse post foi escrito e editado por mim junto com o [Vinicius Schmidt](https://www.linkedin.com/in/vinischmidt/)._
 
 ![TDC + Acessibilidade](/assets/img/tdc-acess.png "TDC + Acessibilidade")
 
@@ -47,7 +48,7 @@ Aqui na RD temos a prática de avaliar as pessoas em processo com uma etapa de d
 
 Essas ferramentas auxiliam bastante o nosso processo por ser uma etapa mais automatizada, clara, transparente e que gera uma devolutiva de perfil para a pessoa que realizou (o que é bacana para melhorar o autoconhecimento).
 
-Porém, temos um problema: essa ferramenta não é 100% acessível para todas as pessoas. E chegou um dia que precisávamos avaliar esses pontos, porém sem o uso da ferramenta. O que fazer? Vamos *“bypassar”* essa etapa e não avaliá-la? Não seria justo com as demais pessoas. A decisão foi mudar a ferramenta de avaliação para tornar acessível àquela pessoa que estava em processo. E aí veio um novo problema:
+Porém, temos um problema: essa ferramenta não é 100% acessível para todas as pessoas. E chegou um dia que precisávamos avaliar esses pontos, porém sem o uso da ferramenta. O que fazer? Vamos _“bypassar”_ essa etapa e não avaliá-la? Não seria justo com as demais pessoas. A decisão foi mudar a ferramenta de avaliação para tornar acessível àquela pessoa que estava em processo. E aí veio um novo problema:
 
 > “Como conseguir uma nova ferramenta em pouco tempo?”\
 > “Não temos budget para adquirir uma nova agora.”
@@ -78,16 +79,14 @@ O jogo tem cartas, pontos e desafios, e vale muito a pena conhecer se você aind
 
 É preciso, então, capacitar a liderança para além de um nível motivacional. Incluir não é só querer, é também saber, capacitar, se instrumentalizar. Na RD, usamos algumas estratégias:
 
-* Dinâmicas de vivência, que colocam a pessoa por algumas horas na condição de deficiência, para trazer consciência das barreiras;
-* Dinâmicas em grupo relacionadas à deficiência, para colocar essas situações em contextos coletivos e gerar empatia;
-* Conversas com especialistas, sempre em um bate papo informal com alguém que tenha grande propriedade sobre a deficiência, criando um espaço seguro de trocas onde a liderança tire todas as dúvidas que tiver;
-* Capacitações online, com cursos que tragam questões mais básicas e sirvam como uma referência inicial de inclusão.
+- Dinâmicas de vivência, que colocam a pessoa por algumas horas na condição de deficiência, para trazer consciência das barreiras;
+- Dinâmicas em grupo relacionadas à deficiência, para colocar essas situações em contextos coletivos e gerar empatia;
+- Conversas com especialistas, sempre em um bate papo informal com alguém que tenha grande propriedade sobre a deficiência, criando um espaço seguro de trocas onde a liderança tire todas as dúvidas que tiver;
+- Capacitações online, com cursos que tragam questões mais básicas e sirvam como uma referência inicial de inclusão.
 
 Em sua grande maioria, os maiores desafios de conversas com a gestão (e das outras etapas do processo seletivo também) estão relacionados ao medo do desconhecido. É raro alguém conviver de perto, durante sua vida, com alguma pessoa com deficiência, já que o acesso é tão difícil à escola, à faculdade, ao trabalho. Por isso, ser a fonte de informação relevante, verdadeira e confiável é o passo mais importante que você pode tomar como recruiter.
 
-> *Normalmente quando as pessoas estão bem informadas, elas tendem a tomar decisões mais inclusivas**.***
-
-
+> \*Normalmente quando as pessoas estão bem informadas, elas tendem a tomar decisões mais inclusivas**.\***
 
 # **A dica final:**
 

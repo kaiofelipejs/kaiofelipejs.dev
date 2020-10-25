@@ -11,7 +11,7 @@ slug:
   clean_accents: true
 
 collections:
-  - name: "posts" # Used in routes, e.g., /admin/collections/blog
+  - name: "posts" # Used in routes,
     label: "Posts" # Used in the UI
     folder: "posts" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
@@ -38,11 +38,11 @@ collections:
           widget: "select",
           options:
             [
-              { label: "Dev", value: "#637a91" },
-              { label: "Frontend", value: "#2DA0C3" },
+              { label: "Life", value: "#527310" },
+              { label: "People", value: "#6C5291" },
+              { label: "Dev", value: "#6C6C6C" },
+              { label: "Frontend", value: "#2A3FAA" },
               { label: "Backend", value: "#B31917" },
-              { label: "People", value: "#7D669E" },
-              { label: "Life", value: "#7AAB13" },
             ],
         }
       - { label: "Body", name: "body", widget: "markdown" }

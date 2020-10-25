@@ -4,11 +4,12 @@ description: "Calma, eu vou explicar esse título… "
 date: 2020-06-01 02:07:59
 image: /assets/img/preguica.jpeg
 category: life
-background: "#7AAB13"
+background: "#527310"
 ---
+
 Por vezes já falei para algumas pessoas que me considero “preguiçoso” e a resposta geralmente é “como assim?”, então quero explorar um pouquinho sobre isso nesse texto e mostrar um exemplo do meu dia a dia.
 
-“Ser preguiçoso” é a forma que eu gosto de me referir a algo conhecido no mercado como *Hacker Culture* (ou *Cultura Hacker,* em português*)* que, resumidamente, é encontrar/visualizar formas não convencionais para chegar num objetivo de forma ágil através de experimentos e alavancagens. Gosto de me referir assim porque geralmente causa esse susto nas pessoas, mas se você preferir utilizar Cultura Hacker (que é mais startupeiro), sem problemas.
+“Ser preguiçoso” é a forma que eu gosto de me referir a algo conhecido no mercado como _Hacker Culture_ (ou _Cultura Hacker,_ em português*)* que, resumidamente, é encontrar/visualizar formas não convencionais para chegar num objetivo de forma ágil através de experimentos e alavancagens. Gosto de me referir assim porque geralmente causa esse susto nas pessoas, mas se você preferir utilizar Cultura Hacker (que é mais startupeiro), sem problemas.
 
 > ### "Beleza, Kaio. Mas como ser preguiçoso vai me ajudar?"
 
@@ -20,7 +21,7 @@ Normalmente quando tenho um problema para resolver, a primeira coisa que eu pens
 
 Um dos papeis que eu exerço aqui no time de recrutamento é a parte de Sourcing — que, resumidamente, é a busca ativa por candidatas (os). A grande parte do meu tempo fica dedicado a isso, então eu devo ser o mais produtivo possível nessa tarefa.
 
-Uma das formas de encontrar pessoas que *tendem* a ter mais fit com a nossas tecnologias é buscar por pessoas que trabalham ou já trabalharam com as mesmas tecnologias que usamos (*avá!* meio óbvio isso, mas beleza, só para constar). Aqui na RD trabalhamos com diferentes tecnologias, mas a principal é Ruby. Então, navegando por aí, eu encontrei um catálogo com mais de 80 empresas que possuem em sua stack principal o Ruby. Para um (a) Sourcer isso é um tesouro!
+Uma das formas de encontrar pessoas que _tendem_ a ter mais fit com a nossas tecnologias é buscar por pessoas que trabalham ou já trabalharam com as mesmas tecnologias que usamos (_avá!_ meio óbvio isso, mas beleza, só para constar). Aqui na RD trabalhamos com diferentes tecnologias, mas a principal é Ruby. Então, navegando por aí, eu encontrei um catálogo com mais de 80 empresas que possuem em sua stack principal o Ruby. Para um (a) Sourcer isso é um tesouro!
 
 Minha ideia inicial foi criar uma pesquisa booleana com o nome dessas empresas como palavras chaves. E aqui que entra o problema: Como eu posso transformar essa lista em uma pesquisa booleana sem sofrer tanto?Basicamente, eu tinha três opções:
 
@@ -48,32 +49,32 @@ A maiorias das pessoas que trabalham comigo sabe que eu gosto de me aventurar a 
 
 A ideia é criar um algoritmo que receba uma lista contendo o nome de cada empresa e que ele me retorne todas elas dentro da formatação de uma pesquisa booleana — que é parecido com isso:
 
-*(“Empresa 1” OR “Empresa 2” OR “Empresa 3”)*
+_(“Empresa 1” OR “Empresa 2” OR “Empresa 3”)_
 
 O primeiro problema que tive foi que o catálogo não estava formatado como eu precisava para gerar essa lista. Então, eu usei o [VS Code](https://code.visualstudio.com/) (sim, editor de código mesmo) para me ajudar nessa formatação já que ele tem alguns atalhos a mais que um editor de texto normal e eu poderia ser mais produtivo.
 
 Feito a formatação, bora pro código. Não vou entrar em detalhes técnicos (até porque não é a ideia desse post), mas esse foi o resultado final do algoritmo:
 
 ```javascript
-const companies = ['Empresa 1', 'Empresa 2', 'Empresa 3'];
+const companies = ["Empresa 1", "Empresa 2", "Empresa 3"]
 
 const createBooleanSearch = (companies, operator) => {
-  operator += ' ';
-  let booleanSearch = '';
+  operator += " "
+  let booleanSearch = ""
 
-  companies.forEach((company) => {
-    booleanSearch += `"${company}" ${operator}`;
-    return booleanSearch;
+  companies.forEach(company => {
+    booleanSearch += `"${company}" ${operator}`
+    return booleanSearch
   })
 
-  console.log(formatBooleanSearch(booleanSearch));
+  console.log(formatBooleanSearch(booleanSearch))
 }
 
-const formatBooleanSearch = (booleanSearch) => {
-  return `(${booleanSearch.slice(0, booleanSearch.length - 4)})`;
+const formatBooleanSearch = booleanSearch => {
+  return `(${booleanSearch.slice(0, booleanSearch.length - 4)})`
 }
 
-createBooleanSearch(companies, 'OR');
+createBooleanSearch(companies, "OR")
 ```
 
 Você não precisa entender tudo que está rolando ali, existem outras N formas de se fazer isso (até mais otimizado), mas executando esse código, ele me retorna a pesquisa booleana formatada da forma como eu preciso. Ou seja, problema resolvido! :)
@@ -93,5 +94,5 @@ Eras isso, até a próxima!
 
 #### Referências
 
-* [BDUF — Podcast Dev na Estrada](https://devnaestrada.com.br/2019/08/02/big-design-up-front-bduf.html)
-* [Overengineering — Podcast Hipsters.Tech](https://hipsters.tech/overengineering-hipsters-142/)
+- [BDUF — Podcast Dev na Estrada](https://devnaestrada.com.br/2019/08/02/big-design-up-front-bduf.html)
+- [Overengineering — Podcast Hipsters.Tech](https://hipsters.tech/overengineering-hipsters-142/)
