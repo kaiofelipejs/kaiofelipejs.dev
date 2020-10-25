@@ -96,7 +96,7 @@ if (process.env.CONTEXT === "production") {
 module.exports = {
   siteMetadata: {
     position: `Software Engineer`,
-    description: `Um cara simples que escreve códigos, textos e gosta de café.`,
+    description: `Um cara simples que escreve alguns códigos e busca compartilhar conhecimento com outras pessoas.`,
     author: `Kaio Felipe Silva`,
     siteUrl: `https://kaiofelipejs.dev`,
   },
