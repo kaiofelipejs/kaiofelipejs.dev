@@ -46,7 +46,7 @@
     "@testing-library/jest-dom": "^5.11.5",
     "@testing-library/react": "^11.1.0",
     "babel-jest": "^26.6.1",
-    "babel-preset-gatsby": "^0.5.14",
+    "babel-preset-gatsby": "^0.5.16",
     "gatsby-plugin-root-import": "^2.0.5",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^26.6.1",
