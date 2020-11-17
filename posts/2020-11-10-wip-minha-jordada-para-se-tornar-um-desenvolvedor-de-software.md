@@ -1,5 +1,5 @@
 ---
-title: "[WIP] Minha jordada para se tornar um desenvolvedor de software"
+title: "[WIP] Minha jordada até se tornar um desenvolvedor de software"
 description: "Quero contar como foi essa experiência de mudança de carreira e os
   desafios que tive. "
 date: 2020-11-10 09:07:51
@@ -55,8 +55,12 @@ Lembra que eu falei que estava na faculdade de ADM? Então, eu tive um matéria 
 
 \> Não se perde aí nas datas, estamos no primeiro trimestre de 2018. 
 
-\## A mudança
+\## A primeira transiçao
 
-Nesse trimestre eu havia sido promovido para Analista Administrativo, estava contente por ser reconhecido, mas ainda assim o dia a dia não era aquele que eu queria. Foi então que ali por março comecei a dar uma olhada em outras oportunidades. 
+Nesse trimestre eu havia sido promovido para Analista Administrativo, estava contente por ser reconhecido, mas ainda assim o dia a dia não era aquele que eu queria. Foi então que ali por março comecei a dar uma olhada em outras oportunidades. Confesso que eu não tinha planejado muita coisa como qual área eu gostaria de ir, salário, tipo de empresa e outras coisas. A única certeza que eu tinha era que gostaria de estar mais próximo do mundo de tecnologia. 
 
-Confesso que eu não tinha planejado muita coisa como qual área eu gostaria de ir, salário, tipo de empresa e tudo mais.
+No meio disso, eu lembrei da Resultados Digitais e me apliquei numa vaga que era do programa de contratação para pessoas com deficiência. 
+
+\> Pra quem não sabe, eu tenho visão monocular, ou seja, enxergo o mundo com apenas um olho ;)
+
+Não era uma vaga específica, o intuito do programa é conhecer as pessoas e ver onde poderia fazer mais sentido. Encurtanto a história e indo direto para entrevista eu lembro que foi uma conversa muito transparente
