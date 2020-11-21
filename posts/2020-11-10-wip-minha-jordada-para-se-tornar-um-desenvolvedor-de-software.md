@@ -97,12 +97,26 @@ E foi desse jeito meio estranho que no dia 08/06/2020 iniciei oficialmente minha
 
 \## Aprendizados: 
 
-\- **Tenha claro o seu objetivo.** Essa foi a única certeza que eu tinha quando iniciei essa jornada e isso fazia com que meus esforços eram direcionados para ele e não para outra coisa. 
+\#### **Tenha claro o seu objetivo.** 
 
-\- **Seja transparente.** A certeza que temos é que o as pessoas e o contexto vão mudar e você precisa realinhar as conversas sempre. Várias pessoas podem ser sua aliada nessa jornada e basta você ser transparente sobre seus objetivos. 
+Essa foi a única certeza que eu tinha quando iniciei essa jornada e isso fazia com que meus esforços eram direcionados para ele e não para outra coisa. 
 
-\- **Não pense apenas no hoje, olhe para o longo prazo.** Normalmente queremos tudo para agora e nem sempre isso é possível. Não sei se você reparou, mas demorou **2 anos e 3 meses para essa jornada de transição se concluir**. Eu desanimei em alguns momentos? Sim, vários. Mas pensar no longo prazo era o que ajudava a seguir no objetivo.
+**\#### Seja transparente.** 
 
-\- **Não espere por um fenômeno.** 
+A certeza que temos é que o as pessoas e o contexto vão mudar e você precisa realinhar as conversas sempre. Várias pessoas podem ser sua aliada nessa jornada e basta você ser transparente sobre seus objetivos. 
 
-\- **Seja profissional.** Isso é meio básico, mas
+**\#### Não pense apenas no hoje, olhe para o longo prazo.** 
+
+Normalmente queremos tudo para agora e nem sempre isso é possível. Não sei se você reparou, mas demorou **2 anos e 3 meses para essa jornada de transição se concluir**. Eu desanimei em alguns momentos? Sim, vários. Mas pensar no longo prazo era o que ajudava a seguir no objetivo. Pode parecer duro, mas não é porque você terminou um bootcamp de 6 meses que você já está 100% pronto para uma jornada profissional. 
+
+"Ah, mas aconteceu isso com meu amigo", beleza, mas as histórias não são iguais. Escreva a sua própria :)
+
+**\#### Não espere por um fenômeno.** 
+
+Não vai haver um momento extraordinário que alguém do absoluto nada vai te convidar para uma mudança assim. **Você precisa construir isso no dia a dia, com consistência.** Eu não to falando de meritocracia, estou falando que você se torna mais aquilo que você quer evoluindo no dia a dia. Ou seja, eu me tornava mais desenvolvedor de software, todos os dias que eu buscava mais conhecimento sobre aquilo. 
+
+\#### **Seja profissional.** 
+
+Isso é meio básico, mas parece necessário falar. Alinhe seus objetivos com as pessoas que trabalham com você e principalmente com sua liderança. 
+
+\#### **Esteja preparado.**
