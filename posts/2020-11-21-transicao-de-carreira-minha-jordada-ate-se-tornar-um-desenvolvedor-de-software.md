@@ -112,6 +112,6 @@ Como falei anteriormente, se prepare um pouquinho todos os dias. Eu poderia ter 
 
 Bom, eu acho que era isso. Eu devo ter esquecido de vários outros pontos, mas, de verdade, eu espero que esse texto possa ajudar de alguma forma quem também pretende ou está passando por esse momento de transição. 
 
-Se ficou com alguma dúvida ou quiser saber mais detalhes de algum momento específico, fica super a vontade para me perguntar, seja nos comentários ou nas redes (elas estão na página sobre mim). Eu realmente gosto de falar sobre isso e vai ser um baita prazer ajudar. 
+Se ficou com alguma dúvida ou quiser saber mais detalhes de algum momento específico, fique super a vontade para me perguntar, seja aqui nos comentários ou nas redes (elas estão na página sobre mim). Eu realmente gosto de falar sobre isso e vai ser um baita prazer ajudar. 
 
 Até mais!
