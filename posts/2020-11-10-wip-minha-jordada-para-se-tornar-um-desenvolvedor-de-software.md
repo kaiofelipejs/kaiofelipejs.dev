@@ -8,18 +8,6 @@ image: /assets/img/praticas-rspec.png
 category: dev
 background: "#6C6C6C"
 ---
-Falar sobre: 
-
-\- quando que desejei isso e como descobri que era isso que queria
-
-\- como foi o alinhamento no processo seletivo
-
-\- como foi o alinhamento com minhas lideranças e como isso se perpetuou com as mudanças
-
-\- como minha liderança me ajudou
-
-\- a importância de ter transparência, dedicação e querer fazer acontecer.
-
 Várias pessoas já me perguntaram como foi o processo de transição para carreira como desenvolvedor. Nesse post quero contar desde o começo como tudo foi acontecendo e os aprendizados, desafios e ajudas que tive durante esse tempo. 
 
 Eu passei por esse processo de transição de carreira duas vezes. A primeira foi quando eu trabalhava como Analista Adminsitrativo e passei a ser Recrutador Técnico e a segunda transição que foi do recrutamento para o desenvolvimento de software. Parece não ser uma carreira tão "lógica", mas vem comigo para conhecer como foi isso :) 
