@@ -81,8 +81,28 @@ Reparou que eu destaquei que a minha liderança mudou?! Então, isso é importan
 
 Na RD, temos conversas individuais, um para um, de forma recorrente (~15 dias) e isso ajuda/ajudou muito nesse novo alinhamento. Foram nessas conversas que deixei claro esse desejo de um dia fazer essa transição e queria que isso acontecesse de forma tranquila sem deixar ninguém na mão. Feito isso, perfeito, ficamos alinhados e eu constantemente era incentivado e empurrado (no bom sentido) pela minha líder sensacional (que era a Paula). 
 
-Até aqui eu não falei nada técnico, certo?! Então, como eu poderia evidenciar que estava realmente querendo fazer isso acontecer? Sendo direto, colocando a mão na massa e fazendo acontecer. Se tinha alguma necessidade um pouquinho mais técnica que me forçasse a aprender mais de tecnologia, eu tava lá envolvido. Isso foi desde automações de planilhas até lidar com integrações entre sistemas. Um exemplo de algo que nasceu assim e de forma open source foi o Remote HeartCount, se quiser saber mais sobre ele dá uma olhada [](https://github.com/kaiofelipejs/remoteheartcount-frontend)no [repositório no Github](https://github.com/kaiofelipejs/remoteheartcount-frontend). Eu aprendia **muito** com esses desafios assim e recomendo demais para quem está vivendo um momento semelhante. Além disso, foi dessa forma também que o time de desenvolvimento começou a saber que eu minimamente sabia algo *(quem não é visto, não é lembrado não é mesmo?!).*
+Até aqui eu não falei nada técnico, certo?! Então, como eu poderia evidenciar que estava realmente querendo fazer isso acontecer? Sendo direto, colocando a mão na massa e fazendo acontecer. Se tinha alguma necessidade um pouquinho mais técnica que me forçasse a aprender mais de tecnologia, eu tava lá envolvido. Isso foi desde automações de planilhas até lidar com integrações entre sistemas. Um exemplo de algo que nasceu assim e de forma open source foi o Remote HeartCount, se quiser saber mais sobre ele dá uma olhada [](https://github.com/kaiofelipejs/remoteheartcount-frontend)no [repositório no Github](https://github.com/kaiofelipejs/remoteheartcount-frontend). Eu aprendia **muito** com esses desafios assim e recomendo demais para quem está vivendo um momento semelhante. Além disso, foi dessa forma também que o time de desenvolvimento começou a saber que eu minimamente sabia algo *(quem não é visto, não é lembrado não é mesmo?!).* Falando nisso, no meio disso tudo eu sempre buscava me envolver em iniciativas da área de desenvolvimento, como hackathons internos e coisas do tipo. Não ganhei nenhum deles, mas ganhei bastante aprendizado e isso já tava valendo :D 
 
-Eu poderia em estender mais aqui em outros detalhes específicos desse período, mas agora quero pular para março de 2020, a pandemia. 
+Bom, eu poderia em estender mais aqui em outros detalhes específicos desse período, mas não me parece necessário. Vamos pular para março/abril de 2020, a pandemia. 
 
 \## Há males que vem para bem
+
+Como todos sabem, a pandemia pegou todo mundo de surpresa e abalou muito o mundo como um todo e, obviamente, a gente sentiu isso também. Para remediar a situação, precisamos congelar as vagas. Agora pense, minha principal função era recrutar, trazer mais e mais gente para dentro e agora isso não era mais possível. Resumindo, a conta não fechava. Sinceramente, eu esperava pelo pior, algo como uma demissão, porque era o que eu estava vendo acontecer todos os dias no mercado. Porém, tiveram uma ideia de realocar as pessoas que ficaram com baixa demanda para outras áreas que estavam precisando e tivesse relação com seu objetivo de carreira. Essas mudanças poderiam ser temporárias ou permanentes. E sim, eu estava nesse "bolo". 
+
+Agora, lembra que eu tinha alinhado com minhas lideranças, participado de iniciativas de desenvolvimento, construído coisas com código para ajudar meu time e outras coisas?! Então, ficou mais claro para onde poderiam me direcionar, já que desde sempre eu apontava para o mesmo lugar. Foi então que recebi a notícia de que essa mudança aconteceria em breve. Era um sentimento estranho, não sei nem definí-lo. Feliz por estar realizando um sonho, mas triste pelo contexto ser tão contrário. De qualquer forma, o jogo tinha que continuar e isso ia acontecer. 
+
+Repara que, o nosso plano (meu e da minha liderança) era fazer essa transição de forma tranquila, o que foi totalmente ao contrário no cenário da pandemia. A gente até brincou que dessa vez ela não deu um empurrão, ela me jogou de vez 😂.
+
+E foi desse jeito meio estranho que no dia 08/06/2020 iniciei oficialmente minha carreira como desenvolvedor de software. Agora que contei a história toda (de forma resumida, mas com alguns detalhes) quero destacar os principais pontos que eu acredito que pode te ajudar numa transição também: 
+
+\## Aprendizados: 
+
+\- **Tenha claro o seu objetivo.** Essa foi a única certeza que eu tinha quando iniciei essa jornada e isso fazia com que meus esforços eram direcionados para ele e não para outra coisa. 
+
+\- **Seja transparente.** A certeza que temos é que o as pessoas e o contexto vão mudar e você precisa realinhar as conversas sempre. Várias pessoas podem ser sua aliada nessa jornada e basta você ser transparente sobre seus objetivos. 
+
+\- **Não pense apenas no hoje, olhe para o longo prazo.** Normalmente queremos tudo para agora e nem sempre isso é possível. Não sei se você reparou, mas demorou **2 anos e 3 meses para essa jornada de transição se concluir**. Eu desanimei em alguns momentos? Sim, vários. Mas pensar no longo prazo era o que ajudava a seguir no objetivo.
+
+\- **Não espere por um fenômeno.** 
+
+\- **Seja profissional.** Isso é meio básico, mas
