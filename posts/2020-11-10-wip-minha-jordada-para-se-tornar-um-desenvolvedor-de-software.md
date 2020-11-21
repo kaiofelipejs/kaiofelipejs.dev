@@ -1,8 +1,9 @@
 ---
-title: "[WIP] Minha jordada até se tornar um desenvolvedor de software"
-description: "Quero contar como foi essa experiência de mudança de carreira e os
-  desafios que tive. "
-date: 2020-11-10 09:07:51
+title: "Transição de carreira: minha jordada até se tornar um desenvolvedor de
+  software"
+description: "Quero contar como foi essa experiência de mudança de carreira
+  desde o começo e os desafios e aprendizados que tive. "
+date: 2020-11-21 08:11:39
 image: /assets/img/praticas-rspec.png
 category: dev
 background: "#6C6C6C"
