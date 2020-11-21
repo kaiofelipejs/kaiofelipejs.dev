@@ -57,10 +57,32 @@ Lembra que eu falei que estava na faculdade de ADM? Então, eu tive um matéria 
 
 \## A primeira transiçao
 
-Nesse trimestre eu havia sido promovido para Analista Administrativo, estava contente por ser reconhecido, mas ainda assim o dia a dia não era aquele que eu queria. Foi então que ali por março comecei a dar uma olhada em outras oportunidades. Confesso que eu não tinha planejado muita coisa como qual área eu gostaria de ir, salário, tipo de empresa e outras coisas. A única certeza que eu tinha era que gostaria de estar mais próximo do mundo de tecnologia. 
+Nesse trimestre eu havia sido promovido para Analista Administrativo, estava contente por ser reconhecido, mas ainda assim o dia a dia não era aquele que eu queria. Foi então que ali por março comecei a dar uma olhada em outras oportunidades. Confesso que eu não tinha planejado muita coisa como qual área eu gostaria de ir, salário, tipo de empresa e outras coisas. **A única certeza que eu tinha era que gostaria de estar mais próximo do mundo de tecnologia.** 
 
 No meio disso, eu lembrei da Resultados Digitais e me apliquei numa vaga que era do programa de contratação para pessoas com deficiência. 
 
 \> Pra quem não sabe, eu tenho visão monocular, ou seja, enxergo o mundo com apenas um olho ;)
 
-Não era uma vaga específica, o intuito do programa é conhecer as pessoas e ver onde poderia fazer mais sentido. Encurtanto a história e indo direto para entrevista eu lembro que foi uma conversa muito transparente
+Não era uma vaga específica, o intuito do programa é conhecer as pessoas e ver onde poderia fazer mais sentido. Encurtanto a história e indo direto para as entrevistas lembro que foram conversas muito transparentes sobre ambiente, cultura e principalmente sobre o que eu sabia, não sabia e o que eu queria. Lembro também de ter falado que naquele momento específico, eu não me sentia preparado ainda para estar numa "cadeira" de desenvolvedor, mas a meta a longo prazo era essa. E aqui quero reforçar o quanto a transparência nesse processo é crucial. Repara que, se realmente a empresa quisesse me contratar a gente já teria um "acordo" que em algum momento, no longo prazo, uma transição assim poderia acontecer? E sim, isso ajudou muito lá na frente. Preciso destacar aqui que eu tive um tanto de sorte por falar com pessoas extremamente fora da curva como a Cá e a Mari (que sou muito grato pela oportunidade até hoje) que me entrevistaram e viram que isso poderia dar bom.
+
+Feito as conversas, vimos que uma possibilidade muito boa era eu entrar como um Assistente de Tech Recruiter. O que eu pensei foi: "eu ainda não conheço todo o universo de tecnologia (áreas, vagas, especialidades, requisitos...), mas aqui vou poder aprender isso tudo e me preparar para uma possível transição. Além disso, estarei muito próximo do mundo de tecnologia, então perfeito!". E no dia 02/04/2018 eu começava essa nova jornada.
+
+De forma resumida, foi assim que minha primeira transição aconteceu. Pouco planejamento, uma certeza muito forte, muita transpaência e um tanto de sorte. Vai ser assim pra todo mundo? Com certeza não, mas talvez você pode tirar algum aprendizado daqui. 
+
+> *Bora para a próxima transição!*
+
+\## A segunda transição: indo para o mundo de desenvolvimento
+
+Bom, chegamos na parte que considero o ápice desse texto (e acho que é o que você quer mais saber também). Para não entrar em muitos detalhes, vamos começar a partir do último trimestre de 2019. A essa altura, várias coisas já tinham acontecido: batemos recordes, fui promovido, **minha liderança mudou**, meu time diminuiu e cresceu de novo, além de vááárias outras coisas. 
+
+Reparou que eu destaquei que a minha liderança mudou?! Então, isso é importante e quero falar mais sobre. A nova pessoa que entrou, obviamente, não havia me entrevistado e não estava por dentro daquele "acordo" que tínhamos feito sobre um possível transição no futuro. Aí que entra novamente a transparência.
+
+> Antes de continuar, quero destacar algo que falamos muito e eu acredito também: Nós somos responsáveis pela nossa carreira. Não é nossa liderança que deve trilhar qual caminho seguir, mas sim, nós de forma proativa. A liderança vai nos ajudar nesse processo para que isso ocorra da melhor forma e no melhor momento possível (sim, eu sei que não é assim em todos lugares, mas busque trazer essa responsabilidade da **sua** carreira para a **sua** mão).
+
+Na RD, temos conversas individuais, um para um, de forma recorrente (~15 dias) e isso ajuda/ajudou muito nesse novo alinhamento. Foram nessas conversas que deixei claro esse desejo de um dia fazer essa transição e queria que isso acontecesse de forma tranquila sem deixar ninguém na mão. Feito isso, perfeito, ficamos alinhados e eu constantemente era incentivado e empurrado (no bom sentido) pela minha líder sensacional (que era a Paula). 
+
+Até aqui eu não falei nada técnico, certo?! Então, como eu poderia evidenciar que estava realmente querendo fazer isso acontecer? Sendo direto, colocando a mão na massa e fazendo acontecer. Se tinha alguma necessidade um pouquinho mais técnica que me forçasse a aprender mais de tecnologia, eu tava lá envolvido. Isso foi desde automações de planilhas até lidar com integrações entre sistemas. Um exemplo de algo que nasceu assim e de forma open source foi o Remote HeartCount, se quiser saber mais sobre ele dá uma olhada [](https://github.com/kaiofelipejs/remoteheartcount-frontend)no [repositório no Github](https://github.com/kaiofelipejs/remoteheartcount-frontend). Eu aprendia **muito** com esses desafios assim e recomendo demais para quem está vivendo um momento semelhante. Além disso, foi dessa forma também que o time de desenvolvimento começou a saber que eu minimamente sabia algo *(quem não é visto, não é lembrado não é mesmo?!).*
+
+Eu poderia em estender mais aqui em outros detalhes específicos desse período, mas agora quero pular para março de 2020, a pandemia. 
+
+\## Há males que vem para bem
