@@ -26,9 +26,7 @@ Passou-se esse ano, finalizei o curso, mas aquela altura eu não tinha muita mat
 
 Isso me travou demais e por muito tempo! Pretendo falar um pouco mais só desse tópico de insegurança em outro post, mas quero adiantar que isso acontece várias vezes no dia a dia de uma pessoa desenvolvedora e tudo bem, você pode aprender durante o processo.
 
-Bom, acabou que eu gostei muito, mas não conhecia muito do mercado e me sentia bastante inseguro com esse mundo.
-
-\--- 
+Bom, acabou que eu gostei muito, mas não conhecia muito do mercado e me sentia bastante inseguro com esse mundo. 
 
 \## O que aconteceu entre 2015 - 2018 na minha carreira
 
