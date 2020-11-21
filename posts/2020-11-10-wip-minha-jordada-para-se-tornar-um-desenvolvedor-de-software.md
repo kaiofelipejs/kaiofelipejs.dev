@@ -97,9 +97,9 @@ E foi desse jeito meio estranho que no dia 08/06/2020 iniciei oficialmente minha
 
 \## Aprendizados: 
 
-\#### **Tenha claro o seu objetivo.** 
+\#### **Tenha claro o seu objetivo e entenda seu momento.** 
 
-Essa foi a única certeza que eu tinha quando iniciei essa jornada e isso fazia com que meus esforços eram direcionados para ele e não para outra coisa. 
+Eu tinha uma única certeza quando iniciei essa jornada (se não lembra qual era, dá uma olhada na parte da primeira transição). Isso fez com que eu direcionasse meus esforços para esse objetivo e não para outra coisa. 
 
 **\#### Seja transparente.** 
 
@@ -115,8 +115,16 @@ Normalmente queremos tudo para agora e nem sempre isso é possível. Não sei se
 
 Não vai haver um momento extraordinário que alguém do absoluto nada vai te convidar para uma mudança assim. **Você precisa construir isso no dia a dia, com consistência.** Eu não to falando de meritocracia, estou falando que você se torna mais aquilo que você quer evoluindo no dia a dia. Ou seja, eu me tornava mais desenvolvedor de software, todos os dias que eu buscava mais conhecimento sobre aquilo. 
 
-\#### **Seja profissional.** 
+\#### **Seja profissional, a sua carreira é de sua responsabilidade.** 
 
-Isso é meio básico, mas parece necessário falar. Alinhe seus objetivos com as pessoas que trabalham com você e principalmente com sua liderança. 
+Isso me parece meio básico, mas é necessário falar. Você é responsável por decidir para onde quer direcionar sua carreira. Eu tenho certeza absoluta que você se conhece muito mais do que a sua liderança, não é mesmo?! Então crie objetivos, alinhe-os com as pessoas que trabalham com você e faça acontecer. Pode ter certeza que será muito menos custoso para ambos.  
 
 \#### **Esteja preparado.**
+
+Como falei anteriormente, se prepare um pouquinho todos os dias. Eu poderia ter perdido uma oportunidade gigante de transição de carreira se eu não estivesse minimamente preparado para ser um desenvolvedor. Estude, pesquise e entenda o que é necessário para cumprir aquele papel e se coloque a prova em desafios pessoais e profissionais.
+
+Bom, eu acho que era isso. Eu devo ter esquecido de vários outros pontos, mas, de verdade, eu espero que esse texto possa ajudar de alguma forma quem também pretende ou está passando por esse momento de transição. 
+
+Se ficou com alguma dúvida ou quiser saber mais detalhes de algum momento específico, fica super a vontade para me perguntar, seja nos comentários ou nas redes (elas estão na página sobre mim). Eu realmente gosto de falar sobre isso e vai ser um baita prazer ajudar. 
+
+Até mais!
