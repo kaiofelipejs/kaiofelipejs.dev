@@ -14,11 +14,11 @@ Eu passei por esse processo de transição de carreira duas vezes. A primeira fo
 
 ## Tudo começou lá em 2014
 
-> *Uai, tão longe assim?* 
+> Uai, tão longe assim?
 
 Pois é. Em 2014, aos 14-15 anos foi onde tive meu primeiro contato com programação num curso do SENAI onde fui convidado a entrar nele graças a um baita amigo * (saudades Abreu!)*. Lá eu aprendi a criar sites lidando com HTML, CSS, um pouco de Javascript com jQuery e, principalmente, PHP e MySQL. O curso tinha duração de um ano e no final tinhamos que apresentar um TCC com um projeto completo. 
 
-> *Só por curiosidade: nessa época eu andava muito de skate e meu TCC era sobre uma escola de skate chamada Saint Skateboard que no seu site oferecia os pacotes de aulas e do lado admin gerenciava os alunos, professores e turmas. Foi bem divertido.* 
+> Só por curiosidade: nessa época eu andava muito de skate e meu TCC era sobre uma escola de skate chamada Saint Skateboard que no seu site oferecia os pacotes de aulas e do lado admin gerenciava os alunos, professores e turmas. Foi bem divertido.
 
 Passou-se esse ano, finalizei o curso, mas aquela altura eu não tinha muita maturidade e clareza para saber se realmente dava para seguir carreira área de desenvolvimento. Além disso, eu sempre tive uma enorme insegurança e quando eu pensava no meu dia a dia trabalhando com tecnologia, a única coisa que me vinha na cabeça era: 
 
@@ -56,7 +56,7 @@ Feito as conversas, vimos que uma possibilidade muito boa era eu entrar como um 
 
 De forma resumida, foi assim que minha primeira transição aconteceu. Pouco planejamento, uma certeza muito forte, muita transpaência e um tanto de sorte. Vai ser assim pra todo mundo? Com certeza não, mas talvez você pode tirar algum aprendizado daqui. 
 
-> *Bora para a próxima transição!*
+> Bora para a próxima transição!
 
 ## A segunda transição: indo para o mundo de desenvolvimento
 
@@ -72,7 +72,7 @@ Porém, aqui surge um novo desafio: alinhei que queria fazer isso acontecer, mas
 
 Se surgisse alguma necessidade do time que fosse um pouquinho mais técnica e me desafiasse aprender mais de tecnologia, eu tava lá envolvido. Isso foi desde automações de planilhas até lidar com integrações entre sistemas. 
 
-> *Um exemplo de algo que nasceu assim e de forma open source foi o Remote HeartCount. Se quiser saber mais sobre ele dá uma olhada no [repositório no Github](https://github.com/kaiofelipejs/remoteheartcount-frontend).*
+> Um exemplo de algo que nasceu assim e de forma open source foi o Remote HeartCount. Se quiser saber mais sobre ele dá uma olhada no [repositório no Github](https://github.com/kaiofelipejs/remoteheartcount-frontend).
 
 Eu aprendi **muito** com esses desafios e recomendo demais para quem está vivendo um momento semelhante. Foi dessa forma também que o time de desenvolvimento começou a saber que eu minimamente sabia algo * — quem não é visto, não é lembrado não é mesmo?!* Falando nisso, no meio disso tudo eu buscava sempre me envolver em iniciativas da área de desenvolvimento, como hackathons internos e coisas do tipo. Não ganhei nenhum deles, mas ganhei bastante aprendizado e isso já tava valendo :D 
 
@@ -88,7 +88,7 @@ Repara que, o nosso plano (meu e da minha liderança) era fazer essa transição
 
 E foi desse jeito meio estranho que no dia 08/06/2020 iniciei oficialmente minha carreira como desenvolvedor de software. 
 
-> *Para evidenciar como as coisas se relacionam e a importância de estar envolvido: o time que eu fui destinado (e que faço parte hoje) era o time que eu estava no hackathon também!*
+> Para evidenciar como as coisas se relacionam e a importância de estar envolvido: o time que eu fui destinado (e que faço parte hoje) era o time que eu estava no hackathon também!
 
 Bom, agora que contei a história toda (de forma resumida, mas com alguns detalhes) quero destacar os principais pontos que eu acredito que pode te ajudar numa transição também: 
 
@@ -110,7 +110,7 @@ Normalmente queremos tudo para agora e nem sempre isso é possível. Não sei se
 
 ### Não espere por um fenômeno.
 
-Não vai haver um momento extraordinário que alguém do absoluto nada vai te convidar para uma mudança assim. **Você precisa construir isso no dia a dia, com consistência.** Eu não to falando de meritocracia, estou falando que você se torna mais aquilo que você quer evoluindo no dia a dia. Ou seja, eu me tornava mais desenvolvedor de software, todos os dias que eu buscava mais conhecimento sobre aquilo. 
+Não haverá um momento extraordinário que alguém do absoluto nada vai te convidar para uma mudança assim. **Você precisa construir isso no dia a dia, com consistência.** Eu não to falando de meritocracia, estou falando que você se torna mais aquilo que você quer evoluindo no dia a dia. Ou seja, eu me tornava mais desenvolvedor de software, todos os dias que eu buscava mais conhecimento sobre aquilo. 
 
 ### Seja profissional, a sua carreira é de sua responsabilidade.
 
@@ -128,10 +128,10 @@ Por último mas não menos importante, seja dono(a) da sua história. A minha ac
 
 Não tente se comparar ou tentar apressar os passos. Cada pessoa tem seu tempo e o importante é saber aproveitar ao máximo dessa jornada. 
 
-> ## ...
+> # ...
 
 Bom, eu acho que era isso. Eu devo ter esquecido de alguns outros detalhes ou misturado algumas datas (sou meio ruim com isso), mas, de verdade, eu espero que esse texto te possa ajudar de alguma forma. 
 
 Se ficou com alguma dúvida ou quiser saber mais detalhes de algum momento específico, fique super a vontade para me perguntar, seja aqui nos comentários ou nas redes (elas estão na página sobre mim). Eu realmente gosto de falar sobre isso e vai ser um baita prazer ajudar. 
 
-Até mais!
+Até a próxima! 👋🏽
