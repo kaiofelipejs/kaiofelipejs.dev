@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: kaiofelipejs/kaiofelipejs.dev
-  branch: staging
+  branch: main
 
 media_folder: static/assets/img
 public_folder: /assets/img
