@@ -20,13 +20,11 @@ Se não tiver afim de ler toda a história e conhecer os detalhes, você pode [p
 
 Pois é. Em 2014, aos 14-15 anos foi onde tive meu primeiro contato com programação num curso do SENAI onde fui convidado a entrar nele graças a um baita amigo  *(saudades Abreu!)*. Lá eu aprendi a criar sites lidando com HTML, CSS, um pouco de Javascript com jQuery e, principalmente, PHP e MySQL. O curso tinha duração de um ano e no final tinhamos que apresentar um TCC com um projeto completo. 
 
-> Só por curiosidade: nessa época eu andava muito de skate e meu TCC era sobre uma escola de skate chamada Saint Skateboard que no seu site oferecia os pacotes de aulas e do lado admin gerenciava os alunos, professores e turmas. Essa imagem abaixo é a logo da nossa escola, nostalgia pura 😅.
->
-> ![Um boneco com asas e um auréola em cima de um skate e ao lado escrito o nome da escola "Saint Skateboard"](/assets/img/saint-skateboard.png "Saint Skateboard")
+> Só por curiosidade: nessa época eu andava muito de skate e meu TCC era sobre uma escola de skate chamada Saint Skateboard que no seu site oferecia os pacotes de aulas e do lado admin gerenciava os alunos, professores e turmas. Foi bem divertido 😅.
 
 Passou-se esse ano, finalizei o curso, mas aquela altura eu não tinha muita maturidade e clareza para saber se realmente dava para seguir carreira área de desenvolvimento. Além disso, eu sempre tive uma enorme insegurança e quando eu pensava no meu dia a dia trabalhando com tecnologia, a única coisa que me vinha na cabeça era: 
 
-> *"E se te pedirem para fazer uma coisa que eu não sei fazer?"*
+> *"E se me pedirem para fazer uma coisa que eu não sei fazer?"*
 
 Isso me travou demais e por muito tempo! Pretendo falar um pouco mais só desse tópico de insegurança em outro post, mas quero adiantar que isso acontece várias vezes no dia a dia de uma pessoa desenvolvedora e tudo bem, você pode aprender durante o processo.
 
@@ -60,17 +58,17 @@ Feito as conversas, vimos que uma possibilidade muito boa era entrar como um Ass
 
 De forma resumida, foi assim que minha primeira transição aconteceu. Pouco planejamento, uma certeza muito forte, muita transpaência e um tanto de sorte. Vai ser assim pra todo mundo? Com certeza não, mas talvez você pode tirar algum aprendizado daqui. 
 
-> Bora para a próxima transição!
+> Bora para a próxima!
 
 ## A segunda transição: indo para o mundo de desenvolvimento
 
-Bom, chegamos na parte que considero o ápice desse texto (e acho que é o que você quer mais saber também). Para não entrar em muitos detalhes, vamos começar a partir do último trimestre de 2019. A essa altura, várias coisas já tinham acontecido: batemos recordes, fui promovido, troquei Administração por Análise e Desenvolvimento de Sistemas, **minha liderança mudou**, meu time diminuiu e cresceu de novo, além de vááárias outras coisas.
+Bom, chegamos na parte que considero o ápice desse texto (e acho que é o que você quer mais saber também). Para não entrar em muitos detalhes, vamos começar a partir do último trimestre de 2019. A essa altura, várias coisas já tinham acontecido: batemos recordes, fui promovido, troquei Administração por Análise e Desenvolvimento de Sistemas, **minha liderança mudou**, meu time diminuiu e cresceu de novo, além de *vááárias* outras coisas.
 
 Reparou que eu destaquei que a minha liderança mudou?! Então, isso é importante e quero falar mais sobre. A nova pessoa que entrou, obviamente, não havia me entrevistado e não estava por dentro daquele "acordo" que tínhamos feito sobre uma possível transição no futuro. Aí que entra novamente a transparência.
 
 > Antes de continuar, quero destacar algo que falamos muito aqui na RD e eu acredito também: **Nós somos responsáveis pela nossa carreira.** Não é nossa liderança que deve decidir qual caminho seguir, mas sim, nós de forma proativa. A liderança pode/vai nos ajudar nesse processo fazendo com que isso ocorra da melhor forma e no melhor momento possível (sim, eu sei que não é assim em todos lugares, mas acredito que estamos evoluindo nisso como um todo).
 
-Na RD, temos conversas individuais, um para um, de forma recorrente (~15 dias) e isso ajudou muito nesse novo alinhamento. Foram nessas conversas que deixei claro esse desejo de um dia fazer uma transição para desenvolvimento e queria que isso acontecesse de forma tranquila, sem deixar ninguém na mão. Feito isso, perfeito, ficamos alinhados e eu constantemente era incentivado e empurrado (no bom sentido) pela minha líder sensacional (que era a Paula).
+Na RD temos conversas individuais, um para um, de forma recorrente (~15 dias) e isso ajudou muito nesse novo alinhamento. Foram nessas conversas que deixei claro esse desejo de um dia fazer uma transição para desenvolvimento e queria que isso acontecesse de forma tranquila, sem deixar ninguém na mão. Feito isso, perfeito, ficamos alinhados e eu constantemente era incentivado e empurrado (no bom sentido) pela minha líder sensacional (que era a Paula).
 
 Porém, aqui surge um novo desafio: alinhei que queria fazer isso acontecer, mas **como eu posso evidenciar que estava realmente querendo isso?** Sendo direto, indo para cima e colocando a mão na massa. 
 
@@ -78,13 +76,15 @@ Se surgisse alguma necessidade do time que fosse um pouquinho mais técnica e me
 
 > Um exemplo de algo que nasceu assim e de forma open source foi o Remote HeartCount. Se quiser saber mais sobre ele dá uma olhada no [repositório no Github](https://github.com/kaiofelipejs/remoteheartcount-frontend).
 
-Eu aprendi **muito** com esses desafios e recomendo demais para quem está vivendo um momento semelhante. Foi dessa forma também que o time de desenvolvimento começou a saber que eu minimamente sabia algo  *— quem não é visto, não é lembrado não é mesmo?!* Falando nisso, no meio disso tudo eu buscava sempre me envolver em iniciativas da área de desenvolvimento, como hackathons internos e coisas do tipo. Não ganhei nenhum deles, mas ganhei bastante aprendizado e isso já tava valendo :D 
+Eu aprendi **muito** com esses desafios e recomendo demais para quem está vivendo um momento semelhante. Foi dessa forma também que o time de desenvolvimento começou a saber que eu minimamente sabia algo  *— quem não é visto, não é lembrado não é mesmo?! *Falando nisso,  eu buscava sempre estar envolvido em iniciativas da área de desenvolvimento, como hackathons internos e coisas do tipo. Não ganhei nenhum deles, mas ganhei bastante aprendizado e isso já tava valendo :D 
 
 Eu poderia me estender mais aqui em outros detalhes específicos desse período, mas não me parece necessário. Vamos pular para março/abril de 2020, a pandemia. 
 
 ## Há males que vem para bem
 
-Como todos sabem, a pandemia pegou todo mundo de surpresa e abalou muito o mundo como um todo e, obviamente, a gente sentiu isso também. Além de várias outras medidas, precisamos também congelar as vagas por um tempo. Agora pense, minha principal função era recrutar, trazer mais e mais gente para dentro e agora isso não era mais possível. A conta não parecia fechar. Sinceramente, eu esperava pelo pior, algo como uma demissão, porque era o que eu estava vendo acontecer todos os dias no mercado. Porém, a RD agiu de forma totalmente diferente daquilo que eu estava vendo e ouvindo acontecer no mercado. Eles criaram um plano de realocação de pessoas que ficaram com baixa demanda para outras áreas que estavam precisando e tivesse alguma relação com seu objetivo de carreira também. Essas mudanças poderiam ser temporárias ou permanentes. Nada foi imposto, foi tudo bastante humano e planejado para não gerar possíveis frustrações. Quando vi todo esse movimento acontecer, fiquei realmente grato e vi o quão importante é estar num lugar que se preocupa de verdade com as pessoas. Aqui deixo meu agradecimento público a RD por ter pensado nisso, mesmo num contexto tão zoado.
+Como todos sabem, a pandemia pegou todo mundo de surpresa e abalou muito o mundo como um todo e, obviamente, a gente sentiu isso também. Além de várias outras medidas, precisamos também congelar as vagas por um tempo. Agora pense, minha principal função era recrutar, trazer mais e mais gente para dentro e agora isso não era mais possível. A conta não parecia fechar. Sinceramente, eu esperava pelo pior, algo como uma demissão, porque era o que eu estava vendo acontecer todos os dias no mercado. 
+
+Porém, a RD agiu de forma totalmente diferente daquilo que eu estava vendo e ouvindo acontecer no mercado. Eles criaram um plano de realocação de pessoas que ficaram com baixa demanda para outras áreas que estavam precisando e tivesse alguma relação com seu objetivo de carreira também. Essas mudanças poderiam ser temporárias ou permanentes. Nada foi imposto, foi tudo bastante humano e planejado para não gerar possíveis frustrações. Quando vi todo esse movimento acontecer, fiquei realmente grato e vi o quão importante é estar num lugar que se preocupa de verdade com as pessoas. Aqui deixo meu agradecimento público a RD por ter pensado nisso, mesmo num contexto tão zoado.
 
 Agora, lembra que eu tinha alinhado com minhas lideranças, participado de iniciativas de desenvolvimento, construído coisas com código para ajudar meu time?! Isso deixou muito mais nítido para onde poderiam me direcionar, já que desde sempre eu apontava para o mesmo lugar. Foi então que recebi a notícia de que essa mudança aconteceria em breve. Era um sentimento estranho, até hoje não sei definí-lo bem. Feliz por estar realizando um sonho, mas triste pelo contexto ser tão contrário. De qualquer forma, o jogo tinha que continuar e isso ia acontecer. Fiz uma espécie de entrevista com a área e bola pra frente.
 
@@ -96,7 +96,7 @@ E foi desse jeito meio estranho que no dia 08/06/2020 iniciei oficialmente minha
 
 Bom, agora que contei a história toda (de forma resumida, mas com alguns detalhes) quero destacar os principais pontos que eu acredito que pode te ajudar numa transição também: 
 
-## Aprendizados:
+<h2 id="aprendizados">Aprendizados:</h2>
 
 ### Tenha claro o seu objetivo e entenda seu momento.
 
