@@ -7,7 +7,7 @@ description: Complexidade algorítmica, pesquisa simples e binária podem ser
 date: 2020-02-28 01:39:15
 image: /assets/img/dory-marlin.png
 category: dev
-background: "#6C6C6C"
+background: "#6C5291"
 ---
 
 Recentemente na RD, empresa onde trabalho atualmente, apresentei uma talk para o nosso time de gestão de talentos sobre o que avaliamos no processo seletivo de pessoas desenvolvedoras de software. Eu aprendi tanto nesse período de preparo do conteúdo que resolvi escrever esse post sobre um dos temas que achei bastante interessante.
