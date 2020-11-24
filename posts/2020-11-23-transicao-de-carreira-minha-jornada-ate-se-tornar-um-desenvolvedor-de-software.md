@@ -3,16 +3,14 @@ title: "Transição de carreira: minha jornada até se tornar um desenvolvedor d
   software"
 description: Quero contar como foi essa experiência desde o começo e os desafios
   e aprendizados que tive no meio do caminho.
-date: 2020-11-23 02:59:56
+date: 2020-11-24 01:46:12
 image: /assets/img/transicao-de-carreira.png
 category: career
 background: "#2A3FAA"
 ---
-Várias pessoas já me perguntaram como foi o processo de transição para carreira como desenvolvedor. Nesse post quero contar desde o começo como tudo foi acontecendo, os aprendizados, desafios e ajudas que tive durante esse tempo. Se estiver meio sem tempo (irmão), fique a vontade para pular direto para os aprendizados lá em baixo :)
+Várias pessoas já me perguntaram como foi o processo de transição para carreira como desenvolvedor. Nesse post quero contar desde o começo como tudo foi acontecendo, os aprendizados, desafios e ajudas que tive durante esse tempo. Se estiver meio sem tempo (irmão), fique a vontade para [pular direto para os aprendizados](#aprendizados), sem problemas :)
 
 Eu passei por esse processo de transição de carreira duas vezes. A primeira foi quando eu trabalhava como Analista Adminsitrativo e passei a ser Tech Recruiter e a segunda transição que foi do recrutamento para o desenvolvimento de software. Parece não ser uma carreira tão "lógica", mas vem comigo para conhecer como foi.
-
-Se não tiver afim de ler toda a história e conhecer os detalhes, você pode [pular direto para os aprendizados](#aprendizados), sem problemas!
 
 ## Tudo começou lá em 2014
 
@@ -40,21 +38,19 @@ Foi nessas férias que o jogo mudou. Como eu não tinha nada preparado, resolvi 
 
 Como fazia ~4 anos que eu não escrevia códigos (além das fórmulas do excel), comecei tudo do zero. Fui para a base, fazer cursos de lógica de programação, algoritmos e na sequência HTML, CSS e Javascript. Foi um periodo de férias muito produtivo, eu realmente estava convicto que queria aquilo no meu dia a dia! 
 
-Lembra que eu falei que estava na faculdade de ADM? Então, eu tive um matéria de Marketing Digital onde tive um trabalho que era pegar uma empresa real e aplicar marketing digital nela. E o que foi a minha ideia? Se você pensou que eu ia criar um site, acertou em cheio! Peguei a escola infantil da minha irmã como exemplo e criei um site para ela. Isso já foi um desafio e tanto, porque eu mal tinha começado a estudar tecnologia novamente e havia me comprometido com o trabalho da faculdade em entregar um site (algo que seria um pouco além do necessário para a matéria). Resumindo, deu tudo certo no trabalho, o site foi pro ar (não me orgulho muito do código dele, mas beleza) e tava aprovado. 
+Lembra que eu falei que estava na faculdade de ADM? Então, eu tive um matéria de Marketing Digital onde um dos trabalhos que era pegar uma empresa real e aplicar marketing digital nela. E o que foi a minha ideia? Se você pensou que eu ia criar um site, acertou em cheio! Peguei a escola infantil da minha irmã como exemplo e desenvolvi um site para ela. Isso já foi um desafio e tanto, porque eu mal tinha começado a estudar tecnologia novamente e havia me comprometido com o trabalho da faculdade em entregar um site (algo que seria um pouco além do necessário para a matéria). Resumindo, deu tudo certo no trabalho, o site foi pro ar (não me orgulho muito do código dele, mas beleza) e tava aprovado. 
 
 > *Não se perde aí nas datas, estamos chegando em Janeiro de 2018.*
 
 ## A primeira transição
 
-Nessa virada de ano (de 2017 para 2018) eu fui promovido para Analista Administrativo, estava contente por ser reconhecido, mas ainda assim o dia a dia não era aquele que eu queria. Foi então que ali por Março comecei a dar uma olhada em outras oportunidades. Confesso que eu não tinha planejado muita coisa como localização, salário, trade-offs, tipo de empresa e outras coisas. **A única certeza que eu tinha era que gostaria de estar mais próximo do mundo de tecnologia.** 
-a
-No meio disso, eu lembrei da Resultados Digitais e me apliquei numa vaga que era do programa de contratação para pessoas com deficiência. 
+Nessa virada de ano (de 2017 para 2018) eu fui promovido para Analista Administrativo, estava contente por ser reconhecido, mas ainda assim o dia a dia não era aquele que eu queria. Foi então que ali por Março comecei a dar uma olhada em outras oportunidades. Confesso que eu não tinha planejado muita coisa como localização, salário, trade-offs, tipo de empresa e outras coisas. **A única certeza que eu tinha era que gostaria de estar mais próximo do mundo de tecnologia.** No meio disso, eu lembrei da Resultados Digitais e me apliquei numa vaga que era do programa de contratação para pessoas com deficiência. 
 
 > Para quem não sabe, eu tenho visão monocular, ou seja, enxergo o mundo com apenas um olho ;)
 
-Não era uma vaga específica, o intuito desse programa é conhecer as pessoas e ver onde poderia fazer mais sentido. Encurtanto a história, lembro que as entrevistas foram muito transparentes sobre ambiente, cultura e principalmente sobre o que eu sabia, não sabia e o que eu queria. Lembro também de ter falado que **eu não me sentia preparado ainda para estar numa "cadeira" de desenvolvedor, mas a meta a longo prazo era essa**. E aqui quero reforçar o quanto a transparência nesse processo é crucial. Repara que, antes mesmo de eu entrar a gente já teria um "acordo" que, em algum momento no longo prazo, uma transição assim poderia acontecer? E sim, isso ajudou muito lá na frente. Preciso destacar também que eu tive um tanto de sorte por falar com pessoas extremamente fora da curva como a Cá e a Mari (que sou muito grato pela oportunidade até hoje) que me entrevistaram e viram que isso poderia dar certo.
+Não era uma vaga específica, o intuito desse programa é conhecer as pessoas e ver onde poderia fazer mais sentido. Encurtanto a história, lembro que as entrevistas foram muito transparentes sobre ambiente, cultura e principalmente sobre o que eu sabia, não sabia e o que eu queria. Lembro também de ter falado que **eu não me sentia preparado ainda para estar numa "cadeira" de desenvolvedor, mas a meta a longo prazo era essa**. E aqui quero reforçar o quanto a transparência nesse processo é crucial. Repara que, antes mesmo de eu entrar a gente já teria um "acordo" que, em algum momento no longo prazo, uma transição assim poderia acontecer? E sim, isso ajudou muito lá na frente. Preciso destacar também que eu tive um tanto de sorte por falar com pessoas extremamente fora da curva como a Cá e a Mari (sou muito grato pela oportunidade até hoje) que me entrevistaram e apostaram que isso poderia dar certo.
 
-Feito as conversas, vimos que uma possibilidade muito boa era entrar como um Assistente de Tech Recruiter. O que eu pensei foi: "eu ainda não conheço todo o universo de tecnologia (áreas, vagas, especialidades, requisitos...), mas aqui vou poder aprender isso tudo e me preparar para uma possível transição. Além disso, estarei muito próximo do mundo de tecnologia, então perfeito!". E no dia 02/04/2018 eu começava essa nova jornada.
+Conversas feitas, vimos que uma possibilidade muito boa seria entrar como Assistente de Tech Recruiter. O que eu pensei foi: "eu ainda não conheço todo o universo de tecnologia (áreas, vagas, especialidades, requisitos...), mas aqui vou poder aprender isso tudo e me preparar para uma possível transição. Além disso, estarei muito próximo do mundo de tecnologia, então perfeito!". E no dia 02/04/2018 eu começava essa nova jornada.
 
 De forma resumida, foi assim que minha primeira transição aconteceu. Pouco planejamento, uma certeza muito forte, muita transpaência e um tanto de sorte. Vai ser assim pra todo mundo? Com certeza não, mas talvez você pode tirar algum aprendizado daqui. 
 
@@ -64,9 +60,9 @@ De forma resumida, foi assim que minha primeira transição aconteceu. Pouco pla
 
 Bom, chegamos na parte que considero o ápice desse texto (e acho que é o que você quer mais saber também). Para não entrar em muitos detalhes, vamos começar a partir do último trimestre de 2019. A essa altura, várias coisas já tinham acontecido: batemos recordes, fui promovido, troquei Administração por Análise e Desenvolvimento de Sistemas, **minha liderança mudou**, meu time diminuiu e cresceu de novo, além de *vááárias* outras coisas.
 
-Reparou que eu destaquei que a minha liderança mudou?! Então, isso é importante e quero falar mais sobre. A nova pessoa que entrou, obviamente, não havia me entrevistado e não estava por dentro daquele "acordo" que tínhamos feito sobre uma possível transição no futuro. Aí que entra novamente a transparência.
+Reparou que eu destaquei que a minha liderança mudou?! Então, isso é importante e quero falar mais sobre. A nova pessoa que entrou, obviamente, não havia me entrevistado e não estava por dentro daquele "acordo" sobre uma possível transição no futuro. Aí que entra novamente a transparência.
 
-> Antes de continuar, quero destacar algo que falamos muito aqui na RD e eu acredito também: **Nós somos responsáveis pela nossa carreira.** Não é nossa liderança que deve decidir qual caminho seguir, mas sim, nós de forma proativa. A liderança pode/vai nos ajudar nesse processo fazendo com que isso ocorra da melhor forma e no melhor momento possível (sim, eu sei que não é assim em todos lugares, mas acredito que estamos evoluindo nisso como um todo).
+> Antes de continuar, quero destacar algo que falamos muito aqui na RD e eu acredito também: **Nós somos responsáveis pela nossa carreira.** Não é nossa liderança que deve decidir qual caminho seguiremos, mas sim, nós de forma proativa. A liderança pode/vai nos ajudar nesse processo fazendo com que isso ocorra da melhor forma e no melhor momento possível (sim, eu sei que não é assim em todos lugares, mas acredito que estamos evoluindo nisso como um todo).
 
 Na RD temos conversas individuais, um para um, de forma recorrente (~15 dias) e isso ajudou muito nesse novo alinhamento. Foram nessas conversas que deixei claro esse desejo de um dia fazer uma transição para desenvolvimento e queria que isso acontecesse de forma tranquila, sem deixar ninguém na mão. Feito isso, perfeito, ficamos alinhados e eu constantemente era incentivado e empurrado (no bom sentido) pela minha líder sensacional (que era a Paula).
 
@@ -76,7 +72,7 @@ Se surgisse alguma necessidade do time que fosse um pouquinho mais técnica e me
 
 > Um exemplo de algo que nasceu assim e de forma open source foi o Remote HeartCount. Se quiser saber mais sobre ele dá uma olhada no [repositório no Github](https://github.com/kaiofelipejs/remoteheartcount-frontend).
 
-Eu aprendi **muito** com esses desafios e recomendo demais para quem está vivendo um momento semelhante. Foi dessa forma também que o time de desenvolvimento começou a saber que eu minimamente sabia algo  *— quem não é visto, não é lembrado não é mesmo?! *Falando nisso,  eu buscava sempre estar envolvido em iniciativas da área de desenvolvimento, como hackathons internos e coisas do tipo. Não ganhei nenhum deles, mas ganhei bastante aprendizado e isso já tava valendo :D 
+Eu aprendi **muito** com esses desafios e recomendo demais para quem está vivendo um momento semelhante. Foi dessa forma também que o time de desenvolvimento começou a saber que eu minimamente entendia de tecnologia *— quem não é visto, não é lembrado não é mesmo?!* Falando nisso,  eu buscava sempre estar envolvido em iniciativas da área de desenvolvimento, como hackathons internos e coisas do tipo. Não ganhei nenhum deles, mas ganhei bastante aprendizado e isso já tava valendo :D 
 
 Eu poderia me estender mais aqui em outros detalhes específicos desse período, mas não me parece necessário. Vamos pular para março/abril de 2020, a pandemia. 
 
@@ -104,7 +100,7 @@ Eu tinha uma única certeza quando iniciei essa jornada (se não lembra qual era
 
 ### Seja transparente.
 
-A certeza que temos é que as pessoas e o contexto vão mudar e você precisa realinhar as conversas sempre. Até mais desafiador do que falar, é manter os assuntos vivos, mas isso é de igual forma muito importante. Se você tiver conversas recorrentes com sua liderança, busque trazer esse tema para conversa, saber como um pode ajudar o outro nesse processo e onde mais podemos desenvolver. Em resumo, seja transparente, abra o jogo e não deixe cair no esquecimento. As coisas podem ser bem mais leves e menos custosas.
+A certeza que temos é que as pessoas e o contexto vão mudar e você precisa realinhar as conversas sempre. Até mais desafiador do que falar, é manter os assuntos vivos, mas isso é de igual forma muito importante. Se você tiver conversas recorrentes com sua liderança, busque trazer esse tema para conversa, saber como um pode ajudar o outro nesse processo e onde mais podemos desenvolver. Em resumo, seja transparente, abra o jogo e não deixe cair no esquecimento. As coisas podem ser bem mais leves e mais fluída para ambos.
 
 ### Não pense apenas no hoje, olhe para o longo prazo.
 
