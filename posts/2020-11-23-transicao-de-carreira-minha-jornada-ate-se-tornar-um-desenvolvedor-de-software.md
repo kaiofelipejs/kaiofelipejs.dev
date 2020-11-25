@@ -1,5 +1,5 @@
 ---
-title: "Transição de carreira: minha jornada até se tornar um desenvolvedor de
+title: "Transição de carreira: minha jornada até me tornar um desenvolvedor de
   software"
 description: Quero contar como foi essa experiência desde o começo e os desafios
   e aprendizados que tive no meio do caminho.
