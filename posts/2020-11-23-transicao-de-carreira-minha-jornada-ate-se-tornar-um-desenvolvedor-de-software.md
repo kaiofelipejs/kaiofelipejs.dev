@@ -4,7 +4,7 @@ title: "Transição de carreira: minha jornada até me tornar um desenvolvedor d
 description: Quero contar como foi essa experiência desde o começo e os desafios
   e aprendizados que tive no meio do caminho.
 date: 2020-11-24 01:46:12
-image: /assets/img/transicao-de-carreira.png
+image: /assets/img/transica-carreira-dev.png
 category: career
 background: "#2A3FAA"
 ---
