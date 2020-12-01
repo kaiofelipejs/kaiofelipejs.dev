@@ -6,7 +6,7 @@
   "author": "Kaio Felipe Silva <kaiofelipe.js@gmail.com>",
   "dependencies": {
     "@react95/core": "^2.11.5",
-    "algoliasearch": "^4.5.1",
+    "algoliasearch": "^4.8.2",
     "babel-polyfill": "^6.26.0",
     "dotenv": "^8.2.0",
     "gatsby": "^2.27.4",
