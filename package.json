@@ -30,7 +30,7 @@
     "gatsby-transformer-sharp": "^2.5.19",
     "gsap": "^3.5.1",
     "lazysizes": "^5.2.2",
-    "netlify-cms-app": "^2.13.1",
+    "netlify-cms-app": "^2.14.8",
     "prismjs": "^1.22.0",
     "prop-types": "^15.7.2",
     "react": "^16.14.0",
