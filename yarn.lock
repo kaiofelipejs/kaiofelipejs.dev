@@ -2409,12 +2409,21 @@
   dependencies:
     tslib "^2.0.0"
 
-"@react95/core@^2.11.5":
-  version "2.11.5"
-  resolved "https://registry.yarnpkg.com/@react95/core/-/core-2.11.5.tgz#41b041db1bd6d61ac50a7b376078482499b583f9"
-  integrity sha512-51UU8MyGOrHPlYasuvNwu84vKSAZTFO3Rn4rBo8XvZhdYWi5kBPYzfxsVA/tBFDpKKGl0YOX0IbipOE4oNIZxA==
+"@react95/clippy@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@react95/clippy/-/clippy-0.1.1.tgz#85401c2c6dbd55aa5234f2f182cadcd44c99a887"
+  integrity sha512-HflfnrLBrRC/n8BRb8e24UEquEGW5+RfoPRpOJYQevr1h8eETgyOfZA9C77IdWI2nOOzd8gc4RhBJpGz5yFeqA==
   dependencies:
-    "@react95/icons" "^0.4.2"
+    clippyjs "^0.0.3"
+    jquery "^3.5.1"
+
+"@react95/core@^2.13.3":
+  version "2.13.3"
+  resolved "https://registry.yarnpkg.com/@react95/core/-/core-2.13.3.tgz#88ce8c8324ef6d34d1cca24d8d79a384f54ed061"
+  integrity sha512-ES511GRy88oueTWDFoip4lRromfnxyd5r+IpeuRVxRPO8580Znq8cSgIHgp3eirpAqEGhboIDRfMlioAapD36w==
+  dependencies:
+    "@react95/clippy" "^0.1.1"
+    "@react95/icons" "^0.5.2"
     "@styled-system/prop-types" "^5.1.5"
     "@testing-library/react-hooks" "^3.2.1"
     "@types/react-virtualized" "^9.21.10"
@@ -2430,10 +2439,10 @@
     ts-loader "^8.0.2"
     typescript "^3.9.7"
 
-"@react95/icons@^0.4.2":
-  version "0.4.2"
-  resolved "https://registry.yarnpkg.com/@react95/icons/-/icons-0.4.2.tgz#225470823116b9bf5c73f187a5eb4ee9839a32dc"
-  integrity sha512-CckYQPBaJ8+3FWJAiE+w48jAc9mfSYdb7y35gMobP+Sk0bmH8kYHYHSu2PJdvAE+8i8p0sUmzb66rygG+eYs4Q==
+"@react95/icons@^0.5.2":
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/@react95/icons/-/icons-0.5.2.tgz#1e1dc7c049255d5e2ddb900da1e3128b0d0bd575"
+  integrity sha512-IqBbD16XccevUeXIHs7isPxBqBWxjmnKau9k1rpyBuyXSvvswo53kBwc/wfdvJf3RpKptx9x/RYpFyGJAhRgkA==
 
 "@sideway/address@^4.1.0":
   version "4.1.0"
@@ -5597,6 +5606,13 @@ clipboardy@^2.3.0:
     arch "^2.1.1"
     execa "^1.0.0"
     is-wsl "^2.1.1"
+
+clippyjs@^0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/clippyjs/-/clippyjs-0.0.3.tgz#34c45e3416b74d3773aeb37296c618a0b658fbbb"
+  integrity sha512-i4sPaKbCA6PfXiwxNK35E1io6AXN7VGwEGZR9sE8RqOgXPNtRWKbFubmx87JwSuwIrdClO/rkTMjhl2ZyOHjug==
+  dependencies:
+    jquery "^3.2.1"
 
 cliui@^4.0.0:
   version "4.1.0"
@@ -11922,6 +11938,11 @@ jpeg-js@^0.4.0:
   version "0.4.2"
   resolved "https://registry.yarnpkg.com/jpeg-js/-/jpeg-js-0.4.2.tgz#8b345b1ae4abde64c2da2fe67ea216a114ac279d"
   integrity sha512-+az2gi/hvex7eLTMTlbRLOhH6P6WFdk2ITI8HJsaH2VqYO0I594zXSYEP+tf4FW+8Cy68ScDXoAsQdyQanv3sw==
+
+jquery@^3.2.1, jquery@^3.5.1:
+  version "3.5.1"
+  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.5.1.tgz#d7b4d08e1bfdb86ad2f1a3d039ea17304717abb5"
+  integrity sha512-XwIBPqcMn57FxfT+Go5pzySnm4KWkT1Tv7gjrpT1srtf8Weynl6R273VJ5GjkRb51IzMp5nbaPjJXMWeju2MKg==
 
 js-base64@^3.0.0:
   version "3.5.2"
