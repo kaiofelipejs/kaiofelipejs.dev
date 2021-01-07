@@ -21,7 +21,7 @@ const MenuBar = ({ setReadingMode, readingMode }) => {
         >
           <S.MenuBarItem>
             <Icon
-              name="shdocvw_256"
+              name="shdocvw_256_32x32_4bit"
               aria-label="Icone com uma folha ao fundo e uma casa pequena no canto inferior direito."
             />
             <span>Home</span>
@@ -37,7 +37,10 @@ const MenuBar = ({ setReadingMode, readingMode }) => {
           title="Pesquisar"
         >
           <S.MenuBarItem>
-            <Icon name="sccview_icon" aria-label="Icone de uma lupa." />
+            <Icon
+              name="sccview_icon_32x32_4bit"
+              aria-label="Icone de uma lupa."
+            />
             <span>Buscar</span>
           </S.MenuBarItem>
         </S.MenuBarLink>
@@ -49,7 +52,10 @@ const MenuBar = ({ setReadingMode, readingMode }) => {
           title="Modo leitura"
           readingMode={readingMode}
         >
-          <Icon name="bookmark" aria-label="Icone de um livro aberto." />
+          <Icon
+            name="bookmark_32x32_4bit"
+            aria-label="Icone de um livro aberto."
+          />
 
           <span>Modo leitura</span>
         </S.MenuBarItem>

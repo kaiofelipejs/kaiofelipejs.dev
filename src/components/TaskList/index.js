@@ -6,7 +6,7 @@ import * as S from "./styled"
 
 const TaskList = ({ setShowModal, setReadingMode, readingMode }) => (
   <List>
-    <S.ListItem icon="windows_explorer">Páginas</S.ListItem>
+    <S.ListItem icon="windows_explorer_32x32_4bit">Páginas</S.ListItem>
 
     <S.ListLink
       to="/"
@@ -16,7 +16,7 @@ const TaskList = ({ setShowModal, setReadingMode, readingMode }) => (
       duration={0.6}
       onClick={() => setShowModal(true)}
     >
-      <S.ListItem icon="shdocvw_256" smallIcon>
+      <S.ListItem icon="shdocvw_256_32x32_4bit" smallIcon>
         Home
       </S.ListItem>
     </S.ListLink>
@@ -28,9 +28,7 @@ const TaskList = ({ setShowModal, setReadingMode, readingMode }) => (
       duration={0.6}
       onClick={() => setShowModal(true)}
     >
-      <S.ListItem icon="ulclient_1002" smallIcon>
-        Sobre mim
-      </S.ListItem>
+      <S.ListItem icon="ulclient_1002_32x32_4bit">Sobre mim</S.ListItem>
     </S.ListLink>
     <S.ListLink
       to="/search/"
@@ -40,7 +38,7 @@ const TaskList = ({ setShowModal, setReadingMode, readingMode }) => (
       duration={0.6}
     >
       <S.ListItem
-        icon="sccview_icon"
+        icon="sccview_icon_32x32_4bit"
         smallIcon
         onClick={() => setShowModal(true)}
       >
@@ -50,10 +48,13 @@ const TaskList = ({ setShowModal, setReadingMode, readingMode }) => (
 
     <List.Divider />
 
-    <S.ListItem icon="bookmark" onClick={() => setReadingMode(!readingMode)}>
+    <S.ListItem
+      icon="bookmark_32x32_4bit"
+      onClick={() => setReadingMode(!readingMode)}
+    >
       {readingMode ? "Desativar" : "Ativar"} modo leitura
     </S.ListItem>
-    <S.ListItem icon="settings">
+    <S.ListItem icon="settings_32x32_4bit">
       <S.ListExternalLink href="https://github.com/kaiofelipejs/kaiofelipejs.dev">
         Código fonte
       </S.ListExternalLink>
