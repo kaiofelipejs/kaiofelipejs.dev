@@ -54,11 +54,9 @@ const TaskList = ({ setShowModal, setReadingMode, readingMode }) => (
     >
       {readingMode ? "Desativar" : "Ativar"} modo leitura
     </S.ListItem>
-    <S.ListItem icon="settings_32x32_4bit">
-      <S.ListExternalLink href="https://github.com/kaiofelipejs/kaiofelipejs.dev">
-        Código fonte
-      </S.ListExternalLink>
-    </S.ListItem>
+    <S.ListExternalLink href="https://github.com/kaiofelipejs/kaiofelipejs.dev">
+      <S.ListItem icon="settings_32x32_4bit">Código fonte</S.ListItem>
+    </S.ListExternalLink>
   </List>
 )
 
