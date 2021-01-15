@@ -1,7 +1,8 @@
 ---
-title: Usando loops nos testes automatizados com Jest
-description: Nesse post quero mostrar como podemos testar cenários semelhantes
-  sem duplicar código usando o .each do Jest.
+title: "Teste automatizado: Testando cenários sem duplicar código com Jest"
+description: Nesse post quero mostrar como podemos evitar a duplicação de código
+  e manter o código legível usando a função .each do Jest para testar cenários
+  semelhantes.
 date: 2021-01-14 07:54:19
 image: /assets/img/tests-loops-jest.png
 category: frontend
