@@ -3,7 +3,7 @@ title: "Testes automatizados: validando cenários sem duplicar código com Jest"
 description: Nesse post quero mostrar como podemos evitar a duplicação de código
   e mantê-lo legível usando a função .each do Jest para testar cenários
   semelhantes.
-date: 2021-01-14 07:54:19
+date: 2021-01-15 09:00:42
 image: /assets/img/tests-loops-jest.png
 category: frontend
 background: "#AB660D"
