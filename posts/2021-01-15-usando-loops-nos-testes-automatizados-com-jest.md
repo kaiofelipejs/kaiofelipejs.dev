@@ -110,8 +110,12 @@ E os todos os outputs ficam da mesma forma:
 
 > ##...
 
-O exemplo para ilustrar o uso dos loops foi simples, mas imagine que isso poderia ser algo mais complexo como fazer requisição para uma API, mostrar uma quantidade X de itens na quando quando algo Y estiver acontecendo e por ai vai...
+O exemplo para ilustrar o uso dos loops foi simples, mas imagine que isso poderia ser algo mais complexo como fazer requisição para uma API, mostrar uma quantidade X de itens na quando quando algo Y estiver acontecendo e por aí vai...
 
 Espero que essa dica tenha sido útil e fique super a vontade para compartilhar outras coisas aqui nos comentários. Bora aprender juntos! 😄
 
 Até a próxima!
+
+### Referências
+- [Documentação do Jest](https://jestjs.io/docs/en/api)
+- [Curso React Profissional - Nardiny Academy](https://www.udemy.com/course/react-redux-profissional/) <small>(foi onde vi pela primeira vez o .each sendo usado).</small>
