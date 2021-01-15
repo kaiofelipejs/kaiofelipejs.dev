@@ -31,9 +31,9 @@ Nada demais. Apenas um objeto com 4 itens e uma função que receberá uma chave
 
 Agora, vamos criar o arquivo de teste desse cara e vamos criar três caminhos para testar essa função `getBestThing`, bora lá: 
 
-### Pior caminho, duplicando código:
+## Pior caminho, duplicando código:
 
-```
+```jsx
 import { getBestThing } from 'bestThing'
 
 describe('the worst', () => {
@@ -57,9 +57,9 @@ describe('the worst', () => {
 
 Sim, funciona. Mas consegue reparar como isso pode ser improdutivo se precisar alterar algo dessa expectativa final? Para evitar esse trabalho no futuro, vamos refatorá-lo e criar um loop "na mão": 
 
-### O caminho mais ou menos, criando loop "na mão"
+## O caminho mais ou menos, criando loop "na mão"
 
-```
+```jsx
 import { getBestThing, bests } from 'bestThing'
 
 describe('the so-so', () => {
@@ -75,9 +75,9 @@ Repare que agora tivemos que importar tambem o objeto `bests` para fazer dessa f
 
 Vamos, então, para a solução que eu considero mais elegante e que usa a função `.each` do próprio Jest que foi criada especialmente esses cenários do tipo que estamos lidando:
 
-### Caminho feliz, usando .each
+## Caminho feliz, usando .each
 
-```
+```jsx
 import { getBestThing } from 'bestThing'
 
 describe('the good', () => {
@@ -94,7 +94,7 @@ describe('the good', () => {
 
 Vamos com calma para entender o que está rolando aqui. Removendo os valores, a estrutura é a seguinte: 
 
-```js
+```jsx
 test.each(table)(name, fn)
 ```
 
@@ -108,7 +108,7 @@ E os todos os outputs ficam da mesma forma:
 
 ![Output dos testes nos três caminhos](/assets/img/output-tests-loop.png "Output dos testes nos três caminhos")
 
-## > ...
+> ##...
 
 O exemplo para ilustrar o uso dos loops foi simples, mas imagine que isso poderia ser algo mais complexo como fazer requisição para uma API, mostrar uma quantidade X de itens na quando quando algo Y estiver acontecendo e por ai vai...
 
