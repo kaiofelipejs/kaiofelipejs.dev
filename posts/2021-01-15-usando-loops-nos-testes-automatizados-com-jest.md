@@ -1,5 +1,5 @@
 ---
-title: "Teste automatizado: Testando cenários sem duplicar código com Jest"
+title: "Testes automatizados: validando cenários sem duplicar código com Jest"
 description: Nesse post quero mostrar como podemos evitar a duplicação de código
   e mantê-lo legível usando a função .each do Jest para testar cenários
   semelhantes.
