@@ -110,7 +110,7 @@ No fim, o output final do teste será o mesmo, mas pode ter certeza que o seu "e
 
 ![Output dos testes nos três caminhos](/assets/img/output-tests-loop.png "Output dos testes nos três caminhos")
 
-> \##...
+> **...**
 
 O exemplo para ilustrar o uso dos loops foi simples, mas imagine que isso poderia ser algo mais complexo como fazer requisição para uma API, mostrar uma quantidade X de itens na tela quando algo Y estiver acontecendo e por aí vai...
 
