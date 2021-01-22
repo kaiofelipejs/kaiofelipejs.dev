@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: kaiofelipejs/kaiofelipejs.dev
-  branch: staging
+  branch: main
 
 media_folder: static/assets/img
 public_folder: /assets/img
@@ -30,7 +30,7 @@ collections:
           label: "Category",
           name: "category",
           widget: "select",
-          options: ["dev", "frontend", "backend", "people", "life"],
+          options: ["backend", "career", "dev", "frontend", "life"],
         }
       - {
           label: "Background",
@@ -38,11 +38,11 @@ collections:
           widget: "select",
           options:
             [
-              { label: "Life", value: "#527310" },
-              { label: "People", value: "#6C5291" },
-              { label: "Dev", value: "#6C6C6C" },
-              { label: "Frontend", value: "#2A3FAA" },
               { label: "Backend", value: "#B31917" },
+              { label: "Career", value: "#2A3FAA" },
+              { label: "Dev", value: "#6C5291" },
+              { label: "Frontend", value: "#AB660D" },
+              { label: "Life", value: "#527310" },
             ],
         }
       - { label: "Body", name: "body", widget: "markdown" }

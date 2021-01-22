@@ -5,8 +5,8 @@ description: Inclusão é uma constante na Vida de Recruiter. Fomos descobrir o
   que o mundo de tech pode nos ensinar sobre processos mais acessíveis.
 date: 2019-07-02 01:09:02
 image: /assets/img/tdc-acess.png
-category: people
-background: "#6C5291"
+category: career
+background: "#2A3FAA"
 ---
 
 Contratar pessoas com deficiência provavelmente já foi um tema que surgiu para você nessa Vida de Recruiter. Isso porque a legislação brasileira obriga empresas com mais de 100 funcionários a cumprirem uma cota dessas pessoas em seu quadro de colaboradores.
