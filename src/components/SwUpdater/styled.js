@@ -1,5 +1,4 @@
 import styled from "styled-components"
-import { Button } from "@react95/core"
 
 export const NotificationWrapper = styled.div`
   align-items: center;
@@ -9,7 +8,7 @@ export const NotificationWrapper = styled.div`
   color: var(--texts);
   cursor: pointer;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   padding: 20px 10px;
   position: fixed;
   right: calc(50vw - 320px / 2);
@@ -21,27 +20,23 @@ export const NotificationWrapper = styled.div`
     filter: brightness(0.9);
   }
 
+  & * {
+    cursor: inherit;
+  }
+
   @keyframes moveUp {
     0% {
       bottom: -100vh;
     }
     100% {
-      bottom: 60px;
+      bottom: 100px;
     }
   }
 `
 
-export const IconWrapper = styled(Button)`
+export const IconWrapper = styled.div`
   color: var(--texts);
   height: 30px;
+  margin-left: 10px;
   width: 30px;
-  padding: 0;
-
-  &:active {
-    padding: 0;
-  }
-
-  & * {
-    cursor: pointer;
-  }
 `
