@@ -3,7 +3,7 @@
   "private": true,
   "description": "A simple blog with Windows95 experience.",
   "version": "0.1.0",
-  "author": "Kaio Felipe Silva <kaiofelipe.js@gmail.com>",
+  "author": "Kaio Felipe Silva <kaiofelipejs@gmail.com>",
   "dependencies": {
     "@react95/core": "^2.13.3",
     "algoliasearch": "^4.5.1",
