@@ -2006,21 +2006,21 @@
     prop-types "^15.6.1"
     react-lifecycles-compat "^3.0.4"
 
-"@react95/clippy@^0.1.1":
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/@react95/clippy/-/clippy-0.1.1.tgz#85401c2c6dbd55aa5234f2f182cadcd44c99a887"
-  integrity sha512-HflfnrLBrRC/n8BRb8e24UEquEGW5+RfoPRpOJYQevr1h8eETgyOfZA9C77IdWI2nOOzd8gc4RhBJpGz5yFeqA==
+"@react95/clippy@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@react95/clippy/-/clippy-1.0.3.tgz#7261654354c5978915e5aabbf61cd92305594121"
+  integrity sha512-cbw743zehqQWHx4HgiGaQknpzTqQsyi5d8zDvJ1XvnqEMJOLQHEaEHnmNAiI2o80OpxgBvj80jwOQYvH+lpARw==
   dependencies:
     clippyjs "^0.0.3"
     jquery "^3.5.1"
 
-"@react95/core@^2.13.3":
-  version "2.13.4"
-  resolved "https://registry.yarnpkg.com/@react95/core/-/core-2.13.4.tgz#70643ed065cdf8a5a65dc1a8d6c3aa8c90414a21"
-  integrity sha512-dlOikRdjuNFpUfyVtoRf2EQcdmGxzsYrrCm+ZQhDZhdI/bP3dllP98dgavdEudeGto1OtOtVGenM4Argj+KBMA==
+"@react95/core@^3.0.4":
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/@react95/core/-/core-3.0.4.tgz#b95fad0c3b7e5e6c667479c018f51cc9c3dcadc8"
+  integrity sha512-2ydBe1X4DO5klLIrqgjzTqVManofmogtyQiBfn+5MftjpJoO8nEa1oWMef6iAFQoZvoLi3bVe0sfls8HnkTBdw==
   dependencies:
-    "@react95/clippy" "^0.1.1"
-    "@react95/icons" "^0.5.2"
+    "@react95/clippy" "^1.0.3"
+    "@react95/icons" "^1.0.3"
     "@styled-system/prop-types" "^5.1.5"
     "@testing-library/react-hooks" "^3.2.1"
     "@types/react-virtualized" "^9.21.10"
@@ -2036,10 +2036,10 @@
     ts-loader "^8.0.2"
     typescript "^3.9.7"
 
-"@react95/icons@^0.5.2":
-  version "0.5.2"
-  resolved "https://registry.yarnpkg.com/@react95/icons/-/icons-0.5.2.tgz#1e1dc7c049255d5e2ddb900da1e3128b0d0bd575"
-  integrity sha512-IqBbD16XccevUeXIHs7isPxBqBWxjmnKau9k1rpyBuyXSvvswo53kBwc/wfdvJf3RpKptx9x/RYpFyGJAhRgkA==
+"@react95/icons@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@react95/icons/-/icons-1.0.3.tgz#b08898293e81aa5e8c21c5fe8cbb5e35e0490ea8"
+  integrity sha512-FiNeOf2uMyz9N+7ClLbSndNj1Iwa8iGcZ6NbIvCQHf/VasVtoik3qlp1QAK6b80m0GUh+5jSVVDiGPeWbrr37A==
 
 "@sideway/address@^4.1.0":
   version "4.1.0"
