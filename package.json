@@ -37,7 +37,7 @@
     "react-disqus-comments": "^1.4.0",
     "react-dom": "^16.14.0",
     "react-helmet": "^6.1.0",
-    "react-instantsearch-dom": "^6.8.2",
+    "react-instantsearch-dom": "^6.10.3",
     "styled-components": "5.2.1",
     "styled-icons": "^10.21.0",
     "styled-media-query": "^2.1.2"
