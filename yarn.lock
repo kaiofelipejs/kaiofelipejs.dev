@@ -4087,10 +4087,10 @@ babel-preset-gatsby@^0.11.0:
     gatsby-core-utils "^1.9.0"
     gatsby-legacy-polyfills "^0.6.0"
 
-babel-preset-gatsby@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/babel-preset-gatsby/-/babel-preset-gatsby-1.0.0.tgz#14bcb46e45bfee12d095819f1f439415401377b7"
-  integrity sha512-3jCjp/yhbgbvSxj9j6ieF6h1JKi9Kfot8N+NSh80GDQ5iwhg/x+Ev7ocyU0UKm89t5QaZuPcGY/RopK0gck+pg==
+babel-preset-gatsby@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/babel-preset-gatsby/-/babel-preset-gatsby-1.2.0.tgz#2f90fc9094ba5710d22cbe736ed62fefd292cf7a"
+  integrity sha512-ChqM9ahcr9ea/wO+rS3y8z9IRlX9yodxq3c+V6NmYCnZkI/SwB6qp5WEC3FCu3U4XUOrvhAQD+PK2N8r1C4lHA==
   dependencies:
     "@babel/plugin-proposal-class-properties" "^7.12.1"
     "@babel/plugin-proposal-nullish-coalescing-operator" "^7.12.1"
@@ -4105,8 +4105,8 @@ babel-preset-gatsby@^1.0.0:
     babel-plugin-dynamic-import-node "^2.3.3"
     babel-plugin-macros "^2.8.0"
     babel-plugin-transform-react-remove-prop-types "^0.4.24"
-    gatsby-core-utils "^2.0.0"
-    gatsby-legacy-polyfills "^1.0.0"
+    gatsby-core-utils "^2.2.0"
+    gatsby-legacy-polyfills "^1.2.0"
 
 babel-preset-jest@^26.6.2:
   version "26.6.2"
@@ -4507,6 +4507,17 @@ browserslist@^4.0.0, browserslist@^4.12.0, browserslist@^4.12.2, browserslist@^4
     escalade "^3.1.1"
     node-releases "^1.1.69"
 
+browserslist@^4.16.3:
+  version "4.16.3"
+  resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.16.3.tgz#340aa46940d7db878748567c5dea24a48ddf3717"
+  integrity sha512-vIyhWmIkULaq04Gt93txdh+j02yX/JzlyhLYbV3YQCn/zvES3JnY7TifHHvvr1w5hTDluNKMkV05cs4vy8Q7sw==
+  dependencies:
+    caniuse-lite "^1.0.30001181"
+    colorette "^1.2.1"
+    electron-to-chromium "^1.3.649"
+    escalade "^3.1.1"
+    node-releases "^1.1.70"
+
 bser@2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/bser/-/bser-2.1.1.tgz#e6787da20ece9d07998533cfd9de6f5c38f4bc05"
@@ -4825,6 +4836,11 @@ caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001173:
   version "1.0.30001179"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001179.tgz#b0803883b4471a6c62066fb1752756f8afc699c8"
   integrity sha512-blMmO0QQujuUWZKyVrD1msR4WNDAqb/UPO1Sw2WWsQ7deoM5bJiicKnWJ1Y0NS/aGINSnKPIWBMw5luX+NDUCA==
+
+caniuse-lite@^1.0.30001181:
+  version "1.0.30001208"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001208.tgz#a999014a35cebd4f98c405930a057a0d75352eb9"
+  integrity sha512-OE5UE4+nBOro8Dyvv0lfx+SRtfVIOM9uhKqFmJeUbGriqhhStgp1A0OyBpgy3OUF8AhYCT+PVwPC1gMl2ZcQMA==
 
 capture-exit@^2.0.0:
   version "2.0.0"
@@ -5539,6 +5555,14 @@ copyfiles@^2.3.0:
     through2 "^2.0.1"
     untildify "^4.0.0"
     yargs "^16.1.0"
+
+core-js-compat@3.9.0:
+  version "3.9.0"
+  resolved "https://registry.yarnpkg.com/core-js-compat/-/core-js-compat-3.9.0.tgz#29da39385f16b71e1915565aa0385c4e0963ad56"
+  integrity sha512-YK6fwFjCOKWwGnjFUR3c544YsnA/7DoLL0ysncuOJ4pwbriAtOpvM2bygdlcXbvQCQZ7bBU9CL4t7tGl7ETRpQ==
+  dependencies:
+    browserslist "^4.16.3"
+    semver "7.0.0"
 
 core-js-compat@^3.6.5, core-js-compat@^3.8.0:
   version "3.8.3"
@@ -6747,6 +6771,11 @@ electron-to-chromium@^1.3.634:
   version "1.3.642"
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.642.tgz#8b884f50296c2ae2a9997f024d0e3e57facc2b94"
   integrity sha512-cev+jOrz/Zm1i+Yh334Hed6lQVOkkemk2wRozfMF4MtTR7pxf3r3L5Rbd7uX1zMcEqVJ7alJBnJL7+JffkC6FQ==
+
+electron-to-chromium@^1.3.649:
+  version "1.3.711"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.711.tgz#92c3caf7ffed5e18bf63f66b4b57b4db2409c450"
+  integrity sha512-XbklBVCDiUeho0PZQCjC25Ha6uBwqqJeyDhPLwLwfWRAo4x+FZFsmu1pPPkXT+B4MQMQoQULfyaMltDopfeiHQ==
 
 elliptic@^6.5.3:
   version "6.5.4"
@@ -8180,10 +8209,10 @@ gatsby-core-utils@^1.10.1, gatsby-core-utils@^1.9.0:
     tmp "^0.2.1"
     xdg-basedir "^4.0.0"
 
-gatsby-core-utils@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-2.0.0.tgz#00fdc1f2efcaabe7426e63b020a7117ca613780c"
-  integrity sha512-+DrClKZ/ScTbzhIHZXuU3DoIhEJ95uJV+swR7VVqYVhEpV1CnjUGR/dB+tMd0VqlPdrXB38FuR8O5kuSvYm+/A==
+gatsby-core-utils@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-2.2.0.tgz#def804d0fc2acde605c5d4da3c1ffbfc9aaf4e2a"
+  integrity sha512-7T6aVJAj0u/VUg+zKOLuxyZLS/8KDQcDeEFCkKY0d7Pd4wV/QqKRLljr0TRVkivRZHXyWQI9fM3ox5DzfkHdCQ==
   dependencies:
     ci-info "2.0.0"
     configstore "^5.0.1"
@@ -8217,12 +8246,12 @@ gatsby-legacy-polyfills@^0.6.0:
   dependencies:
     core-js-compat "^3.6.5"
 
-gatsby-legacy-polyfills@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/gatsby-legacy-polyfills/-/gatsby-legacy-polyfills-1.0.0.tgz#42e740b9a62df1a4be022b7519e77a504788f857"
-  integrity sha512-whGt//oMbsQvr2uok4qkd1MrlbpSKYXl1lifkwZnrHTvAAf5wreeOZKbzM/C3SWLb0lmD2X7WO7gAamOBj7PwA==
+gatsby-legacy-polyfills@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/gatsby-legacy-polyfills/-/gatsby-legacy-polyfills-1.2.0.tgz#fda9b3b9f6b340a4fdfdd978e84b0847bdfab79c"
+  integrity sha512-WC2LXsQQ/F6zNHhD50gnl2U7XVJnwldnU9xKOLndEfy74GhQ7OONsAYSytMYXdBlMKJW3k15pBfhRMM6incZIw==
   dependencies:
-    core-js-compat "^3.6.5"
+    core-js-compat "3.9.0"
 
 gatsby-link@^2.10.0:
   version "2.10.0"
@@ -13171,6 +13200,11 @@ node-releases@^1.1.69:
   version "1.1.70"
   resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-1.1.70.tgz#66e0ed0273aa65666d7fe78febe7634875426a08"
   integrity sha512-Slf2s69+2/uAD79pVVQo8uSiC34+g8GWY8UH2Qtqv34ZfhYrxpYpfzs9Js9d6O0mbDmALuxaTlplnBTnSELcrw==
+
+node-releases@^1.1.70:
+  version "1.1.71"
+  resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-1.1.71.tgz#cb1334b179896b1c89ecfdd4b725fb7bbdfc7dbb"
+  integrity sha512-zR6HoT6LrLCRBwukmrVbHv0EpEQjksO6GmFcZQQuCAy139BEsoVKPYnf3jongYW83fAa1torLGYwxxky/p28sg==
 
 noms@0.0.0:
   version "0.0.0"
