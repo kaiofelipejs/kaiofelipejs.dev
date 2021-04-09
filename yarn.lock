@@ -8287,14 +8287,14 @@ gatsby-plugin-netlify-cms@^4.3.16:
     netlify-identity-widget "^1.9.1"
     webpack "^4.45.0"
 
-gatsby-plugin-offline@^3.5.0:
-  version "3.9.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-offline/-/gatsby-plugin-offline-3.9.0.tgz#2d5d830b03c812ed4f52ff178cfc77ee4c0aac3f"
-  integrity sha512-sLxU+QMYq7QLte+/gRNm0vTRgil6VvbkxtEjf/e/oXpAkuy+Pm9IeaWKRtNfWcThpr2CjQbdkZpELLr8PZrCDw==
+gatsby-plugin-offline@^3.10.2:
+  version "3.10.2"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-offline/-/gatsby-plugin-offline-3.10.2.tgz#f17605ba567434908cc5ff33e702e26bf4a610fc"
+  integrity sha512-W67KLTtxDqaVHYmGBLuX6BwRvzIIiNjhoWEBw8VA1cM54QYyDykD+rXrs/mWCcBIiCQEj2xbuJc5jfdJh1Qptw==
   dependencies:
     "@babel/runtime" "^7.12.5"
     cheerio "^1.0.0-rc.3"
-    gatsby-core-utils "^1.9.0"
+    gatsby-core-utils "^1.10.1"
     glob "^7.1.6"
     idb-keyval "^3.2.0"
     lodash "^4.17.20"
