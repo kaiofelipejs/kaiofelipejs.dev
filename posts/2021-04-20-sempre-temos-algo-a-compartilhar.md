@@ -22,7 +22,7 @@ Que coisa boa de ler! Fiquei realmente muito contente com essa notícia! O prime
 
 Essa experiência me fez refletir no tema desse post: "sempre temos algo a compartilhar". Confesso que eu tenho certa dificuldade em enxergar que tenho algo a compartilhar com as outras pessoas. Várias vezes eu penso que alguns assuntos são muito simples ou que "todo mundo já sabe", mas isso nem sempre é verdade.
 
-> ***No universo da tecnologia muitas coisas podem parecer simples, mas não são necessariamente fáceis. Para torná-las assim, fáceis, é preciso bastante estudo e prática.***
+> **No universo da tecnologia muitas coisas podem parecer simples, mas não são necessariamente fáceis. Para torná-las assim, fáceis, é preciso bastante estudo e prática.**
 
 Gosto de pensar no "Eu do passado" x o "Eu do agora". Se parar para analisar, certamente, o "Eu do passado" não sabia de várias coisas que o "Eu do agora" sabe. E o ponto é que existem várias pessoas que estão naquela mesma etapa do "Eu do passado". Ou seja, nós podemos ser um impulsionador para o desenvolvimento de outras pessoas e ao mesmo tempo nos desenvolvermos também, dado que ensinar é a melhor forma de aprender. É o famoso ganha-ganha! ✨
 
