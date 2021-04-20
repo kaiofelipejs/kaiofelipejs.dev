@@ -3,8 +3,8 @@ title: Sempre temos algo a compartilhar
 description: Isso não depende do seu tempo de experiência.
 date: 2021-04-20 08:52:11
 image: /assets/img/post-compartilhar.png
-category: life
-background: "#527310"
+category: career
+background: "#2A3FAA"
 ---
 Recentemente um colega de trabalho me mandou uma mensagem que me despertou vários sentimentos bacanas e me fez refletir bastante num ponto que é o assunto principal desse post e que se resume ao próprio título: sempre temos algo a compartilhar.
 
