@@ -1,6 +1,6 @@
 ---
 title: Sempre temos algo a compartilhar
-description: Isso não depende do seu tempo de experiência.
+description: E isso não depende do seu tempo de experiência.
 date: 2021-04-20 08:52:11
 image: /assets/img/post-compartilhar.png
 category: career
@@ -8,7 +8,7 @@ background: "#2A3FAA"
 ---
 Recentemente um colega de trabalho me mandou uma mensagem que me despertou vários sentimentos bacanas e me fez refletir bastante num ponto que é o assunto principal desse post e que se resume ao próprio título: sempre temos algo a compartilhar.
 
-Eu comecei, oficialmente, uma nova carreira em tecnologia em Junho de 2020 (já contei em outro [post como foi esse processo de transição](https://kaiofelipejs.dev/transicao-de-carreira-minha-jornada-ate-se-tornar-um-desenvolvedor-de-software/)), ou seja, ainda estou bem no começo dela. Em setembro recebi uma mensagem de uma pessoa para marcarmos um papo sobre como foi esse processo, desafios, experiências e tudo mais. Confesso que a primeira coisa que eu pensei foi:
+Eu comecei, oficialmente, uma nova carreira em tecnologia em Junho de 2020 (já contei em outro [post como foi esse processo de transição](/transicao-de-carreira-minha-jornada-ate-se-tornar-um-desenvolvedor-de-software/)), ou seja, ainda estou bem no começo dela. Em setembro recebi uma mensagem de uma pessoa para marcarmos um papo sobre como foi esse processo, desafios, experiências e tudo mais. Confesso que a primeira coisa que eu pensei foi:
 
 > *"Acredito que eu não tenha muito o que falar, mas bora"*
 
