@@ -9,7 +9,7 @@
     "algoliasearch": "^4.9.1",
     "babel-polyfill": "^6.26.0",
     "dotenv": "^8.2.0",
-    "gatsby": "^2.32.12",
+    "gatsby": "^2.32.13",
     "gatsby-image": "^3.2.0",
     "gatsby-plugin-algolia-search": "0.5.0",
     "gatsby-plugin-gtag": "^1.0.13",
