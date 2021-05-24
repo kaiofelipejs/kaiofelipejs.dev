@@ -8,7 +8,7 @@
     "@react95/core": "^3.0.7",
     "algoliasearch": "^4.9.1",
     "babel-polyfill": "^6.26.0",
-    "dotenv": "^8.2.0",
+    "dotenv": "^10.0.0",
     "gatsby": "^2.32.12",
     "gatsby-image": "^3.2.0",
     "gatsby-plugin-algolia-search": "0.5.0",
