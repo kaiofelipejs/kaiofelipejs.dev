@@ -11,7 +11,7 @@
     "dotenv": "^8.2.0",
     "gatsby": "^2.32.12",
     "gatsby-image": "^3.2.0",
-    "gatsby-plugin-algolia-search": "0.5.0",
+    "gatsby-plugin-algolia-search": "0.5.7",
     "gatsby-plugin-gtag": "^1.0.13",
     "gatsby-plugin-manifest": "^2.12.1",
     "gatsby-plugin-netlify-cms": "^4.10.1",
