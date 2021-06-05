@@ -23,7 +23,7 @@ const AboutPage = () => (
         <section>
           <h3>Versão resumida: </h3>
           <p>
-            Kaio, 21, manézinho da ilha, desenvolvedor, apaixonado por
+            Kaio, 22, manézinho da ilha, desenvolvedor, apaixonado por
             tecnologia, teologia reformada, música, futebol e um bom café.
           </p>
         </section>
@@ -32,7 +32,7 @@ const AboutPage = () => (
           <h3>Versão longa: </h3>
           <p>
             Me chamo Kaio Felipe Silva (tem um "José" ai no meio, mas geralmente
-            eu tiro), tenho 21 anos e sou natural de Florianópolis/SC — ou como
+            eu tiro), tenho 22 anos e sou natural de Florianópolis/SC — ou como
             a gente diz por aqui, manézinho da ilha. Atualmente trabalho na RD
             Station, a maior plataforma de automação de marketing e vendas para
             pequenas e médias empresas.
@@ -43,7 +43,8 @@ const AboutPage = () => (
             código e contribuir para o mundo open source de alguma forma.
             Tecnicamente falando, meu foco tem sido em desenvolvimento frontend,
             mas também me viro no backend. Tenho trabalhado principalmente com
-            React e Ruby/Rails.
+            React e Ruby/Rails usando bastante testes com Jest/React Testing
+            Library e Rspec.
           </p>
 
           <p>
