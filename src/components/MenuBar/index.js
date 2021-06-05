@@ -1,7 +1,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 
-import { Icon } from "@react95/core"
+import { Shdocvw256, SccviewIcon, Bookmark } from "@react95/icons"
 
 import * as S from "./styled"
 
@@ -20,8 +20,8 @@ const MenuBar = ({ setReadingMode, readingMode }) => {
           title="Voltar para home"
         >
           <S.MenuBarItem>
-            <Icon
-              name="shdocvw_256_32x32_4bit"
+            <Shdocvw256
+              variant="32x32_4"
               aria-label="Icone com uma folha ao fundo e uma casa pequena no canto inferior direito."
             />
             <span>Home</span>
@@ -37,10 +37,7 @@ const MenuBar = ({ setReadingMode, readingMode }) => {
           title="Pesquisar"
         >
           <S.MenuBarItem>
-            <Icon
-              name="sccview_icon_32x32_4bit"
-              aria-label="Icone de uma lupa."
-            />
+            <SccviewIcon variant="32x32_4" aria-label="Icone de uma lupa." />
             <span>Buscar</span>
           </S.MenuBarItem>
         </S.MenuBarLink>
@@ -52,11 +49,7 @@ const MenuBar = ({ setReadingMode, readingMode }) => {
           title="Modo leitura"
           readingMode={readingMode}
         >
-          <Icon
-            name="bookmark_32x32_4bit"
-            aria-label="Icone de um livro aberto."
-          />
-
+          <Bookmark variant="32x32_4" aria-label="Icone de um livro aberto." />
           <span>Modo leitura</span>
         </S.MenuBarItem>
       </S.MenuBarGroup>

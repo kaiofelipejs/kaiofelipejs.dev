@@ -50,7 +50,7 @@ export const MenuBarItem = styled.div`
     color: #fff;
   }
 
-  &[title="Modo leitura"] > i {
+  &[title="Modo leitura"] > img {
     filter: ${props =>
       props.readingMode ? "brightness(1)" : "brightness(0.5)"};
   }

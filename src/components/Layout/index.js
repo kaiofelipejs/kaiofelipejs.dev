@@ -7,6 +7,7 @@ import {
   GlobalStyle as ThemeGlobalStyle,
   List,
 } from "@react95/core"
+import { WindowsExplorer } from "@react95/icons"
 
 import Sidebar from "components/Sidebar"
 import MenuBar from "components/MenuBar"
@@ -51,7 +52,7 @@ const Layout = ({ children }) => {
           <S.LayoutMain
             isMobile={isMobile}
             closeModal={closeModal}
-            icon="windows_explorer_32x32_4bit"
+            icon={<WindowsExplorer variant="32x32_4" />}
             title={isMobile ? "Kaio Felipe Silva" : "Conteúdo"}
             menu={[
               {
