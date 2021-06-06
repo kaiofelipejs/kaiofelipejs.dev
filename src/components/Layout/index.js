@@ -9,12 +9,14 @@ import {
 } from "@react95/core"
 import { WindowsExplorer } from "@react95/icons"
 
-import Sidebar from "components/Sidebar"
-import MenuBar from "components/MenuBar"
+import Loading from "components/Loading"
 import TaskList from "components/TaskList"
 
 import * as S from "./styled"
 import StyleBase from "../../styles/global"
+
+const Sidebar = React.lazy(() => import("components/Sidebar"))
+const MenuBar = React.lazy(() => import("components/MenuBar"))
 
 const Layout = ({ children }) => {
   const [showModal, setShowModal] = useState(true)
@@ -44,7 +46,9 @@ const Layout = ({ children }) => {
       <S.LayoutWrapper>
         {!isMobile && (
           <TransitionPortal level="top">
-            <Sidebar />
+            <React.Suspense fallback={<Loading left="7.5%" />}>
+              <Sidebar />
+            </React.Suspense>
           </TransitionPortal>
         )}
 
@@ -52,7 +56,9 @@ const Layout = ({ children }) => {
           <S.LayoutMain
             isMobile={isMobile}
             closeModal={closeModal}
-            icon={<WindowsExplorer variant="32x32_4" />}
+            icon={
+              <WindowsExplorer variant="16x16_4" alt="Windows Explorer icon" />
+            }
             title={isMobile ? "Kaio Felipe Silva" : "Conteúdo"}
             menu={[
               {
@@ -78,9 +84,16 @@ const Layout = ({ children }) => {
           </S.LayoutMain>
         )}
 
-        <TransitionPortal level="top">
-          <MenuBar setReadingMode={setReadingMode} readingMode={readingMode} />
-        </TransitionPortal>
+        {!isMobile && (
+          <TransitionPortal level="top">
+            <React.Suspense fallback={<Loading right="2.5%" />}>
+              <MenuBar
+                setReadingMode={setReadingMode}
+                readingMode={readingMode}
+              />
+            </React.Suspense>
+          </TransitionPortal>
+        )}
       </S.LayoutWrapper>
       <TransitionPortal level="top">
         <TaskBar

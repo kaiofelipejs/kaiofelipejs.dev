@@ -1,6 +1,5 @@
 import { createGlobalStyle, css } from "styled-components"
 import { w95, w952 } from "./fonts"
-// import "@react95/icons/icons.css"
 
 const Reset = css`
   html,
