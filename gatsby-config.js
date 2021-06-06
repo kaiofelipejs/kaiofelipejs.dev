@@ -7,6 +7,9 @@ const pluginConfig = [
   `gatsby-plugin-transition-link`,
   `gatsby-plugin-styled-components`,
   `gatsby-plugin-react-helmet`,
+  `gatsby-plugin-image`,
+  `gatsby-plugin-sharp`,
+  `gatsby-transformer-sharp`,
   // needs to be the first to work with gatsby-remark-images
   {
     resolve: `gatsby-source-filesystem`,
@@ -50,8 +53,6 @@ const pluginConfig = [
       components: path.join(__dirname, "src/components"),
     },
   },
-  `gatsby-transformer-sharp`,
-  `gatsby-plugin-sharp`,
   {
     resolve: `gatsby-plugin-gtag`,
     options: {

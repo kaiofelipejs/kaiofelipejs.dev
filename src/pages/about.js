@@ -1,13 +1,13 @@
 import React from "react"
 import Layout from "components/Layout"
-import SEO from "components/seo"
+import Seo from "components/seo"
 
 import { MainContent } from "components/Post/styled"
 import SocialLinks from "components/SocialLinks"
 
 const AboutPage = () => (
   <>
-    <SEO
+    <Seo
       title="Sobre mim"
       description="Saiba um pouco mais sobre quem está por trás desse blog."
     />
