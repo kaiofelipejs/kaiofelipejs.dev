@@ -10,11 +10,13 @@ import {
 import { WindowsExplorer } from "@react95/icons"
 
 import Sidebar from "components/Sidebar"
-import MenuBar from "components/MenuBar"
-import TaskList from "components/TaskList"
+import Loading from "components/Loading"
 
 import * as S from "./styled"
 import StyleBase from "../../styles/global"
+
+const TaskList = React.lazy(() => import("components/TaskList"))
+const MenuBar = React.lazy(() => import("components/MenuBar"))
 
 const Layout = ({ children }) => {
   const [showModal, setShowModal] = useState(true)
@@ -78,18 +80,27 @@ const Layout = ({ children }) => {
           </S.LayoutMain>
         )}
 
-        <TransitionPortal level="top">
-          <MenuBar setReadingMode={setReadingMode} readingMode={readingMode} />
-        </TransitionPortal>
+        {!isMobile && (
+          <TransitionPortal level="top">
+            <React.Suspense fallback={<Loading right="2.5%" />}>
+              <MenuBar
+                setReadingMode={setReadingMode}
+                readingMode={readingMode}
+              />
+            </React.Suspense>
+          </TransitionPortal>
+        )}
       </S.LayoutWrapper>
       <TransitionPortal level="top">
         <TaskBar
           list={
-            <TaskList
-              setReadingMode={setReadingMode}
-              readingMode={readingMode}
-              setShowModal={setShowModal}
-            />
+            <React.Suspense fallback="">
+              <TaskList
+                setReadingMode={setReadingMode}
+                readingMode={readingMode}
+                setShowModal={setShowModal}
+              />
+            </React.Suspense>
           }
         />
       </TransitionPortal>
