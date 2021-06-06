@@ -1,9 +1,9 @@
 import React from "react"
-import * as S from "./styled"
-
-import { InfoBubble } from "@react95/icons"
+import { InfoBubble } from "@react95/icons/esm/react/InfoBubble"
 
 import Loading from "components/Loading"
+
+import * as S from "./styled"
 
 const Profile = React.lazy(() => import("components/Profile"))
 const SocialLinks = React.lazy(() => import("components/SocialLinks"))

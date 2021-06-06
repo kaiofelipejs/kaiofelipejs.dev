@@ -1,7 +1,9 @@
 import React from "react"
 import PropTypes from "prop-types"
 
-import { Shdocvw256, SccviewIcon, Bookmark } from "@react95/icons"
+import { Shdocvw256 } from "@react95/icons/esm/react/Shdocvw256"
+import { SccviewIcon } from "@react95/icons/esm/react/SccviewIcon"
+import { Bookmark } from "@react95/icons/esm/react/Bookmark"
 
 import * as S from "./styled"
 

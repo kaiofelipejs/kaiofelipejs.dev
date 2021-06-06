@@ -2,15 +2,14 @@ import React from "react"
 import PropTypes from "prop-types"
 import { List } from "@react95/core"
 
+import { Shdocvw256 } from "@react95/icons/esm/react/Shdocvw256"
+import { SccviewIcon } from "@react95/icons/esm/react/SccviewIcon"
+import { Bookmark } from "@react95/icons/esm/react/Bookmark"
+import { Settings } from "@react95/icons/esm/react/Settings"
+import { WindowsExplorer } from "@react95/icons/esm/react/WindowsExplorer"
+import { Ulclient1002 } from "@react95/icons/esm/react/Ulclient1002"
+
 import * as S from "./styled"
-import {
-  Shdocvw256,
-  SccviewIcon,
-  Bookmark,
-  Settings,
-  WindowsExplorer,
-  Ulclient1002,
-} from "@react95/icons"
 
 const TaskList = ({ setShowModal, setReadingMode, readingMode }) => (
   <List>
