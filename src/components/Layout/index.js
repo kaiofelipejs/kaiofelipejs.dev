@@ -9,13 +9,13 @@ import {
 } from "@react95/core"
 import { WindowsExplorer } from "@react95/icons"
 
-import Sidebar from "components/Sidebar"
 import Loading from "components/Loading"
+import TaskList from "components/TaskList"
 
 import * as S from "./styled"
 import StyleBase from "../../styles/global"
 
-const TaskList = React.lazy(() => import("components/TaskList"))
+const Sidebar = React.lazy(() => import("components/Sidebar"))
 const MenuBar = React.lazy(() => import("components/MenuBar"))
 
 const Layout = ({ children }) => {
@@ -46,7 +46,9 @@ const Layout = ({ children }) => {
       <S.LayoutWrapper>
         {!isMobile && (
           <TransitionPortal level="top">
-            <Sidebar />
+            <React.Suspense fallback={<Loading left="7.5%" />}>
+              <Sidebar />
+            </React.Suspense>
           </TransitionPortal>
         )}
 
@@ -96,13 +98,11 @@ const Layout = ({ children }) => {
       <TransitionPortal level="top">
         <TaskBar
           list={
-            <React.Suspense fallback="">
-              <TaskList
-                setReadingMode={setReadingMode}
-                readingMode={readingMode}
-                setShowModal={setShowModal}
-              />
-            </React.Suspense>
+            <TaskList
+              setReadingMode={setReadingMode}
+              readingMode={readingMode}
+              setShowModal={setShowModal}
+            />
           }
         />
       </TransitionPortal>
