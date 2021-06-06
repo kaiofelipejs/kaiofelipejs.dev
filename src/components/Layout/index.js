@@ -7,7 +7,7 @@ import {
   GlobalStyle as ThemeGlobalStyle,
   List,
 } from "@react95/core"
-import { WindowsExplorer } from "@react95/icons"
+import { WindowsExplorer } from "@react95/icons/esm/react/WindowsExplorer"
 
 import Loading from "components/Loading"
 import TaskList from "components/TaskList"
@@ -57,7 +57,7 @@ const Layout = ({ children }) => {
             isMobile={isMobile}
             closeModal={closeModal}
             icon={
-              <WindowsExplorer variant="16x16_4" alt="Windows Explorer icon" />
+              <WindowsExplorer variant="32x32_4" alt="Windows Explorer icon" />
             }
             title={isMobile ? "Kaio Felipe Silva" : "Conteúdo"}
             menu={[
