@@ -14,7 +14,9 @@ import {
 
 const TaskList = ({ setShowModal, setReadingMode, readingMode }) => (
   <List>
-    <S.ListItem icon={<WindowsExplorer variant="32x32_4" />}>
+    <S.ListItem
+      icon={<WindowsExplorer variant="32x32_4" alt="Windows Explorer icon" />}
+    >
       Páginas
     </S.ListItem>
 

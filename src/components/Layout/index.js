@@ -54,7 +54,9 @@ const Layout = ({ children }) => {
           <S.LayoutMain
             isMobile={isMobile}
             closeModal={closeModal}
-            icon={<WindowsExplorer variant="32x32_4" />}
+            icon={
+              <WindowsExplorer variant="16x16_4" alt="Windows Explorer icon" />
+            }
             title={isMobile ? "Kaio Felipe Silva" : "Conteúdo"}
             menu={[
               {
