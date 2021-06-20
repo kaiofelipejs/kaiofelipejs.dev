@@ -1,6 +1,20 @@
 const path = require("path")
 const { createFilePath } = require(`gatsby-source-filesystem`)
 
+exports.sourceNodes = ({ actions, schema }) => {
+  const { createTypes } = actions
+
+  createTypes(`
+    type MarkdownRemarkFrontmatter {
+      image: String
+    }
+
+    type MardownRemark implements Node {
+      frontmatter: MarkdownRemarkFrontmatter
+    }
+  `)
+}
+
 // To add the slug field to each post
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions
