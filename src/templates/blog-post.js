@@ -49,10 +49,7 @@ export const query = graphql`
         date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
         description
         title
-        date(formatString: "DD [de] MMMM [de] YYYY", locale: "pt-br")
-        image {
-          relativePath
-        }
+        image
       }
       timeToRead
     }

@@ -30,7 +30,7 @@ const pluginConfig = [
     options: {
       plugins: [
         {
-          resolve: `gatsby-remark-relative-images`,
+          resolve: `gatsby-remark-relative-images-v2`,
           options: {
             name: "uploads",
           },
@@ -82,7 +82,6 @@ if (process.env.CONTEXT === "production") {
     options: {
       appId: process.env.GATSBY_ALGOLIA_APP_ID,
       apiKey: process.env.ALGOLIA_ADMIN_KEY,
-      indexName: process.env.GATSBY_ALGOLIA_INDEX_NAME,
       queries,
       chunkSize: 10000,
       enablePartialUpdates: true,
@@ -95,7 +94,7 @@ if (process.env.CONTEXT === "production") {
 module.exports = {
   siteMetadata: {
     position: `Software Engineer`,
-    description: `Um cara simples que escreve alguns códigos e busca compartilhar conhecimento com outras pessoas.`,
+    description: `Um cara simples que escreve alguns códigos e gosta de compartilhar conhecimento com outras pessoas.`,
     author: `Kaio Felipe Silva`,
     siteUrl: `https://kaiofelipejs.dev`,
   },
