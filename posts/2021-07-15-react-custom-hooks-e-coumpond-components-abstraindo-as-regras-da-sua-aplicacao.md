@@ -12,9 +12,14 @@ Apesar dos nomes bonitos que está no título, o que quero falar hoje é sobre a
 
 ## Custom Hooks
 
+Acredito que você já esteja familiarizado com o conceito de Hooks no React, tais como: `useState`, `useEffect`, `useCallback` e outros. Um Custom Hook, nada mais é que a extração de uma lógica para poder compartilhar em diferentes lugares da aplicação. Antes dos Hooks, você tinha apenas duas formas compartilhar lógica entre componentes: `props` e High Order Components (HOC). Os Hooks e Custom Hooks é mais uma forma de fazer isso e de uma forma mais elegante em alguns casos.
 
+Se quiser se aprofundar mais nesse tema, eu sugiro fortemente leia a [documentação do React sobre](https://pt-br.reactjs.org/docs/hooks-custom.html). Ela é bastante completa, com perguntas comuns respondidas, exemplos reais e boas práticas.
+
+> Mais a frente vamos criar o nosso custom hook, segura aí :)
 
 ## Coumpond Components
+
 
 
 
