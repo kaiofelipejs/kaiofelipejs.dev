@@ -1,5 +1,5 @@
 ---
-title: "React custom hooks e coumpond components: abstraindo as regras da sua
+title: "React Custom Hooks e Compound Components: abstraindo as regras da sua
   aplicação"
 description: Como podemos isolar algumas regras e compartilhar entre diferentes
   componentes sem precisar duplicar código.
@@ -8,19 +8,21 @@ image: /assets/img/og-image.jpg
 category: frontend
 background: "#AB660D"
 ---
-Apesar dos nomes bonitos que está no título, o que quero falar hoje é sobre algo comum em aplicações do nosso dia a dia: mesmas regras que se aplicam para diferentes cenários sem precisar duplicar código por toda parte. Falando de frontend e mais especificamente React, uma solução para isso (que é o que vou trazer hoje) é usar uma combinação de custom hooks com coumpond components. Caso você não esteja por dentro do que são esses dois temas, vou introduzí-los rapidamente: 
+Apesar dos nomes bonitos que estão no título, o que quero falar (na real, escrever) hoje é sobre algo comum em aplicações do nosso dia a dia: mesmas regras que se aplicam para diferentes cenários sem precisar duplicar código por toda parte.
+
+Falando de frontend e mais especificamente React, uma solução para isso (que é o que vou trazer hoje) é usar uma combinação de custom hooks com compound components. Caso você não esteja por dentro do que são esses dois temas, vou introduzí-los rapidamente: 
 
 ## Custom Hooks
 
-Acredito que você já esteja familiarizado com o conceito de Hooks no React, tais como: `useState`, `useEffect`, `useCallback` e outros. Um Custom Hook, nada mais é que a extração de uma lógica para poder compartilhar em diferentes lugares da aplicação. Antes dos Hooks, você tinha apenas duas formas compartilhar lógica entre componentes: `props` e High Order Components (HOC). Os Hooks e Custom Hooks é mais uma forma de fazer isso e de uma forma mais elegante em alguns casos.
+Acredito que você já esteja familiarizado com o conceito de Hooks no React, tais como: `useState`, `useEffect`, `useCallback` e outros. Um Custom Hook, nada mais é que a extração de uma lógica para poder compartilhar em diferentes lugares da aplicação. Antes dos Hooks, você tinha apenas duas formas compartilhar lógica entre componentes: *props* e High Order Components (HOC). Agora temos mais uma forma de fazer isso e que pode ser mais elegante em alguns casos.
 
-Se quiser se aprofundar mais nesse tema, eu sugiro fortemente leia a [documentação do React sobre](https://pt-br.reactjs.org/docs/hooks-custom.html). Ela é bastante completa, com perguntas comuns respondidas, exemplos reais e boas práticas.
+Se quiser se aprofundar nesse tema, eu sugiro fortemente a leitura da [documentação do React](https://pt-br.reactjs.org/docs/hooks-custom.html). Ela é bastante completa, com perguntas comuns respondidas, exemplos reais e boas práticas.
 
-> Mais a frente vamos criar o nosso custom hook, segura aí :)
+> Mais a frente vamos criar o nosso próprio custom hook, segura aí :)
 
 ## Compound Components
 
-De forma resumida, um Coumpond Component é um componente que compartilha uma mesma regra ou estados com seus filhos, mas te dá a flexibilidade de *compor* ele da forma que chamar melhor.
+De forma resumida, um compound component é um componente que compartilha uma mesma regra ou estados com seus filhos, mas te dá a flexibilidade de *compor* ele da forma que chamar melhor.
 
 Por exemplo, suponha que você tenha um componente List que tem alguns estilos pré definidos através de uma classe CSS. Num cenário "comum", dentro desse componente estaria declarado diretamente seus filhos, algo como: 
 
@@ -41,12 +43,12 @@ const List = ({ items }) => {
 E seu uso seria: 
 
 ```js
-<List items={['Item 1', 'Item 2', 'Item 3']}/>
+<List items={['Item 1', 'Item 2', 'Item 3']} />
 ```
 
-Mas, e se a gente precisar de uma lista ordenada agora? Teriamos que receber um prop, criar uma validação e então decidir qual renderizar. Vamos pensar um pouco, isso é de responsabilidade do componente ter que lidar com isso, ou de quem está usando esse componente? Me parece ser a segunda opção. 
+Mas, e se a gente precisar de uma lista ordenada agora? Teriamos que receber um prop, criar uma validação e então decidir qual renderizar. Vamos pensar um pouco, isso é de responsabilidade do componente List ou de quem está usando esse componente? Me parece ser a segunda opção. 
 
-Com um Compound Component, nós poderiamos resolver dessa forma: 
+Com um compound component, nós poderiamos resolver dessa forma: 
 
 ```js
 const List = ({ children }) => {
@@ -54,9 +56,13 @@ const List = ({ children }) => {
 }
 ```
 
-Agora para usar ele, há diversas formas:
+> Ué, Kaio?! Você apagou quase tudo!
 
-Você pode usar uma lista não ordenada.
+Pois é! Agora, nosso componente List só se importa em aplicar as regras de estilo e o que vai como filhos dele, ele apenas renderiza. 
+
+E para usá-lo há diversas formas:
+
+Com uma lista não ordenada:
 
 ```js
 <List>
@@ -68,7 +74,7 @@ Você pode usar uma lista não ordenada.
 </List>
 ```
 
-Pode usar uma lista ordenada.
+Com uma lista ordenada:
 
 ```js
 <List>
@@ -80,7 +86,7 @@ Pode usar uma lista ordenada.
 </List>
 ```
 
-Pode fazer um loop dentro da lista.
+Pode fazer um loop dentro da lista: 
 
 ```js
 <List>
@@ -92,17 +98,15 @@ Pode fazer um loop dentro da lista.
 </List>
 ```
 
-> Ué, Kaio?! Você apagou quase tudo!
+E várias outras coisas. 
 
-Pois é! Agora, nosso componente List só se importa em aplicar as regras de estilo e o que vai como filho dele, ele apenas renderiza. 
+Eu sei que esse é um exemplo simples, mas acho que é suficiente para *introduzir* o assunto e pensar em outras N possibilidades que temos. Vamos pular para um cenário real e escrever mais códigos.
 
-Eu sei que esse é um exemplo simples, mas acho que é suficiente para introduzir o assunto e pensar em outras N possibilidades que temos. Já já veremos um problema mais bacana. 
+## Aplicando num cenário real
 
-## Um cenário real
+O nosso caso é: o plano da conta do nosso usuário tem acesso a uma lista de funcionalidades. Por conta disso, só podemos exibir a funcionalidade X para ele se ela existir nessa lista. Caso não tenha, o botão de acesso deve estar desabilitado, deve haver uma mensagem informando que não tem acesso e deve existir um [CTA](https://resultadosdigitais.com.br/blog/tudo-sobre-call-to-action/) para que ele adquira a funcionalidade. É a mesma ideia de [feature flag/toggles](https://martinfowler.com/articles/feature-toggles.html).
 
-O nosso caso é: o plano da conta do nosso usuário tem acesso a uma lista de funcionalidades. Por conta disso, só podemos exibir a funcionalidade X para ele se ela existir nessa lista. Caso não tenha, ela deve aparecer com o botão de acesso desabilitado, uma mensagem informando que não tem acesso e um [CTA](https://resultadosdigitais.com.br/blog/tudo-sobre-call-to-action/) para adquirir. É a mesma ideia de [feature flag/toggles](https://martinfowler.com/articles/feature-toggles.html).
-
-### Solução *feia*
+### Solução *feia* e repetitiva
 
 ```js
 const MyComponent = () => {
@@ -119,7 +123,7 @@ const MyComponent = () => {
         </Card>
 
         <Card>
-          {availableFeatures.includes('unavailable_feature') ? (
+          {availableFeatures.includes('feature_two') ? (
             <>
               <Text>Funcionalidade 2</Text>
               <LinkButton href="https://example.org">Acessar</LinkButton>
@@ -149,7 +153,7 @@ Vamos por partes:
 
 `Grid` e `Wrapper`: Apenas [styled components](https://styled-components.com/) que criei para deixar o resultado final mais organizado. 
 
-`Text`, `Card` e `LinkButton`: componentes que fazem parte do Tangram (design system da RD Station)
+`Text`, `Card`, `ButtonGroup` e `LinkButton`: componentes que fazem parte do Tangram (design system da RD Station)
 
 O que temos agora então é uma condição usando [operador ternário](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Conditional_Operator) que valida se a `feature_one` está presente na lista de features disponíveis para esse usuário. 
 
@@ -189,7 +193,7 @@ export const useAccountFeatures = () => {
 
 > Novamente, lembre que o `availableFeatures` poderia vir de qualquer outro lugar, apenas no exemplo ele é estático.
 
-Basicamente, nosso Custom Hook retorna dois Compound Components que tem a regra de validação se tem acesso ou não a funcionalidade e no cenário verdadeiro retorna o seus filhos (`children`). Vamos ver como usá-lo refatorando o nosso `MyComponent` num cenário **verdadeiro** (tem acesso)
+Basicamente, nosso custom hook retorna dois compound components que tem a regra de validação se tem acesso ou não a funcionalidade e, por sua vez, esses componentes no cenário verdadeiro da validação retornam os seus filhos (`children`). Vamos ver como usá-lo refatorando o nosso `MyComponent`
 
 ```js
 const MyComponent = () => {
@@ -230,9 +234,9 @@ const MyComponent = () => {
 }
 ```
 
-Repare que agora nosso componente não sabe quais são as funcionalidades disponíveis, não é mais o papel dele ter que buscar aquele `availableFeatures`. Agora ele tem a chamada para o nosso Custom Hook `useAccountFeatures` e, desestruturando, ele tem acesso aos dois Compound Components retornados por ele. 
+Repare que agora nosso componente não sabe quais são as funcionalidades disponíveis, não é mais o papel dele ter que buscar aquela lista `availableFeatures`. Agora ele tem a chamada para o nosso custom hook `useAccountFeatures` e, desestruturando-o, ele tem acesso aos dois compound components retornados por ele. 
 
-Ao invés de toda a lógica de validação ficar dentro do `MyComponent`, ele agora só precisa informar a funcionalidade que está sendo validada e isso é abstraído completamente pelos componentes `HaveAccess` e `DontHaveAccess` ✨️
+Ao invés de toda a lógica de validação ficar dentro do `MyComponent`, ele agora só precisa informar via props qual funcionalidade está sendo validada e isso é abstraído completamente pelos componentes `HaveAccess` e `DontHaveAccess` ✨️
 
 E o resultado final na tela é o mesmo do anterior:
 
@@ -246,10 +250,12 @@ Sem acesso
 
 Agora qualquer outro lugar da aplicação que precisar validar o acesso a uma funcionalidade X basta seguir o mesmo exemplo e se em algum momento outra validação for necessária é só alterar diretamente o hook `useAccountFeatures` e tudo continuará funcionando :)
 
-Aí alguém pode pensar: _"Mas dessa forma eu tenho que escrever muito mais código 😠️"_
+Aí alguém pode pensar: *"Mas dessa forma eu tenho que escrever muito mais código 😠️"*
 
 E, sim, é verdade, mas comparado ao ganho que você tem ao desacoplar as regras e poder testá-la unitariamente e aplicá-la em diferentes cenários, escrever mais códigos acaba valendo a pena.
 
-Por hoje, é isso. Espero que você tenha curtido e se tiver algum comentário para fazer, fique a vontade! 
+Com certeza, existem várias formas de resolver esse mesmo problema, inclusive não usando custom hooks e nem compound components. Minha ideia era te apresentar esses conceitos e como podemos resolver um problema real com eles.
+
+Espero que você tenha curtido e se tiver algum comentário para fazer, fique a vontade para lançar a braba! 
 
 Até a próxima! 👋🏽
