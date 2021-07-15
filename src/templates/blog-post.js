@@ -18,7 +18,7 @@ const BlogPost = ({ data, pageContext }) => {
       <Seo
         title={post.frontmatter.title}
         description={post.frontmatter.description}
-        image={post.frontmatter.image.relativePath}
+        image={post.frontmatter.image}
       />
       <Layout>
         <S.PostHeader>
