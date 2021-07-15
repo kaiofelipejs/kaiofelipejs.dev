@@ -100,7 +100,7 @@ Eu sei que esse é um exemplo simples, mas acho que é suficiente para introduzi
 
 ## Um cenário real
 
-O nosso caso é: o plano da conta do nosso usuário tem acesso a uma lista de funcionalidades. Por conta disso, só podemos exibir a funcionalidade X para ele se ela existir nessa lista. Caso não tenha, ela deve aparecer desabilitada e com uma mensagem informando que não tem acesso. É quase a mesma ideia de [feature flag/toggles](https://martinfowler.com/articles/feature-toggles.html).
+O nosso caso é: o plano da conta do nosso usuário tem acesso a uma lista de funcionalidades. Por conta disso, só podemos exibir a funcionalidade X para ele se ela existir nessa lista. Caso não tenha, ela deve aparecer com o botão de acesso desabilitado, uma mensagem informando que não tem acesso e um [CTA](https://resultadosdigitais.com.br/blog/tudo-sobre-call-to-action/) para adquirir. É a mesma ideia de [feature flag/toggles](https://martinfowler.com/articles/feature-toggles.html).
 
 Uma solução para isso é: 
 
@@ -161,8 +161,6 @@ E para o cenário onde a feature não está disponível na lista, nós temos o s
 
 ![Um titulo "Funcionalidades" e abaixo dois cards um respectivos titulos "Funcionalidade 1" e "Você ainda não tem acesso a Funcionalidade 2", ambos com botões para acessar, porém o segundo está desabilitado.](/assets/img/without-access.png "Resultado final do código acima na condição falsa.")
 
-Bom, funcionou como deveria certo?!
-
-Falar sobre DRY
+Bom, funcionou como deveria, certo?! Agora, imagine que essa validação acontece em diferentes locais da aplicação, por exemplo, na barra de navegação, dentro de um modal, numa outra listagem qualquer, você teria que repetir essa mesma lógica por todo o produto e isso seria um caos indo contra ao conceito [DRY (Don't Repeat Yourself)](https://pt.wikipedia.org/wiki/Don%27t_repeat_yourself).
 
 Mostrar uma solução mais escalável
