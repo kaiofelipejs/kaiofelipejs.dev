@@ -155,7 +155,7 @@ Vamos por partes:
 
 `Text`, `Card`, `ButtonGroup` e `LinkButton`: componentes que fazem parte do Tangram (design system da RD Station)
 
-O que temos agora então é uma condição usando [operador ternário](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Conditional_Operator) que valida se a `feature_one` está presente na lista de features disponíveis para esse usuário. 
+O que temos agora então é uma condição usando [operador ternário](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Conditional_Operator) que valida se a `feature_two` está presente na lista de features disponíveis para esse usuário. 
 
 Como a condição é verdadeira, o resultado final é esse: 
 
@@ -169,7 +169,7 @@ Bom, funcionou como deveria, certo?! Agora, imagine que essa validação acontec
 
 ### Solução *elegante* e escalável
 
-Agora que entre em ação os temas que falamos lá no começo: React Custom Hooks e Compound Components. 
+Agora que entra em ação os temas que falamos lá no começo: Custom Hooks e Compound Components. 
 
 Vamos começar pelo hook: 
 
@@ -193,7 +193,7 @@ export const useAccountFeatures = () => {
 
 > Novamente, lembre que o `availableFeatures` poderia vir de qualquer outro lugar, apenas no exemplo ele é estático.
 
-Basicamente, nosso custom hook retorna dois compound components que tem a regra de validação se tem acesso ou não a funcionalidade e, por sua vez, esses componentes no cenário verdadeiro da validação retornam os seus filhos (`children`). Vamos ver como usá-lo refatorando o nosso `MyComponent`
+Basicamente, nosso custom hook retorna dois compound components que tem a regra de validação se tem acesso ou não a funcionalidade e, por sua vez, esses componentes no cenário verdadeiro da validação retornam os seus filhos (`children`) e no cenário falso retorna \`null\`. Vamos ver como usá-lo refatorando o nosso `MyComponent`:
 
 ```js
 const MyComponent = () => {
