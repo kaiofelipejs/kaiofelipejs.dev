@@ -102,7 +102,7 @@ Eu sei que esse é um exemplo simples, mas acho que é suficiente para introduzi
 
 O nosso caso é: o plano da conta do nosso usuário tem acesso a uma lista de funcionalidades. Por conta disso, só podemos exibir a funcionalidade X para ele se ela existir nessa lista. Caso não tenha, ela deve aparecer com o botão de acesso desabilitado, uma mensagem informando que não tem acesso e um [CTA](https://resultadosdigitais.com.br/blog/tudo-sobre-call-to-action/) para adquirir. É a mesma ideia de [feature flag/toggles](https://martinfowler.com/articles/feature-toggles.html).
 
-Uma solução para isso é: 
+### Solução *feia*
 
 ```js
 const MyComponent = () => {
@@ -163,4 +163,93 @@ E para o cenário onde a feature não está disponível na lista, nós temos o s
 
 Bom, funcionou como deveria, certo?! Agora, imagine que essa validação acontece em diferentes locais da aplicação, por exemplo, na barra de navegação, dentro de um modal, numa outra listagem qualquer, você teria que repetir essa mesma lógica por todo o produto e isso seria um caos indo contra ao conceito [DRY (Don't Repeat Yourself)](https://pt.wikipedia.org/wiki/Don%27t_repeat_yourself).
 
-Mostrar uma solução mais escalável
+### Solução *elegante* e escalável
+
+Agora que entre em ação os temas que falamos lá no começo: React Custom Hooks e Compound Components. 
+
+Vamos começar pelo hook: 
+
+```js
+export const useAccountFeatures = () => {
+  const availableFeatures = ['feature_one', 'feature_two', 'feature_three']
+
+  const hasAccess = feature => availableFeatures.includes(feature)
+
+  const HaveAccess = ({ children, feature }) => {
+    return hasAccess(feature) ? children : null
+  }
+
+  const DontHaveAccess = ({ children, feature }) => {
+    return !hasAccess(feature) ? children : null
+  }
+
+  return { HaveAccess, DontHaveAccess }
+}
+```
+
+> Novamente, lembre que o `availableFeatures` poderia vir de qualquer outro lugar, apenas no exemplo ele é estático.
+
+Basicamente, nosso Custom Hook retorna dois Compound Components que tem a regra de validação se tem acesso ou não a funcionalidade e no cenário verdadeiro retorna o seus filhos (`children`). Vamos ver como usá-lo refatorando o nosso `MyComponent` num cenário **verdadeiro** (tem acesso)
+
+```js
+const MyComponent = () => {
+  const { HaveAccess, DontHaveAccess } = useAccountFeatures()
+
+  return (
+    <Grid>
+      <Text token={Text.tokens.TEXT_XL_BOLD}>Funcionalidades: </Text>
+
+      <Wrapper>
+        <Card>
+          <Text>Funcionalidade 1</Text>
+          <LinkButton href="https://example.org">Acessar</LinkButton>
+        </Card>
+
+        <HaveAccess feature="feature_two">
+          <Card>
+            <Text>Funcionalidade 2</Text>
+            <LinkButton href="https://example.org">Acessar</LinkButton>
+          </Card>
+        </HaveAccess>
+
+        <DontHaveAccess feature="feature_two">
+          <Card>
+            <Text>Você ainda não tem acesso a Funcionalidade 2</Text>
+            <ButtonGroup>
+              <LinkButton href="https://example.org" disabled>
+                Acessar
+              </LinkButton>
+
+              <LinkButton href="https://www.google.com/">Adquirir</LinkButton>
+            </ButtonGroup>
+          </Card>
+        </DontHaveAccess>
+      </Wrapper>
+    </Grid>
+  )
+}
+```
+
+Repare que agora nosso componente não sabe quais são as funcionalidades disponíveis, não é mais o papel dele ter que buscar aquele `availableFeatures`. Agora ele tem a chamada para o nosso Custom Hook `useAccountFeatures` e, desestruturando, ele tem acesso aos dois Compound Components retornados por ele. 
+
+Ao invés de toda a lógica de validação ficar dentro do `MyComponent`, ele agora só precisa informar a funcionalidade que está sendo validada e isso é abstraído completamente pelos componentes `HaveAccess` e `DontHaveAccess` ✨️
+
+E o resultado final na tela é o mesmo do anterior:
+
+Com acesso
+
+![Um titulo "Funcionalidades" e abaixo dois cards um respectivos titulos "Funcionalidade 1" e "Funcionalidade 2", ambos com botões para acessar](/assets/img/with-access.png "Resultado final do código acima na condição verdadeira.")
+
+Sem acesso
+
+![Um titulo "Funcionalidades" e abaixo dois cards um respectivos titulos "Funcionalidade 1" e "Você ainda não tem acesso a Funcionalidade 2", ambos com botões para acessar, porém o segundo está desabilitado.](/assets/img/without-access.png "Resultado final do código acima na condição falsa.")
+
+Agora qualquer outro lugar da aplicação que precisar validar o acesso a uma funcionalidade X basta seguir o mesmo exemplo e se em algum momento outra validação for necessária é só alterar diretamente o hook `useAccountFeatures` e tudo continuará funcionando :)
+
+Aí alguém pode pensar: _"Mas dessa forma eu tenho que escrever muito mais código 😠️"_
+
+E, sim, é verdade, mas comparado ao ganho que você tem ao desacoplar as regras e poder testá-la unitariamente e aplicá-la em diferentes cenários, escrever mais códigos acaba valendo a pena.
+
+Por hoje, é isso. Espero que você tenha curtido e se tiver algum comentário para fazer, fique a vontade! 
+
+Até a próxima! 👋🏽
