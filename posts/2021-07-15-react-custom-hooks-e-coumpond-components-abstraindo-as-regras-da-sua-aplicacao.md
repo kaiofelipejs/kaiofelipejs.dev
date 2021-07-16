@@ -26,7 +26,7 @@ De forma resumida, um compound component é um componente que compartilha uma me
 
 Por exemplo, suponha que você tenha um componente List que tem alguns estilos pré definidos através de uma classe CSS. Num cenário "comum", dentro desse componente estaria declarado diretamente seus filhos, algo como: 
 
-```js
+```jsx
 const List = ({ items }) => {
   return (
     <div className="list-wrapper">
@@ -42,7 +42,7 @@ const List = ({ items }) => {
 
 E seu uso seria: 
 
-```js
+```jsx
 <List items={['Item 1', 'Item 2', 'Item 3']} />
 ```
 
@@ -50,12 +50,11 @@ Mas, e se a gente precisar de uma lista ordenada agora? Teriamos que receber um 
 
 Com um compound component, nós poderiamos resolver dessa forma: 
 
-```js
+```jsx
 const List = ({ children }) => {
   return <div className="list-wrapper">{children}</div>
 }
 ```
-
 > Ué, Kaio?! Você apagou quase tudo!
 
 Pois é! Agora, nosso componente List só se importa em aplicar as regras de estilo e o que vai como filhos dele, ele apenas renderiza. 
@@ -64,7 +63,7 @@ E para usá-lo há diversas formas:
 
 Com uma lista não ordenada:
 
-```js
+```jsx
 <List>
   <ul>
     <li>Item 1</li>
@@ -76,7 +75,7 @@ Com uma lista não ordenada:
 
 Com uma lista ordenada:
 
-```js
+```jsx
 <List>
   <ol>
     <li>Item 1</li>
@@ -88,7 +87,7 @@ Com uma lista ordenada:
 
 Pode fazer um loop dentro da lista: 
 
-```js
+```jsx
 <List>
   <ol>
     {items.map(item => (
@@ -108,7 +107,7 @@ O nosso caso é: o plano da conta do nosso usuário tem acesso a uma lista de fu
 
 ### Solução *feia* e repetitiva
 
-```js
+```jsx
 const MyComponent = () => {
   const availableFeatures = ['feature_one', 'feature_two', 'feature_three']
 
@@ -173,7 +172,7 @@ Agora que entra em ação os temas que falamos lá no começo: Custom Hooks e Co
 
 Vamos começar pelo hook: 
 
-```js
+```jsx
 export const useAccountFeatures = () => {
   const availableFeatures = ['feature_one', 'feature_two', 'feature_three']
 
@@ -190,12 +189,11 @@ export const useAccountFeatures = () => {
   return { HaveAccess, DontHaveAccess }
 }
 ```
-
 > Novamente, lembre que o `availableFeatures` poderia vir de qualquer outro lugar, apenas no exemplo ele é estático.
 
 Basicamente, nosso custom hook retorna dois compound components que tem a regra de validação se tem acesso ou não a funcionalidade e, por sua vez, esses componentes no cenário verdadeiro da validação retornam os seus filhos (`children`) e no cenário falso retorna \`null\`. Vamos ver como usá-lo refatorando o nosso `MyComponent`:
 
-```js
+```jsx
 const MyComponent = () => {
   const { HaveAccess, DontHaveAccess } = useAccountFeatures()
 
@@ -240,11 +238,11 @@ Ao invés de toda a lógica de validação ficar dentro do `MyComponent`, ele ag
 
 E o resultado final na tela é o mesmo do anterior:
 
-Com acesso
+### Com acesso:
 
 ![Um titulo "Funcionalidades" e abaixo dois cards um respectivos titulos "Funcionalidade 1" e "Funcionalidade 2", ambos com botões para acessar](/assets/img/with-access.png "Resultado final do código acima na condição verdadeira.")
 
-Sem acesso
+### Sem acesso: 
 
 ![Um titulo "Funcionalidades" e abaixo dois cards um respectivos titulos "Funcionalidade 1" e "Você ainda não tem acesso a Funcionalidade 2", ambos com botões para acessar, porém o segundo está desabilitado.](/assets/img/without-access.png "Resultado final do código acima na condição falsa.")
 
