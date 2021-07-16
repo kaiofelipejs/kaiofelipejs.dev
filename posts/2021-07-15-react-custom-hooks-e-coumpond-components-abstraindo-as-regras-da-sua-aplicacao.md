@@ -8,13 +8,13 @@ image: /assets/img/react-hooks-compound-components-og.png
 category: frontend
 background: "#AB660D"
 ---
-Apesar dos nomes bonitos que estão no título, o que quero falar (na real, escrever) hoje é sobre algo comum em aplicações do nosso dia a dia: mesmas regras que se aplicam para diferentes cenários sem precisar duplicar código por toda parte.
+Apesar dos nomes bonitos que estão no título, o que quero falar (na real, escrever) hoje é sobre algo comum em aplicações do nosso dia a dia: regras iguais que se aplicam para diferentes cenários sem precisar duplicar código por toda parte.
 
 Falando de frontend e mais especificamente React, uma solução para isso (que é o que vou trazer hoje) é usar uma combinação de custom hooks com compound components. Caso você não esteja por dentro do que são esses dois temas, vou introduzí-los rapidamente: 
 
 ## Custom Hooks
 
-Acredito que você já esteja familiarizado com o conceito de Hooks no React, tais como: `useState`, `useEffect`, `useCallback` e outros. Um Custom Hook, nada mais é que a extração de uma lógica para poder compartilhar em diferentes lugares da aplicação. Antes dos Hooks, você tinha apenas duas formas compartilhar lógica entre componentes: *props* e High Order Components (HOC). Agora temos mais uma forma de fazer isso e que pode ser mais elegante em alguns casos.
+Acredito que você já esteja familiarizado com o conceito de Hooks no React, tais como: `useState`, `useEffect`, `useCallback` e outros. Um Custom Hook, nada mais é que a extração de uma lógica para poder compartilhar em diferentes lugares da aplicação. Antes dos Hooks, você tinha apenas duas formas de compartilhar lógica entre componentes: *props* e High Order Components (HOC). Agora temos mais uma forma de fazer isso e que pode ser mais elegante em alguns casos.
 
 Se quiser se aprofundar nesse tema, eu sugiro fortemente a leitura da [documentação do React](https://pt-br.reactjs.org/docs/hooks-custom.html). Ela é bastante completa, com perguntas comuns respondidas, exemplos reais e boas práticas.
 
@@ -191,7 +191,7 @@ export const useAccountFeatures = () => {
 ```
 > Novamente, lembre que o `availableFeatures` poderia vir de qualquer outro lugar, apenas no exemplo ele é estático.
 
-Basicamente, nosso custom hook retorna dois compound components que tem a regra de validação se tem acesso ou não a funcionalidade e, por sua vez, esses componentes no cenário verdadeiro da validação retornam os seus filhos (`children`) e no cenário falso retorna \`null\`. Vamos ver como usá-lo refatorando o nosso `MyComponent`:
+Basicamente, nosso custom hook retorna dois compound components que tem a regra de validação se tem acesso ou não a funcionalidade e, por sua vez, esses componentes no cenário verdadeiro da validação retornam os seus filhos (`children`) e no cenário falso retorna `null`. Vamos ver como usá-lo refatorando o nosso `MyComponent`:
 
 ```jsx
 const MyComponent = () => {
