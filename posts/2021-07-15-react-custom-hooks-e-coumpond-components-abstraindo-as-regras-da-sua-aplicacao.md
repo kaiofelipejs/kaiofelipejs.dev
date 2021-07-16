@@ -4,7 +4,7 @@ title: "React Custom Hooks e Compound Components: abstraindo as regras da sua
 description: Como podemos isolar algumas regras e compartilhar entre diferentes
   componentes sem precisar duplicar código.
 date: 2021-07-15 09:43:34
-image: /assets/img/og-image.jpg
+image: /assets/img/react-hooks-compound-components-og.png
 category: frontend
 background: "#AB660D"
 ---
