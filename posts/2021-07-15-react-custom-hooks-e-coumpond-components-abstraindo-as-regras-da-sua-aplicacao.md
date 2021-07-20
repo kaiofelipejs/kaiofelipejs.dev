@@ -1,7 +1,7 @@
 ---
 title: "React Custom Hooks e Compound Components: abstraindo as regras da sua
   aplicação"
-description: Como podemos isolar algumas regras e compartilhar entre diferentes
+description: Como podemos isolar regras e compartilhá-las entre diferentes
   componentes sem precisar duplicar código.
 date: 2021-07-15 09:43:34
 image: /assets/img/react-hooks-compound-components-og.png
@@ -22,7 +22,7 @@ Se quiser se aprofundar nesse tema, eu sugiro fortemente a leitura da [documenta
 
 ## Compound Components
 
-De forma resumida, um compound component é um componente que compartilha uma mesma regra ou estados com seus filhos, mas te dá a flexibilidade de *compor* ele da forma que chamar melhor.
+De forma resumida, um compound component é um componente que compartilha uma mesma regra/estados/estilos com seus filhos, mas te dá a flexibilidade de *compor* ele da forma que chamar melhor. É bastante comum vê-los em Design Systems.
 
 Por exemplo, suponha que você tenha um componente List que tem alguns estilos pré definidos através de uma classe CSS. Num cenário "comum", dentro desse componente estaria declarado diretamente seus filhos, algo como: 
 
